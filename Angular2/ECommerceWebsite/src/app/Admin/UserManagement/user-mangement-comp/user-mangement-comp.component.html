@@ -1,0 +1,70 @@
+<!--For Get All-->
+<div class="container-fluid" *ngIf="getAllData">
+    <div class="row justify-content-center mt-5">
+        <div class="col-12 col-sm-11 col-md-10 col-lg-8 bg-primary">
+            <table class="table table-responsive shadow-lg w-100" style="border:3px solid black;">
+                <thead class="table-dark">
+                    <tr >
+                        <th class="th text-center" >SI</th>
+                        <th class="th text-center" >NAME</th>
+                        <th class="th text-center" >ACTION</th>
+                    </tr>
+                </thead>
+                <tbody *ngFor="let i of getAllData;let index = index">
+                    <tr>
+                        <td class="td text-center">{{index+1}}</td>
+                        <td class="td text-center">
+                            <h2>{{i.nameOfUser|uppercase}}</h2>
+                        </td>
+                        <td class="td text-center">
+                            <div class="row d-flex justify-content-evenly">
+                                <div class="col-6">
+                                    <button type="button" class="btn btn-primary btn-lg" [routerLink]="['/admin/getbyid',i.idOfUser]" style="flex-wrap: wrap;">VIEW</button>
+                                </div>
+                                <div class="col-6">
+                                    <button type="button" class="btn btn-danger btn-lg"style="flex-wrap: wrap;" data-bs-toggle="modal" [attr.data-bs-target]="'#deleteModal' + i.idOfUser">DELETE</button>
+
+                                                    <!--for the modal STARTS HERE-->                                                                                                                            
+                                                            <!-- Modal -->
+                                                                <div class="modal fade" [id]="'deleteModal'+ i.idOfUser" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                                    <div class="modal-dialog">
+                                                                    <div class="modal-content">
+                                                                        <div class="modal-header">
+                                                                        <h1 class="modal-title fs-5" id="exampleModalLabel">ALERT</h1>
+                                                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                        </div>
+                                                                        <div class="modal-body text-danger">
+                                                                            Do you really want to DELETE <b>{{ i.nameOfUser }}</b>?
+                                                                        </div>
+                                                                        <div class="modal-footer">
+                                                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">NO</button>
+                                                                        <button type="button" class="btn btn-primary"(click)="deleteUser(i.idOfUser)" data-bs-dismiss="modal">YES</button>
+                                                                        </div>
+                                                                    </div>
+                                                                    </div>
+                                                                </div>
+                                                            <!--Modal code ENDS HERE-->
+                                                            
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>     
+
+                                                    
+
+ <!--if no users found STARTS here-->
+ <div class="container" *ngIf="errorMessage">
+    <div class="row d-flex justify-content-center pt-5">
+        <div class="col-auto text-center text-danger">
+            <h1 class="text danger">{{errorMessage}}</h1>
+        </div>
+    </div>
+</div>
+<!--if no users found ENDS here-->
+
+<!--Get ALL PART ENDS HERE-->

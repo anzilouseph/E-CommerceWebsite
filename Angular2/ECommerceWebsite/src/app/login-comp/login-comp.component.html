@@ -1,0 +1,58 @@
+
+<div class="container">
+    <div class="row justify-content-center mt-5">
+        <div class="col-md-6 col-lg-4">
+            <div class="card shadow-lg border-0">
+                <div class="card-header bg-primary text-white text-center">
+                    <h3 class="mb-0">Login</h3>
+                </div>
+                <div class="card-body p-4">
+                    <form [formGroup]="loginForm">
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" 
+                                   id="email" 
+                                   class="form-control"
+                                   formControlName="emailOfUser"
+                                   placeholder="name@example.com">
+
+                            <!--validation-->
+                            <div *ngIf="loginForm.get('emailOfUser')?.errors?.['required'] && loginForm.get('emailOfUser')?.touched" class="text-danger">
+                                This field is required
+                            </div>
+                            <div *ngIf="loginForm.get('emailOfUser')?.errors?.['pattern'] && loginForm.get('emailOfUser')?.touched" class="text-danger">
+                                Please enter a valid email
+                            </div>                           
+                            
+                        </div>
+
+                        <div class="mb-4">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" 
+                                   id="password" 
+                                   class="form-control"
+                                   formControlName="passwordOfUser"
+                                   placeholder="Enter password">
+                          <!--validation-->
+                            <div *ngIf="loginForm.get('passwordOfUser')?.errors?.['required'] && loginForm.get('passwordOfUser')?.touched" class="text-danger">
+                            This field is required
+                            </div>
+                        </div>
+
+                        <div class="d-grid gap-2 mb-3">
+                            <button type="button" class="btn btn-primary btn-lg" (click)=" loginCompFn()"> Sign in </button>
+                            <button type="button" class="btn btn-outline-secondary"(click)="resetForm()">Reset</button>
+                        </div>
+                        <!-- <div class="text-center">
+                            <a href="#" class="text-decoration-none small">Forgot password?</a>
+                        </div> -->
+                    </form>
+                </div>
+                <div class="card-footer text-center bg-light">
+                    <span class="text-muted small">Don't have an account? </span>
+                    <a href="#" class="text-decoration-none small" [routerLink]="['/UserRegistration']">Sign up</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

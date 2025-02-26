@@ -1,0 +1,51 @@
+ <!--GetBy Id parts Starts here-->
+ <div class="container-fluid" >
+    <div class="row d-flex justify-content-center" style="padding-top: 3rem;">
+        <div class="col-12 col-md-10 col-lg-8 d-flex justify-content-center ">
+            <div class="card shadow-lg border-0 w-100" style="background-color:rgb(231, 221, 221);">
+                <div class="card-header bg-primary text-center text-white">
+                    <h2>USER DETAILS</h2>
+                </div>
+                <div class="card-body p-4">
+                    <form [formGroup]="getByIdUserForm">
+                        <!-- Full Name -->
+                        <div class="mb-3 row">
+                            <div class="col-12 col-md-3">
+                                <label for="name">FULL NAME:</label>
+                            </div>
+                            <div class="col-12 col-md-9 w-90">
+                                <input type="text" class="form-control" id="name" formControlName="nameOfUser">
+                            </div>
+                        </div>
+
+                        <!-- Age -->
+                        <div class="mb-3 row">
+                            <div class="col-12 col-md-3">
+                                <label for="phone">PHONE:</label>
+                            </div>
+                            <div class="col-12 col-md-9 w-90">
+                                <input type="text" class="form-control" id="phone" formControlName="phoneOfUser">
+                            </div>
+                        </div>           
+                        <!-- Email -->
+                        <div class="mb-3 row">
+                            <div class="col-12 col-md-3">
+                                <label for="email">EMAIL:</label>
+                            </div>
+                            <div class="col-12 col-md-9 w-90">
+                                <input type="email" class="form-control" id="email" formControlName="emailOfUser">
+                            </div>
+                        </div>
+                        
+                        <!--for the go back button-->
+                        <div class="d-flex justify-content-center">
+                            <button type="button" class="btn btn-secondary btn-lg" [routerLink]="['/admin/usermanagement']">GO BACK</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--GetBy Id parts Ends here-->

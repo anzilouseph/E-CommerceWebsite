@@ -1,0 +1,1670 @@
+{
+  "Version": 1,
+  "Hash": "a8fiFZJl1hAIl/bl0g5YhciHJt9/sUsitr/OkZx/axI=",
+  "Source": "ECommerceWebSite",
+  "BasePath": "_content/ECommerceWebSite",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ECommerceWebSite\\wwwroot",
+      "Source": "ECommerceWebSite",
+      "ContentRoot": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\",
+      "BasePath": "_content/ECommerceWebSite",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\AC Milan Men's Home Jersey.jpg",
+      "SourceId": "ECommerceWebSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\",
+      "BasePath": "_content/ECommerceWebSite",
+      "RelativePath": "Media/ProductImage/AC Milan Men's Home Jersey#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8ehvjuucyy",
+      "Integrity": "0HRlzubvkS1clV7l88MalnXJ3A2WTZ0OmYPXSPepq/U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Media\\ProductImage\\AC Milan Men's Home Jersey.jpg"
+    },
+    {
+      "Identity": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\gfsdg.jpg",
+      "SourceId": "ECommerceWebSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\",
+      "BasePath": "_content/ECommerceWebSite",
+      "RelativePath": "Media/ProductImage/gfsdg#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e6cunikdpy",
+      "Integrity": "Jhjqzi6AHS0mN5vRgk+dsWMP+ycJc3AsnRRNyTuofmA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Media\\ProductImage\\gfsdg.jpg"
+    },
+    {
+      "Identity": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\gfsdg546546564.jpg",
+      "SourceId": "ECommerceWebSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\",
+      "BasePath": "_content/ECommerceWebSite",
+      "RelativePath": "Media/ProductImage/gfsdg546546564#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pi2hv9v46s",
+      "Integrity": "AVo4zD0fS7lpXlF6CJqQ04CN/XOw3MgHm0hINrcdH5U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Media\\ProductImage\\gfsdg546546564.jpg"
+    },
+    {
+      "Identity": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\gfsdgded.jpg",
+      "SourceId": "ECommerceWebSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\",
+      "BasePath": "_content/ECommerceWebSite",
+      "RelativePath": "Media/ProductImage/gfsdgded#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e6cunikdpy",
+      "Integrity": "Jhjqzi6AHS0mN5vRgk+dsWMP+ycJc3AsnRRNyTuofmA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Media\\ProductImage\\gfsdgded.jpg"
+    },
+    {
+      "Identity": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\HEELIUM Bamboo Football Socks for Men.jpg",
+      "SourceId": "ECommerceWebSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\",
+      "BasePath": "_content/ECommerceWebSite",
+      "RelativePath": "Media/ProductImage/HEELIUM Bamboo Football Socks for Men#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2ttpygz7e1",
+      "Integrity": "2grHrJ3UWTSfDE41/pRp9caRgdBA+NzIQLQ8wjjJLsY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Media\\ProductImage\\HEELIUM Bamboo Football Socks for Men.jpg"
+    },
+    {
+      "Identity": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\hp",
+      "SourceId": "ECommerceWebSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\",
+      "BasePath": "_content/ECommerceWebSite",
+      "RelativePath": "Media/ProductImage/hp#[.{fingerprint}]?",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wr1bb8etgg",
+      "Integrity": "RPdYuUd2W6jTPFaqbFlNeKf67x5CZE6vBHgJ+8VhvYo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Media\\ProductImage\\hp"
+    },
+    {
+      "Identity": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\hp.jpg",
+      "SourceId": "ECommerceWebSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\",
+      "BasePath": "_content/ECommerceWebSite",
+      "RelativePath": "Media/ProductImage/hp#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wr1bb8etgg",
+      "Integrity": "RPdYuUd2W6jTPFaqbFlNeKf67x5CZE6vBHgJ+8VhvYo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Media\\ProductImage\\hp.jpg"
+    },
+    {
+      "Identity": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\hp1.jpg",
+      "SourceId": "ECommerceWebSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\",
+      "BasePath": "_content/ECommerceWebSite",
+      "RelativePath": "Media/ProductImage/hp1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wr1bb8etgg",
+      "Integrity": "RPdYuUd2W6jTPFaqbFlNeKf67x5CZE6vBHgJ+8VhvYo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Media\\ProductImage\\hp1.jpg"
+    },
+    {
+      "Identity": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\King Football.jpg",
+      "SourceId": "ECommerceWebSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\",
+      "BasePath": "_content/ECommerceWebSite",
+      "RelativePath": "Media/ProductImage/King Football#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5wm5xakaq3",
+      "Integrity": "Jext73ZNgn9sgmU/kuiSU15GhUgvXo7SZEQleRkW+lk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Media\\ProductImage\\King Football.jpg"
+    },
+    {
+      "Identity": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Laptop Dell",
+      "SourceId": "ECommerceWebSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\",
+      "BasePath": "_content/ECommerceWebSite",
+      "RelativePath": "Media/ProductImage/Laptop Dell#[.{fingerprint}]?",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wr1bb8etgg",
+      "Integrity": "RPdYuUd2W6jTPFaqbFlNeKf67x5CZE6vBHgJ+8VhvYo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Media\\ProductImage\\Laptop Dell"
+    },
+    {
+      "Identity": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Layan Sports Soccer Mini Disc Cones  Mini Durable disc Cones..jpg",
+      "SourceId": "ECommerceWebSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\",
+      "BasePath": "_content/ECommerceWebSite",
+      "RelativePath": "Media/ProductImage/Layan Sports Soccer Mini Disc Cones  Mini Durable disc Cones.#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sgxiw5a73q",
+      "Integrity": "FNKjmVFURO+/I/LMe/8J5en6fi4FR0Sth21IAOBQ2cM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Media\\ProductImage\\Layan Sports Soccer Mini Disc Cones  Mini Durable disc Cones..jpg"
+    },
+    {
+      "Identity": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Nivia Raptor Torrido Goal Keeper Gloves.jpg",
+      "SourceId": "ECommerceWebSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\",
+      "BasePath": "_content/ECommerceWebSite",
+      "RelativePath": "Media/ProductImage/Nivia Raptor Torrido Goal Keeper Gloves#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "psafzf4ahd",
+      "Integrity": "l7zUDor5Bce2C/vuR/jy3AGJBkI3KdoSYfqZ+cuTh18=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Media\\ProductImage\\Nivia Raptor Torrido Goal Keeper Gloves.jpg"
+    },
+    {
+      "Identity": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Nivia Wisdom - 2018 Plastic Shin Guard.jpg",
+      "SourceId": "ECommerceWebSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\",
+      "BasePath": "_content/ECommerceWebSite",
+      "RelativePath": "Media/ProductImage/Nivia Wisdom - 2018 Plastic Shin Guard#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fao0r2n1j4",
+      "Integrity": "CZJaGs/mz4mMdvhfOrbq1/7u2clbhfZAF3fVcogZfW0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Media\\ProductImage\\Nivia Wisdom - 2018 Plastic Shin Guard.jpg"
+    },
+    {
+      "Identity": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Puma ULTRA PLAY .jpg",
+      "SourceId": "ECommerceWebSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\",
+      "BasePath": "_content/ECommerceWebSite",
+      "RelativePath": "Media/ProductImage/Puma ULTRA PLAY #[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e6cunikdpy",
+      "Integrity": "Jhjqzi6AHS0mN5vRgk+dsWMP+ycJc3AsnRRNyTuofmA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Media\\ProductImage\\Puma ULTRA PLAY .jpg"
+    },
+    {
+      "Identity": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Puma_ULTRA_PLAY_Pink_Football_Shoes.jpg",
+      "SourceId": "ECommerceWebSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\",
+      "BasePath": "_content/ECommerceWebSite",
+      "RelativePath": "Media/ProductImage/Puma_ULTRA_PLAY_Pink_Football_Shoes#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e6cunikdpy",
+      "Integrity": "Jhjqzi6AHS0mN5vRgk+dsWMP+ycJc3AsnRRNyTuofmA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Media\\ProductImage\\Puma_ULTRA_PLAY_Pink_Football_Shoes.jpg"
+    },
+    {
+      "Identity": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\RAISCO Football Goal Net.jpg",
+      "SourceId": "ECommerceWebSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\",
+      "BasePath": "_content/ECommerceWebSite",
+      "RelativePath": "Media/ProductImage/RAISCO Football Goal Net#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4mchd87849",
+      "Integrity": "5OhdsYxThYP6Ik6Vpv9Rq+aKWjr+EDD9nhtEIZXdM2I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Media\\ProductImage\\RAISCO Football Goal Net.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "Media/ProductImage/AC Milan Men's Home Jersey.8ehvjuucyy.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\AC Milan Men's Home Jersey.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7488"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0HRlzubvkS1clV7l88MalnXJ3A2WTZ0OmYPXSPepq/U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 08:47:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8ehvjuucyy"
+        },
+        {
+          "Name": "label",
+          "Value": "Media/ProductImage/AC Milan Men's Home Jersey.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0HRlzubvkS1clV7l88MalnXJ3A2WTZ0OmYPXSPepq/U="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/AC Milan Men's Home Jersey.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\AC Milan Men's Home Jersey.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7488"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0HRlzubvkS1clV7l88MalnXJ3A2WTZ0OmYPXSPepq/U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 08:47:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0HRlzubvkS1clV7l88MalnXJ3A2WTZ0OmYPXSPepq/U="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/gfsdg.e6cunikdpy.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\gfsdg.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jhjqzi6AHS0mN5vRgk+dsWMP+ycJc3AsnRRNyTuofmA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 08:05:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e6cunikdpy"
+        },
+        {
+          "Name": "label",
+          "Value": "Media/ProductImage/gfsdg.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jhjqzi6AHS0mN5vRgk+dsWMP+ycJc3AsnRRNyTuofmA="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/gfsdg.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\gfsdg.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jhjqzi6AHS0mN5vRgk+dsWMP+ycJc3AsnRRNyTuofmA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 08:05:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jhjqzi6AHS0mN5vRgk+dsWMP+ycJc3AsnRRNyTuofmA="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/gfsdg546546564.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\gfsdg546546564.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41115"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AVo4zD0fS7lpXlF6CJqQ04CN/XOw3MgHm0hINrcdH5U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 14:54:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AVo4zD0fS7lpXlF6CJqQ04CN/XOw3MgHm0hINrcdH5U="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/gfsdg546546564.pi2hv9v46s.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\gfsdg546546564.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41115"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AVo4zD0fS7lpXlF6CJqQ04CN/XOw3MgHm0hINrcdH5U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 14:54:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pi2hv9v46s"
+        },
+        {
+          "Name": "label",
+          "Value": "Media/ProductImage/gfsdg546546564.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AVo4zD0fS7lpXlF6CJqQ04CN/XOw3MgHm0hINrcdH5U="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/gfsdgded.e6cunikdpy.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\gfsdgded.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jhjqzi6AHS0mN5vRgk+dsWMP+ycJc3AsnRRNyTuofmA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 08:38:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e6cunikdpy"
+        },
+        {
+          "Name": "label",
+          "Value": "Media/ProductImage/gfsdgded.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jhjqzi6AHS0mN5vRgk+dsWMP+ycJc3AsnRRNyTuofmA="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/gfsdgded.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\gfsdgded.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jhjqzi6AHS0mN5vRgk+dsWMP+ycJc3AsnRRNyTuofmA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 08:38:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jhjqzi6AHS0mN5vRgk+dsWMP+ycJc3AsnRRNyTuofmA="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/HEELIUM Bamboo Football Socks for Men.2ttpygz7e1.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\HEELIUM Bamboo Football Socks for Men.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7882"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2grHrJ3UWTSfDE41/pRp9caRgdBA+NzIQLQ8wjjJLsY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 07:05:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2ttpygz7e1"
+        },
+        {
+          "Name": "label",
+          "Value": "Media/ProductImage/HEELIUM Bamboo Football Socks for Men.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2grHrJ3UWTSfDE41/pRp9caRgdBA+NzIQLQ8wjjJLsY="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/HEELIUM Bamboo Football Socks for Men.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\HEELIUM Bamboo Football Socks for Men.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7882"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2grHrJ3UWTSfDE41/pRp9caRgdBA+NzIQLQ8wjjJLsY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 07:05:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2grHrJ3UWTSfDE41/pRp9caRgdBA+NzIQLQ8wjjJLsY="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/hp",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\hp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49192"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RPdYuUd2W6jTPFaqbFlNeKf67x5CZE6vBHgJ+8VhvYo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 13:36:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RPdYuUd2W6jTPFaqbFlNeKf67x5CZE6vBHgJ+8VhvYo="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/hp.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\hp.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49192"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RPdYuUd2W6jTPFaqbFlNeKf67x5CZE6vBHgJ+8VhvYo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 13:39:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RPdYuUd2W6jTPFaqbFlNeKf67x5CZE6vBHgJ+8VhvYo="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/hp.wr1bb8etgg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\hp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49192"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RPdYuUd2W6jTPFaqbFlNeKf67x5CZE6vBHgJ+8VhvYo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 13:36:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wr1bb8etgg"
+        },
+        {
+          "Name": "label",
+          "Value": "Media/ProductImage/hp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RPdYuUd2W6jTPFaqbFlNeKf67x5CZE6vBHgJ+8VhvYo="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/hp.wr1bb8etgg.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\hp.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49192"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RPdYuUd2W6jTPFaqbFlNeKf67x5CZE6vBHgJ+8VhvYo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 13:39:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wr1bb8etgg"
+        },
+        {
+          "Name": "label",
+          "Value": "Media/ProductImage/hp.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RPdYuUd2W6jTPFaqbFlNeKf67x5CZE6vBHgJ+8VhvYo="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/hp1.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\hp1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49192"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RPdYuUd2W6jTPFaqbFlNeKf67x5CZE6vBHgJ+8VhvYo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 13:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RPdYuUd2W6jTPFaqbFlNeKf67x5CZE6vBHgJ+8VhvYo="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/hp1.wr1bb8etgg.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\hp1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49192"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RPdYuUd2W6jTPFaqbFlNeKf67x5CZE6vBHgJ+8VhvYo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 13:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wr1bb8etgg"
+        },
+        {
+          "Name": "label",
+          "Value": "Media/ProductImage/hp1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RPdYuUd2W6jTPFaqbFlNeKf67x5CZE6vBHgJ+8VhvYo="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/King Football.5wm5xakaq3.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\King Football.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10676"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jext73ZNgn9sgmU/kuiSU15GhUgvXo7SZEQleRkW+lk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 08:41:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5wm5xakaq3"
+        },
+        {
+          "Name": "label",
+          "Value": "Media/ProductImage/King Football.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jext73ZNgn9sgmU/kuiSU15GhUgvXo7SZEQleRkW+lk="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/King Football.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\King Football.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10676"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jext73ZNgn9sgmU/kuiSU15GhUgvXo7SZEQleRkW+lk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 08:41:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jext73ZNgn9sgmU/kuiSU15GhUgvXo7SZEQleRkW+lk="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/Laptop Dell",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Laptop Dell",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49192"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RPdYuUd2W6jTPFaqbFlNeKf67x5CZE6vBHgJ+8VhvYo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 13:13:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RPdYuUd2W6jTPFaqbFlNeKf67x5CZE6vBHgJ+8VhvYo="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/Laptop Dell.wr1bb8etgg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Laptop Dell",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49192"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RPdYuUd2W6jTPFaqbFlNeKf67x5CZE6vBHgJ+8VhvYo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 13:13:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wr1bb8etgg"
+        },
+        {
+          "Name": "label",
+          "Value": "Media/ProductImage/Laptop Dell"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RPdYuUd2W6jTPFaqbFlNeKf67x5CZE6vBHgJ+8VhvYo="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/Layan Sports Soccer Mini Disc Cones  Mini Durable disc Cones..jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Layan Sports Soccer Mini Disc Cones  Mini Durable disc Cones..jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17855"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FNKjmVFURO+/I/LMe/8J5en6fi4FR0Sth21IAOBQ2cM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 07:09:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FNKjmVFURO+/I/LMe/8J5en6fi4FR0Sth21IAOBQ2cM="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/Layan Sports Soccer Mini Disc Cones  Mini Durable disc Cones..sgxiw5a73q.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Layan Sports Soccer Mini Disc Cones  Mini Durable disc Cones..jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17855"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FNKjmVFURO+/I/LMe/8J5en6fi4FR0Sth21IAOBQ2cM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 07:09:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sgxiw5a73q"
+        },
+        {
+          "Name": "label",
+          "Value": "Media/ProductImage/Layan Sports Soccer Mini Disc Cones  Mini Durable disc Cones..jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FNKjmVFURO+/I/LMe/8J5en6fi4FR0Sth21IAOBQ2cM="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/Nivia Raptor Torrido Goal Keeper Gloves.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Nivia Raptor Torrido Goal Keeper Gloves.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9927"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l7zUDor5Bce2C/vuR/jy3AGJBkI3KdoSYfqZ+cuTh18=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 08:51:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-l7zUDor5Bce2C/vuR/jy3AGJBkI3KdoSYfqZ+cuTh18="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/Nivia Raptor Torrido Goal Keeper Gloves.psafzf4ahd.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Nivia Raptor Torrido Goal Keeper Gloves.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9927"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l7zUDor5Bce2C/vuR/jy3AGJBkI3KdoSYfqZ+cuTh18=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 08:51:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "psafzf4ahd"
+        },
+        {
+          "Name": "label",
+          "Value": "Media/ProductImage/Nivia Raptor Torrido Goal Keeper Gloves.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-l7zUDor5Bce2C/vuR/jy3AGJBkI3KdoSYfqZ+cuTh18="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/Nivia Wisdom - 2018 Plastic Shin Guard.fao0r2n1j4.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Nivia Wisdom - 2018 Plastic Shin Guard.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5321"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CZJaGs/mz4mMdvhfOrbq1/7u2clbhfZAF3fVcogZfW0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 08:49:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fao0r2n1j4"
+        },
+        {
+          "Name": "label",
+          "Value": "Media/ProductImage/Nivia Wisdom - 2018 Plastic Shin Guard.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CZJaGs/mz4mMdvhfOrbq1/7u2clbhfZAF3fVcogZfW0="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/Nivia Wisdom - 2018 Plastic Shin Guard.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Nivia Wisdom - 2018 Plastic Shin Guard.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5321"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CZJaGs/mz4mMdvhfOrbq1/7u2clbhfZAF3fVcogZfW0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 08:49:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CZJaGs/mz4mMdvhfOrbq1/7u2clbhfZAF3fVcogZfW0="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/Puma ULTRA PLAY .e6cunikdpy.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Puma ULTRA PLAY .jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jhjqzi6AHS0mN5vRgk+dsWMP+ycJc3AsnRRNyTuofmA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 14:02:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e6cunikdpy"
+        },
+        {
+          "Name": "label",
+          "Value": "Media/ProductImage/Puma ULTRA PLAY .jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jhjqzi6AHS0mN5vRgk+dsWMP+ycJc3AsnRRNyTuofmA="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/Puma ULTRA PLAY .jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Puma ULTRA PLAY .jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jhjqzi6AHS0mN5vRgk+dsWMP+ycJc3AsnRRNyTuofmA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 14:02:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jhjqzi6AHS0mN5vRgk+dsWMP+ycJc3AsnRRNyTuofmA="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/Puma_ULTRA_PLAY_Pink_Football_Shoes.e6cunikdpy.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Puma_ULTRA_PLAY_Pink_Football_Shoes.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jhjqzi6AHS0mN5vRgk+dsWMP+ycJc3AsnRRNyTuofmA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 07:28:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e6cunikdpy"
+        },
+        {
+          "Name": "label",
+          "Value": "Media/ProductImage/Puma_ULTRA_PLAY_Pink_Football_Shoes.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jhjqzi6AHS0mN5vRgk+dsWMP+ycJc3AsnRRNyTuofmA="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/Puma_ULTRA_PLAY_Pink_Football_Shoes.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Puma_ULTRA_PLAY_Pink_Football_Shoes.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jhjqzi6AHS0mN5vRgk+dsWMP+ycJc3AsnRRNyTuofmA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 07:28:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jhjqzi6AHS0mN5vRgk+dsWMP+ycJc3AsnRRNyTuofmA="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/RAISCO Football Goal Net.4mchd87849.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\RAISCO Football Goal Net.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8110"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5OhdsYxThYP6Ik6Vpv9Rq+aKWjr+EDD9nhtEIZXdM2I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 07:03:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4mchd87849"
+        },
+        {
+          "Name": "label",
+          "Value": "Media/ProductImage/RAISCO Football Goal Net.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5OhdsYxThYP6Ik6Vpv9Rq+aKWjr+EDD9nhtEIZXdM2I="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/RAISCO Football Goal Net.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\RAISCO Football Goal Net.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8110"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5OhdsYxThYP6Ik6Vpv9Rq+aKWjr+EDD9nhtEIZXdM2I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 07:03:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5OhdsYxThYP6Ik6Vpv9Rq+aKWjr+EDD9nhtEIZXdM2I="
+        }
+      ]
+    }
+  ]
+}

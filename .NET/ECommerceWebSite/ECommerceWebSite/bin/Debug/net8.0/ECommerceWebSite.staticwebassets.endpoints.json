@@ -1,0 +1,1318 @@
+{
+  "Version": 1,
+  "ManifestType": "Build",
+  "Endpoints": [
+    {
+      "Route": "Media/ProductImage/AC Milan Men's Home Jersey.8ehvjuucyy.jpg",
+      "AssetFile": "Media/ProductImage/AC Milan Men's Home Jersey.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7488"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0HRlzubvkS1clV7l88MalnXJ3A2WTZ0OmYPXSPepq/U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 08:47:39 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8ehvjuucyy"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0HRlzubvkS1clV7l88MalnXJ3A2WTZ0OmYPXSPepq/U="
+        },
+        {
+          "Name": "label",
+          "Value": "Media/ProductImage/AC Milan Men's Home Jersey.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/AC Milan Men's Home Jersey.jpg",
+      "AssetFile": "Media/ProductImage/AC Milan Men's Home Jersey.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7488"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0HRlzubvkS1clV7l88MalnXJ3A2WTZ0OmYPXSPepq/U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 08:47:39 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0HRlzubvkS1clV7l88MalnXJ3A2WTZ0OmYPXSPepq/U="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/HEELIUM Bamboo Football Socks for Men.2ttpygz7e1.jpg",
+      "AssetFile": "Media/ProductImage/HEELIUM Bamboo Football Socks for Men.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7882"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2grHrJ3UWTSfDE41/pRp9caRgdBA+NzIQLQ8wjjJLsY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 07:05:15 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2ttpygz7e1"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2grHrJ3UWTSfDE41/pRp9caRgdBA+NzIQLQ8wjjJLsY="
+        },
+        {
+          "Name": "label",
+          "Value": "Media/ProductImage/HEELIUM Bamboo Football Socks for Men.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/HEELIUM Bamboo Football Socks for Men.jpg",
+      "AssetFile": "Media/ProductImage/HEELIUM Bamboo Football Socks for Men.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7882"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2grHrJ3UWTSfDE41/pRp9caRgdBA+NzIQLQ8wjjJLsY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 07:05:15 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2grHrJ3UWTSfDE41/pRp9caRgdBA+NzIQLQ8wjjJLsY="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/King Football.5wm5xakaq3.jpg",
+      "AssetFile": "Media/ProductImage/King Football.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10676"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jext73ZNgn9sgmU/kuiSU15GhUgvXo7SZEQleRkW+lk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 08:41:49 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5wm5xakaq3"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jext73ZNgn9sgmU/kuiSU15GhUgvXo7SZEQleRkW+lk="
+        },
+        {
+          "Name": "label",
+          "Value": "Media/ProductImage/King Football.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/King Football.jpg",
+      "AssetFile": "Media/ProductImage/King Football.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10676"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jext73ZNgn9sgmU/kuiSU15GhUgvXo7SZEQleRkW+lk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 08:41:49 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jext73ZNgn9sgmU/kuiSU15GhUgvXo7SZEQleRkW+lk="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/Laptop Dell",
+      "AssetFile": "Media/ProductImage/Laptop Dell",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49192"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RPdYuUd2W6jTPFaqbFlNeKf67x5CZE6vBHgJ+8VhvYo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 13:13:16 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RPdYuUd2W6jTPFaqbFlNeKf67x5CZE6vBHgJ+8VhvYo="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/Laptop Dell.wr1bb8etgg",
+      "AssetFile": "Media/ProductImage/Laptop Dell",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49192"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RPdYuUd2W6jTPFaqbFlNeKf67x5CZE6vBHgJ+8VhvYo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 13:13:16 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wr1bb8etgg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RPdYuUd2W6jTPFaqbFlNeKf67x5CZE6vBHgJ+8VhvYo="
+        },
+        {
+          "Name": "label",
+          "Value": "Media/ProductImage/Laptop Dell"
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/Layan Sports Soccer Mini Disc Cones  Mini Durable disc Cones..jpg",
+      "AssetFile": "Media/ProductImage/Layan Sports Soccer Mini Disc Cones  Mini Durable disc Cones..jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17855"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FNKjmVFURO+/I/LMe/8J5en6fi4FR0Sth21IAOBQ2cM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 07:09:10 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FNKjmVFURO+/I/LMe/8J5en6fi4FR0Sth21IAOBQ2cM="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/Layan Sports Soccer Mini Disc Cones  Mini Durable disc Cones..sgxiw5a73q.jpg",
+      "AssetFile": "Media/ProductImage/Layan Sports Soccer Mini Disc Cones  Mini Durable disc Cones..jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17855"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FNKjmVFURO+/I/LMe/8J5en6fi4FR0Sth21IAOBQ2cM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 07:09:10 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sgxiw5a73q"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FNKjmVFURO+/I/LMe/8J5en6fi4FR0Sth21IAOBQ2cM="
+        },
+        {
+          "Name": "label",
+          "Value": "Media/ProductImage/Layan Sports Soccer Mini Disc Cones  Mini Durable disc Cones..jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/Nivia Raptor Torrido Goal Keeper Gloves.jpg",
+      "AssetFile": "Media/ProductImage/Nivia Raptor Torrido Goal Keeper Gloves.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9927"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l7zUDor5Bce2C/vuR/jy3AGJBkI3KdoSYfqZ+cuTh18=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 08:51:18 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-l7zUDor5Bce2C/vuR/jy3AGJBkI3KdoSYfqZ+cuTh18="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/Nivia Raptor Torrido Goal Keeper Gloves.psafzf4ahd.jpg",
+      "AssetFile": "Media/ProductImage/Nivia Raptor Torrido Goal Keeper Gloves.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9927"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l7zUDor5Bce2C/vuR/jy3AGJBkI3KdoSYfqZ+cuTh18=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 08:51:18 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "psafzf4ahd"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-l7zUDor5Bce2C/vuR/jy3AGJBkI3KdoSYfqZ+cuTh18="
+        },
+        {
+          "Name": "label",
+          "Value": "Media/ProductImage/Nivia Raptor Torrido Goal Keeper Gloves.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/Nivia Wisdom - 2018 Plastic Shin Guard.fao0r2n1j4.jpg",
+      "AssetFile": "Media/ProductImage/Nivia Wisdom - 2018 Plastic Shin Guard.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5321"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CZJaGs/mz4mMdvhfOrbq1/7u2clbhfZAF3fVcogZfW0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 08:49:34 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fao0r2n1j4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CZJaGs/mz4mMdvhfOrbq1/7u2clbhfZAF3fVcogZfW0="
+        },
+        {
+          "Name": "label",
+          "Value": "Media/ProductImage/Nivia Wisdom - 2018 Plastic Shin Guard.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/Nivia Wisdom - 2018 Plastic Shin Guard.jpg",
+      "AssetFile": "Media/ProductImage/Nivia Wisdom - 2018 Plastic Shin Guard.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5321"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CZJaGs/mz4mMdvhfOrbq1/7u2clbhfZAF3fVcogZfW0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 08:49:34 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CZJaGs/mz4mMdvhfOrbq1/7u2clbhfZAF3fVcogZfW0="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/Puma ULTRA PLAY .e6cunikdpy.jpg",
+      "AssetFile": "Media/ProductImage/Puma ULTRA PLAY .jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jhjqzi6AHS0mN5vRgk+dsWMP+ycJc3AsnRRNyTuofmA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 14:02:43 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e6cunikdpy"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jhjqzi6AHS0mN5vRgk+dsWMP+ycJc3AsnRRNyTuofmA="
+        },
+        {
+          "Name": "label",
+          "Value": "Media/ProductImage/Puma ULTRA PLAY .jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/Puma ULTRA PLAY .jpg",
+      "AssetFile": "Media/ProductImage/Puma ULTRA PLAY .jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jhjqzi6AHS0mN5vRgk+dsWMP+ycJc3AsnRRNyTuofmA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 14:02:43 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jhjqzi6AHS0mN5vRgk+dsWMP+ycJc3AsnRRNyTuofmA="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/Puma_ULTRA_PLAY_Pink_Football_Shoes.e6cunikdpy.jpg",
+      "AssetFile": "Media/ProductImage/Puma_ULTRA_PLAY_Pink_Football_Shoes.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jhjqzi6AHS0mN5vRgk+dsWMP+ycJc3AsnRRNyTuofmA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 07:28:17 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e6cunikdpy"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jhjqzi6AHS0mN5vRgk+dsWMP+ycJc3AsnRRNyTuofmA="
+        },
+        {
+          "Name": "label",
+          "Value": "Media/ProductImage/Puma_ULTRA_PLAY_Pink_Football_Shoes.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/Puma_ULTRA_PLAY_Pink_Football_Shoes.jpg",
+      "AssetFile": "Media/ProductImage/Puma_ULTRA_PLAY_Pink_Football_Shoes.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jhjqzi6AHS0mN5vRgk+dsWMP+ycJc3AsnRRNyTuofmA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 07:28:17 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jhjqzi6AHS0mN5vRgk+dsWMP+ycJc3AsnRRNyTuofmA="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/RAISCO Football Goal Net.4mchd87849.jpg",
+      "AssetFile": "Media/ProductImage/RAISCO Football Goal Net.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8110"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5OhdsYxThYP6Ik6Vpv9Rq+aKWjr+EDD9nhtEIZXdM2I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 07:03:08 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4mchd87849"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5OhdsYxThYP6Ik6Vpv9Rq+aKWjr+EDD9nhtEIZXdM2I="
+        },
+        {
+          "Name": "label",
+          "Value": "Media/ProductImage/RAISCO Football Goal Net.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/RAISCO Football Goal Net.jpg",
+      "AssetFile": "Media/ProductImage/RAISCO Football Goal Net.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8110"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5OhdsYxThYP6Ik6Vpv9Rq+aKWjr+EDD9nhtEIZXdM2I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 07:03:08 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5OhdsYxThYP6Ik6Vpv9Rq+aKWjr+EDD9nhtEIZXdM2I="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/gfsdg.e6cunikdpy.jpg",
+      "AssetFile": "Media/ProductImage/gfsdg.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jhjqzi6AHS0mN5vRgk+dsWMP+ycJc3AsnRRNyTuofmA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 08:05:15 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e6cunikdpy"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jhjqzi6AHS0mN5vRgk+dsWMP+ycJc3AsnRRNyTuofmA="
+        },
+        {
+          "Name": "label",
+          "Value": "Media/ProductImage/gfsdg.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/gfsdg.jpg",
+      "AssetFile": "Media/ProductImage/gfsdg.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jhjqzi6AHS0mN5vRgk+dsWMP+ycJc3AsnRRNyTuofmA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 08:05:15 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jhjqzi6AHS0mN5vRgk+dsWMP+ycJc3AsnRRNyTuofmA="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/gfsdg546546564.jpg",
+      "AssetFile": "Media/ProductImage/gfsdg546546564.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41115"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AVo4zD0fS7lpXlF6CJqQ04CN/XOw3MgHm0hINrcdH5U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 14:54:13 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AVo4zD0fS7lpXlF6CJqQ04CN/XOw3MgHm0hINrcdH5U="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/gfsdg546546564.pi2hv9v46s.jpg",
+      "AssetFile": "Media/ProductImage/gfsdg546546564.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41115"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AVo4zD0fS7lpXlF6CJqQ04CN/XOw3MgHm0hINrcdH5U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 14:54:13 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pi2hv9v46s"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AVo4zD0fS7lpXlF6CJqQ04CN/XOw3MgHm0hINrcdH5U="
+        },
+        {
+          "Name": "label",
+          "Value": "Media/ProductImage/gfsdg546546564.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/gfsdgded.e6cunikdpy.jpg",
+      "AssetFile": "Media/ProductImage/gfsdgded.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jhjqzi6AHS0mN5vRgk+dsWMP+ycJc3AsnRRNyTuofmA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 08:38:46 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e6cunikdpy"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jhjqzi6AHS0mN5vRgk+dsWMP+ycJc3AsnRRNyTuofmA="
+        },
+        {
+          "Name": "label",
+          "Value": "Media/ProductImage/gfsdgded.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/gfsdgded.jpg",
+      "AssetFile": "Media/ProductImage/gfsdgded.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jhjqzi6AHS0mN5vRgk+dsWMP+ycJc3AsnRRNyTuofmA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 08:38:46 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jhjqzi6AHS0mN5vRgk+dsWMP+ycJc3AsnRRNyTuofmA="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/hp",
+      "AssetFile": "Media/ProductImage/hp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49192"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RPdYuUd2W6jTPFaqbFlNeKf67x5CZE6vBHgJ+8VhvYo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 13:36:08 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RPdYuUd2W6jTPFaqbFlNeKf67x5CZE6vBHgJ+8VhvYo="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/hp.jpg",
+      "AssetFile": "Media/ProductImage/hp.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49192"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RPdYuUd2W6jTPFaqbFlNeKf67x5CZE6vBHgJ+8VhvYo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 13:39:34 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RPdYuUd2W6jTPFaqbFlNeKf67x5CZE6vBHgJ+8VhvYo="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/hp.wr1bb8etgg",
+      "AssetFile": "Media/ProductImage/hp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49192"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RPdYuUd2W6jTPFaqbFlNeKf67x5CZE6vBHgJ+8VhvYo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 13:36:08 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wr1bb8etgg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RPdYuUd2W6jTPFaqbFlNeKf67x5CZE6vBHgJ+8VhvYo="
+        },
+        {
+          "Name": "label",
+          "Value": "Media/ProductImage/hp"
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/hp.wr1bb8etgg.jpg",
+      "AssetFile": "Media/ProductImage/hp.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49192"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RPdYuUd2W6jTPFaqbFlNeKf67x5CZE6vBHgJ+8VhvYo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 13:39:34 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wr1bb8etgg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RPdYuUd2W6jTPFaqbFlNeKf67x5CZE6vBHgJ+8VhvYo="
+        },
+        {
+          "Name": "label",
+          "Value": "Media/ProductImage/hp.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/hp1.jpg",
+      "AssetFile": "Media/ProductImage/hp1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49192"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RPdYuUd2W6jTPFaqbFlNeKf67x5CZE6vBHgJ+8VhvYo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 13:40:34 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RPdYuUd2W6jTPFaqbFlNeKf67x5CZE6vBHgJ+8VhvYo="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/hp1.wr1bb8etgg.jpg",
+      "AssetFile": "Media/ProductImage/hp1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49192"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RPdYuUd2W6jTPFaqbFlNeKf67x5CZE6vBHgJ+8VhvYo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Feb 2025 13:40:34 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wr1bb8etgg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RPdYuUd2W6jTPFaqbFlNeKf67x5CZE6vBHgJ+8VhvYo="
+        },
+        {
+          "Name": "label",
+          "Value": "Media/ProductImage/hp1.jpg"
+        }
+      ]
+    }
+  ]
+}

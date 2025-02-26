@@ -1,0 +1,58 @@
+/* Ensure the product section height matches the sidebar */
+.product-container {
+    height: 125%; /* Match the sidebar height */
+    overflow: hidden; /* Prevents unwanted scrolling */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Make the product list fill the available space */
+.product-list {
+    flex-grow: 1;
+    overflow-y: auto; /* Only vertical scrolling */
+    padding: 1rem; /* Add spacing */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center align the products */
+    align-content: flex-start; /* Keep items aligned at the top */
+}
+
+/* Ensure consistent card height */
+.product-card {
+    height: 100%; /* Ensures cards stretch equally */
+    max-width: 100%;
+}
+
+/* Ensure image container doesn't stretch */
+.product-image-container {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    overflow: hidden;
+}
+
+/* Adjust image size */
+.product-img {
+    max-height: 200px;
+    width: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Card hover effect */
+.product-card:hover .product-img {
+    transform: scale(1.05);
+}
+
+/* Edit button styling */
+.edit-btn {
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+}
+
+.edit-btn:hover {
+    background-color: #28a745;
+    color: white;
+}

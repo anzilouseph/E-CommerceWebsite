@@ -1,0 +1,128 @@
+ <!--For Add User By Admin It Enables the button-->
+        
+ <div class="container" >
+    <div class="row justify-content-center  pt-5">
+       
+                <div class="col-12 col-md-6">
+                    <img src="assets/RegistrationImage.jpg" alt="RegImage" class="img-fluid h-100 w-100">
+                </div>
+                <div class="col-12 col-md-6  d-flex justify-content-center">
+                    <div class="card w-100">
+                        <div class="card-header bg-primary d-flex justify-content-center">
+                            <h3>REGISTRATION</h3>
+                        </div>
+                        <div class="card-body">
+                            <form [formGroup]="AddUserByAdminForm">
+                                
+                                <!--for Name-->
+                                <div class="row" style="padding-bottom: 2rem;">  
+                                    <div class="col-4">
+                                        <label for="name" class="fw-bold">FULL NAME :
+                                            <span class="text-danger ">*</span> 
+                                        </label>
+                                    </div>
+                                    <div class="col-8">
+                                        <input type="text" id="name" class="form-control" formControlName="nameOfUser" style="width: 100%;">
+                                        <!--VALIDATION CHECKING-->
+                                        <label class="text-warning" *ngIf="AddUserByAdminForm.get('nameOfUser')?.errors?.['required'] && AddUserByAdminForm.get('nameOfUser')?.touched">This field is required</label>
+                                        <label class="text-danger" *ngIf="AddUserByAdminForm.get('nameOfUser')?.errors?.['pattern'] && AddUserByAdminForm.get('nameOfUser')?.touched">Invalid Name</label>
+                                    </div>                                                                                                       
+                                </div>
+                                <!-- name ends -->
+
+                                <!--for Phone-->
+                                <div class="row"  style="padding-bottom: 2rem;">  
+                                    <div class="col-4">
+                                        <label for="phone" class="fw-bold">MOBILE :
+                                            <span class="text-danger ">*</span> 
+                                        </label>
+                                    </div>
+                                    <div class="col-8">
+                                        <input type="text" id="phone" class="form-control" formControlName="phoneOfUser" style="width: 100%;">
+                                        <!--VALIDATION CHECKING-->
+                                        <label class="text-warning" *ngIf="AddUserByAdminForm.get('phoneOfUser')?.errors?.['required'] && AddUserByAdminForm.get('phoneOfUser')?.touched">This field is required</label>
+                                        <label class="text-danger" *ngIf="AddUserByAdminForm.get('phoneOfUser')?.errors?.['pattern'] && AddUserByAdminForm.get('phoneOfUser')?.touched">Invalid Mobile Number</label>
+                                    </div>                                                                                                       
+                                </div>
+                                <!-- phone ends -->
+
+                                <!--for Email-->
+                                <div class="row" style="padding-bottom: 2rem;">  
+                                    <div class="col-4">
+                                        <label for="email" class="fw-bold">EMAIL :
+                                            <span class="text-danger ">*</span> 
+                                        </label>
+                                    </div>
+                                    <div class="col-8">
+                                        <input type="email" id="email" class="form-control" formControlName="emailOfUser" style="width: 100%;">
+                                        <!--VALIDATION CHECKING-->
+                                        <label class="text-warning" *ngIf="AddUserByAdminForm.get('emailOfUser')?.errors?.['required'] && AddUserByAdminForm.get('emailOfUser')?.touched">This field is required</label>
+                                        <label class="text-danger" *ngIf="AddUserByAdminForm.get('emailOfUser')?.errors?.['pattern'] && AddUserByAdminForm.get('emailOfUser')?.touched">Invalid Email</label>
+                                    </div>                                                                                                       
+                                </div>
+                                <!-- Email ends -->
+
+                                <!--for Password-->
+                                <div class="row" style="padding-bottom: 2rem;">  
+                                    <div class="col-4">
+                                        <label for="password" class="fw-bold">PASSWORD :
+                                            <span class="text-danger ">*</span> 
+                                        </label>
+                                    </div>
+                                    <div class="col-8">
+                                        <input type="password" id="password" class="form-control" formControlName="passwordOfUser" style="width: 100%;">
+                                        <!--VALIDATION CHECKING-->
+                                        <label class="text-warning" *ngIf="AddUserByAdminForm.get('passwordOfUser')?.errors?.['required'] && AddUserByAdminForm.get('passwordOfUser')?.touched">This field is required</label>
+                                    </div>                                                                                                       
+                                </div>
+                                <!-- Password ends -->
+
+                                <!--for Retype Password-->
+                                <div class="row" style="padding-bottom: 2rem;">
+                                    <div class="col-4">
+                                        <label for="retypePassword" class="fw-bold">Re-Password :
+                                            <span class="text-danger ">*</span>
+                                        </label>
+                                    </div>
+                                    <div class="col-8">
+                                        <input type="password" id="retypePassword" class="form-control" formControlName="retypePassword" required>
+                                        <!-- Validation Message -->
+                                        <div *ngIf="AddUserByAdminForm.get('retypePassword')?.touched && AddUserByAdminForm.get('retypePassword')?.value !== AddUserByAdminForm.get('passwordOfUser')?.value">
+                                            <label class="text-danger">Passwords do not match</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Retype Password ends -->
+
+
+                                <!--for Role-->
+                                <div class="row" style="padding-bottom: 2rem;">  
+                                    <div class="col-4">
+                                        <label for="role" class="fw-bold">ROLE :
+                                            <span class="text-danger ">*</span> 
+                                        </label>
+                                    </div>
+                                    <div class="col-8">
+                                        <input type="text" id="role" class="form-control" formControlName="roleOfUser" style="width: 100%;">
+                                        <!--VALIDATION CHECKING-->
+                                        <label class="text-warning" *ngIf="AddUserByAdminForm.get('roleOfUser')?.errors?.['required'] && AddUserByAdminForm.get('roleOfUser')?.touched">This field is required</label>
+                                        <label class="text-danger" *ngIf="AddUserByAdminForm.get('roleOfUser')?.errors?.['pattern'] && AddUserByAdminForm.get('roleOfUser')?.touched">Either "Admin" Or "User" only accepted</label>
+                                    </div>                                                                                                       
+                                </div>
+                                <!-- role ends -->
+
+
+                                <!-- Submit and Reset buttons -->
+                                <div class="d-flex justify-content-evenly ">
+                                    <button type="submit" class="btn btn-success btn-lg" (click)="AddUserByAdminComponentFn()">Submit</button> <!--[disabled]="!AddUserByAdminForm.valid"-->
+                                    <button type="button" class="btn btn-secondary btn-lg"  >Reset</button>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+           
+    </div>
+</div>
+<!--For Add User By Admin It Enables the button-->

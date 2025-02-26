@@ -1,0 +1,54 @@
+.welcome
+{
+    font-size: 3.5rem;
+    margin-left:24rem;   
+}
+
+
+.add
+{
+    margin-top: 58px; 
+    font-size:23px;
+    font-weight:bold;
+    cursor: pointer;
+    margin-left: 44px;
+}
+
+
+/* .sidebar_contents:hover{
+    background-color: gray ;
+    transition: background-color 0.3s ease-in-out;
+}
+ */
+
+button {
+    transition: 0.3s ease-in-out;
+    border-radius: 8px;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.sidebar_contents {
+    transition: background 0.3s;
+    padding: 10px;
+}
+
+.sidebar_contents:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+} 
+
+
+input.form-control {
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container-fluid {
+    border-radius: 10px;
+}

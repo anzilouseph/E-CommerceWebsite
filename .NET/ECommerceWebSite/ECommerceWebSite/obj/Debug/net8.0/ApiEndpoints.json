@@ -1,0 +1,243 @@
+[
+  {
+    "ContainingType": "ECommerceWebSite.Controllers.UserManagementController",
+    "Method": "AddUser",
+    "RelativePath": "api/AddUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "ECommerceWebSite.Dto.UserForCreationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ECommerceWebSite.Controllers.AdminManagementController",
+    "Method": "AddProduct",
+    "RelativePath": "api/AdminManagement/AddProduct",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nameOfProduct",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "descriptionOfProduct",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "priceOfProduct",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "availableQuantity",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "idOfCategory",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "product_image",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ECommerceWebSite.Controllers.AdminManagementController",
+    "Method": "AddUser",
+    "RelativePath": "api/AdminManagement/AddUserByAdmin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "ECommerceWebSite.Dto.UserForCreationByAdmin",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ECommerceWebSite.Controllers.AdminManagementController",
+    "Method": "DeleteUserById",
+    "RelativePath": "api/AdminManagement/DeleteUser",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ECommerceWebSite.Controllers.AdminManagementController",
+    "Method": "GetAllProducts",
+    "RelativePath": "api/AdminManagement/GetAllProducts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ECommerceWebSite.Controllers.AdminManagementController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/AdminManagement/GetAllUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ECommerceWebSite.Controllers.AdminManagementController",
+    "Method": "GetUsersByName",
+    "RelativePath": "api/AdminManagement/GetByName",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ECommerceWebSite.Controllers.AdminManagementController",
+    "Method": "GetIdOfCategory",
+    "RelativePath": "api/AdminManagement/GetCategoryId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ECommerceWebSite.Controllers.AdminManagementController",
+    "Method": "GetProductByCategory",
+    "RelativePath": "api/AdminManagement/GetProductByCategory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ECommerceWebSite.Controllers.AdminManagementController",
+    "Method": "GetProductById",
+    "RelativePath": "api/AdminManagement/GetProductById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ECommerceWebSite.Controllers.AdminManagementController",
+    "Method": "GetUserById",
+    "RelativePath": "api/AdminManagement/GetUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ECommerceWebSite.Controllers.AdminManagementController",
+    "Method": "GetProductImage",
+    "RelativePath": "api/AdminManagement/Product_image",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fileName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ECommerceWebSite.Controllers.AdminManagementController",
+    "Method": "GetUsersCount",
+    "RelativePath": "api/AdminManagement/UsersCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ECommerceWebSite.Controllers.AuthenticationMangementController",
+    "Method": "Login",
+    "RelativePath": "api/Authentication/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "log",
+        "Type": "ECommerceWebSite.Dto.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ECommerceWebSite.Controllers.UserManagementController",
+    "Method": "GetUserById",
+    "RelativePath": "api/GetUserOwnProfile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

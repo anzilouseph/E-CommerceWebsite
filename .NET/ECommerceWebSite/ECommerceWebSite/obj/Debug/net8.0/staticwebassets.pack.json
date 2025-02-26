@@ -1,0 +1,89 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\AC Milan Men's Home Jersey.jpg",
+      "PackagePath": "staticwebassets\\Media\\ProductImage\\AC Milan Men's Home Jersey.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\HEELIUM Bamboo Football Socks for Men.jpg",
+      "PackagePath": "staticwebassets\\Media\\ProductImage\\HEELIUM Bamboo Football Socks for Men.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\King Football.jpg",
+      "PackagePath": "staticwebassets\\Media\\ProductImage\\King Football.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Laptop Dell",
+      "PackagePath": "staticwebassets\\Media\\ProductImage"
+    },
+    {
+      "Id": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Layan Sports Soccer Mini Disc Cones  Mini Durable disc Cones..jpg",
+      "PackagePath": "staticwebassets\\Media\\ProductImage\\Layan Sports Soccer Mini Disc Cones  Mini Durable disc Cones..jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Nivia Raptor Torrido Goal Keeper Gloves.jpg",
+      "PackagePath": "staticwebassets\\Media\\ProductImage\\Nivia Raptor Torrido Goal Keeper Gloves.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Nivia Wisdom - 2018 Plastic Shin Guard.jpg",
+      "PackagePath": "staticwebassets\\Media\\ProductImage\\Nivia Wisdom - 2018 Plastic Shin Guard.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Puma ULTRA PLAY .jpg",
+      "PackagePath": "staticwebassets\\Media\\ProductImage\\Puma ULTRA PLAY .jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Puma_ULTRA_PLAY_Pink_Football_Shoes.jpg",
+      "PackagePath": "staticwebassets\\Media\\ProductImage\\Puma_ULTRA_PLAY_Pink_Football_Shoes.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\RAISCO Football Goal Net.jpg",
+      "PackagePath": "staticwebassets\\Media\\ProductImage\\RAISCO Football Goal Net.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\gfsdg.jpg",
+      "PackagePath": "staticwebassets\\Media\\ProductImage\\gfsdg.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\gfsdg546546564.jpg",
+      "PackagePath": "staticwebassets\\Media\\ProductImage\\gfsdg546546564.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\gfsdgded.jpg",
+      "PackagePath": "staticwebassets\\Media\\ProductImage\\gfsdgded.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\hp",
+      "PackagePath": "staticwebassets\\Media\\ProductImage"
+    },
+    {
+      "Id": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\hp.jpg",
+      "PackagePath": "staticwebassets\\Media\\ProductImage\\hp.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\hp1.jpg",
+      "PackagePath": "staticwebassets\\Media\\ProductImage\\hp1.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ECommerceWebSite.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ECommerceWebSite.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ECommerceWebSite.props",
+      "PackagePath": "build\\ECommerceWebSite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ECommerceWebSite.props",
+      "PackagePath": "buildMultiTargeting\\ECommerceWebSite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ECommerceWebSite.props",
+      "PackagePath": "buildTransitive\\ECommerceWebSite.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

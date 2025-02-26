@@ -1,0 +1,84 @@
+<!--Welcome Heading STARTS HERE-->
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary " style="height: 7rem; margin-bottom: 0; padding-bottom: 0;">
+    <div class="container-fluid bg-dark" style="height: 7rem;">
+      <a class="navbar-brand fw-bold welcome text-white text-center" >Welcome {{adminData.nameOfUser}}</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+<!--Welcome Heading ENDS HERE-->
+
+
+
+<!--4 search buttons STARTS HERE-->
+<div class="container-fluid m-0 p-0" style="width: 100%;background-color: #E0E0E0;">
+    <div class="row d-flex">
+
+        <!-- First Column (Search User buttons) -->
+         
+        <div class="col-6 d-flex justify-content-evenly py-3">
+            <button type="button" class="btn btn-success" (click)="searchUserEnableButton()" >🔍 Search User</button>
+            <button type="button" class="btn btn-success" (click)="searchCategoryEnableButton()">🔍 Search Category</button>
+            
+            <!--for Enable User Search-->
+            <div *ngIf="searchUser">
+                <form class="d-flex" [formGroup]="searchNameForm">
+                <input class="form-control me-2" type="search" placeholder="Search User" formControlName="nameOfUser" aria-label="Search">
+                <!-- Search icon inside the button -->
+                <button class="btn btn-outline-success" type="button" [routerLink]="['/admin/searchuser']">
+                <i class="bi bi-search"></i>  <!--Bootstrap search icon-->
+                </button>
+                </form>
+            </div>
+
+            <!--for Enable Category Search-->
+            <div *ngIf="searchCategory">
+                <form class="d-flex" [formGroup]="SearchCategoryForm" >
+                <input class="form-control me-2" type="search" formControlName="categoryName" placeholder="Search Item Catgeory" aria-label="Search"> 
+                <!-- Search icon inside the button -->
+                 <button class="btn btn-outline-success" type="submit"  [routerLink]="['/admin/searchcategory']">  <!--IMP IMP IMP-->
+                 <i class="bi bi-search"></i>  <!--Bootstrap search icon-->
+                </button>
+                </form>
+            </div> 
+            
+            
+        </div>
+        
+        <!-- Second Column (Add User & Add Products buttons) -->
+        <div class="col-6 d-flex justify-content-evenly py-3">
+            <button type="button" class="btn btn-light" [routerLink]="['/admin/adduser']" >➕ Add User</button>  
+            <button type="button" class="btn btn-warning " [routerLink]="['/admin/addProduct']"> ➕ Add Products</button>
+        </div>
+    </div>
+</div>
+<!--4 search buttons ENDS HERE-->
+
+
+<!-- ADMIN MAIN CONTAINER -->
+<div class="d-flex" style="height: calc(100vh - 7rem);">
+    <!-- SIDEBAR -->
+    <div class="bg-dark text-white vh-100 p-3" style="width: 250px;">
+      <ul class="nav flex-column">
+        <li class="nav-item mb-5">
+            <a class="nav-link text-white sidebar_contents" [routerLink]="['/admin/dashboard']"><i class="bi bi-speedometer2 me-2"></i>DashBoard</a>
+          </li>
+        <li class="nav-item mb-5">
+          <a class="nav-link text-white sidebar_contents" [routerLink]="['/admin/usermanagement']"> <i class="bi bi-people me-2"></i>User Management</a>
+        </li>
+        <li class="nav-item mb-5">
+          <a class="nav-link text-white sidebar_contents" [routerLink]="['/admin/getAllProduct']" ><i class="bi bi-box-seam me-2"></i> Product Management</a>
+        </li>
+        <li class="nav-item mb-5">
+          <a class="nav-link text-white sidebar_contents"><i class="bi bi-cart me-2"></i> Order Management</a>
+        </li>
+      </ul>
+    </div>
+  
+    <!-- DYNAMIC CONTENT -->
+    <div class="flex-grow-1 p-3">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
