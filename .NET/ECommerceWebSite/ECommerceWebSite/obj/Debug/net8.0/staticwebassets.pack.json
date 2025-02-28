@@ -1,6 +1,18 @@
 {
   "Files": [
     {
+      "Id": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\.jpg",
+      "PackagePath": "staticwebassets\\Media\\ProductImage\\.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\AC MILAN HOME JERSEY.jpg",
+      "PackagePath": "staticwebassets\\Media\\ProductImage\\AC MILAN HOME JERSEY.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\AC MILAN JERSEY.jpg",
+      "PackagePath": "staticwebassets\\Media\\ProductImage\\AC MILAN JERSEY.jpg"
+    },
+    {
       "Id": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\AC Milan Men's Home Jersey.jpg",
       "PackagePath": "staticwebassets\\Media\\ProductImage\\AC Milan Men's Home Jersey.jpg"
     },
@@ -41,6 +53,14 @@
       "PackagePath": "staticwebassets\\Media\\ProductImage\\RAISCO Football Goal Net.jpg"
     },
     {
+      "Id": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\SOC.jpg",
+      "PackagePath": "staticwebassets\\Media\\ProductImage\\SOC.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\SOCKS.jpg",
+      "PackagePath": "staticwebassets\\Media\\ProductImage\\SOCKS.jpg"
+    },
+    {
       "Id": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\gfsdg.jpg",
       "PackagePath": "staticwebassets\\Media\\ProductImage\\gfsdg.jpg"
     },
@@ -63,6 +83,10 @@
     {
       "Id": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\hp1.jpg",
       "PackagePath": "staticwebassets\\Media\\ProductImage\\hp1.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\socksPractice.jpg",
+      "PackagePath": "staticwebassets\\Media\\ProductImage\\socksPractice.jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ECommerceWebSite.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

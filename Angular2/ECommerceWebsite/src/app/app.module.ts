@@ -16,8 +16,8 @@ import { AddProductComponent } from './Admin/ProductManagement/add-product/add-p
 import { GetAllProductsCompComponent } from './Admin/ProductManagement/GetAllProducts/get-all-products-comp/get-all-products-comp.component';
 import { SearchProductCompComponent } from './Admin/ProductManagement/SearchProduct/search-product-comp/search-product-comp.component';
 import { SearchCategoryCompComponent } from './Admin/ProductManagement/SearchCategory/search-category-comp/search-category-comp.component';
-import { GetComponentByIdCompComponent } from './Admin/ProductManagement/GetProductById/get-component-by-id-comp/get-component-by-id-comp.component';
 import { GetProductByIdCompComponent } from './Admin/ProductManagement/GetProductById/get-product-by-id-comp/get-product-by-id-comp.component';
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,14 +33,15 @@ import { GetProductByIdCompComponent } from './Admin/ProductManagement/GetProduc
     GetAllProductsCompComponent,
     SearchProductCompComponent,
     SearchCategoryCompComponent,
-    GetComponentByIdCompComponent,
+    
     GetProductByIdCompComponent,
       ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,1 +1,178 @@
-<p>get-product-by-id-comp works!</p>
+<div class="container d-flex justify-content-center align-items-center min-vh-100" *ngIf="productModel && !isEdit">
+    <div class="row w-100">
+        <div class="col-12 col-sm-8 col-md-6 col-lg-4 mx-auto"> 
+            <div class="card product-card shadow-lg border-0 text-center">
+                <div class="product-image-container">
+                    <img 
+                        [src]="productModel.Original_Image ? productModel.Original_Image : 'assets/default-product.png'" 
+                        class="card-img-top product-img"
+                        alt="Product Image">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title text-truncate">{{ productModel.nameOfProduct }}</h5>
+                    <p>{{ productModel.descriptionOfProduct }}</p>
+                    <p class="price-tag"><strong>MRP:</strong> <b>₹{{ productModel.priceOfProduct }}</b></p>
+                    <p class="text-muted mb-3"><strong>Available:</strong> {{ productModel.availableQuantity }}</p>
+                    <div class="row">
+                        <div class="col-6"><button class="btn btn-outline-primary w-100 edit-btn" (click)="onEdit()">EDIT</button></div>
+                        <div class="col-6"><button class="btn btn-outline-secondary w-100 edit-btn">GO BACK</button></div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+ <!--For Add Product By Admin It Enables the button-->
+        
+ <div class="container" *ngIf="isEdit">
+    <div class="row justify-content-center pt-5">
+        <!-- <div class="col-12 col-md-10 col-lg-8"> -->
+            <!-- <div class="row pt-5"> -->
+                <div class="col-12 col-md-6">
+                    <img src="assets/RegistrationImage.jpg" alt="RegImage" class="img-fluid h-100 w-100">
+                </div>
+                <div class="col-12 col-md-6  d-flex justify-content-center">
+                    <div class="card w-100">
+                        <div class="card-header bg-primary d-flex justify-content-center">
+                            <h3 CLASS="text-white">UPDATE PRODUCT</h3>
+                        </div>
+                        <div class="card-body">
+                            <form [formGroup]="updateForm">
+                                
+                                <!--for Name-->
+                                <div class="row" style="padding-bottom: 2rem;">  
+                                    <div class="col-4">
+                                        <label for="name" class="fw-bold">Product Name :
+                                            <span class="text-danger ">*</span> 
+                                        </label>
+                                    </div>
+                                    <div class="col-8">
+                                        <input type="text" id="name" class="form-control" formControlName="nameOfProduct" style="width: 100%;" placeholder="product name">
+                                        <!--VALIDATION CHECKING-->
+                                        <label class="text-warning" *ngIf="updateForm.get('nameOfProduct')?.errors?.['required'] && updateForm.get('nameOfProduct')?.touched">This field is required</label>                                    </div>                                                                                                       
+                                </div>
+                                <!-- name ends -->
+
+                                <!--for description-->
+                                <div class="row"  style="padding-bottom: 2rem;">  
+                                    <div class="col-4">
+                                        <label for="description" class="fw-bold">Description :
+                                            <span class="text-danger ">*</span> 
+                                        </label>
+                                    </div>
+                                    <div class="col-8">
+                                        <input type="text" id="description" class="form-control" formControlName="descriptionOfProduct" style="width: 100%;"  placeholder="product description">                            
+                                    </div>                                                                                                       
+                                </div>
+                                <!-- description ends -->
+
+                                <!--for Price-->
+                                <div class="row" style="padding-bottom: 2rem;">  
+                                    <div class="col-4">
+                                        <label for="price" class="fw-bold">Price :
+                                            <span class="text-danger ">*</span> 
+                                        </label>
+                                    </div>
+                                    <div class="col-8">
+                                        <input type="text" id="price" class="form-control" formControlName="priceOfProduct" style="width: 100%;"  placeholder="product price">
+                                        <!--VALIDATION CHECKING-->
+                                        <label class="text-warning" *ngIf="updateForm.get('priceOfProduct')?.errors?.['required'] && updateForm.get('priceOfProduct')?.touched">This field is required</label>
+                                        <label class="text-danger" *ngIf="updateForm.get('priceOfProduct')?.errors?.['pattern'] && updateForm.get('priceOfProduct')?.touched">Invalid Price</label>
+                                    </div>                                                                                                       
+                                </div>
+                                <!-- Price ends -->
+
+                                <!--for availableQuantity-->
+                                <div class="row" style="padding-bottom: 2rem;">  
+                                    <div class="col-4">
+                                        <label for="quantity" class="fw-bold">Quantity Availabe :
+                                            <span class="text-danger ">*</span> 
+                                        </label>
+                                    </div>
+                                    <div class="col-8">
+                                        <input type="text" id="quantity" class="form-control" formControlName="availableQuantity" style="width: 100%;" placeholder="0-100"  placeholder="Quantity Available">
+                                        <!--VALIDATION CHECKING-->
+                                        <label class="text-warning" *ngIf="updateForm.get('availableQuantity')?.errors?.['required'] && updateForm.get('availableQuantity')?.touched">This field is required</label>
+                                        <label class="text-danger" *ngIf="updateForm.get('availableQuantity')?.errors?.['pattern'] && updateForm.get('availableQuantity')?.touched">Invalid quantity</label>
+
+                                    </div>                                                                                                       
+                                </div>
+                                <!-- availableQuantity ends -->
+
+                                <!-- for ID OF CATGEORY -->
+                                    <div class="row" style="padding-bottom: 2rem;">  
+                                        <div class="col-4">
+                                            <label for="idOfCategory" class="fw-bold">Category :
+                                                <span class="text-danger">*</span> 
+                                            </label>
+                                        </div>
+                                        <div class="col-8">
+                                            <select id="idOfCategory" class="form-control" formControlName="idOfCategory" style="width: 100%;">
+                                                <option value="" disabled selected>Select a category</option>
+                                                <option value="Football">Football</option>
+                                                <option value="Football Boots">Football Boots</option>
+                                                <option value="Football Jerseys">Football Jerseys</option>
+                                                <option value="Shin Guards">Shin Guards</option>
+                                                <option value="Goalkeeper Gloves">Goalkeeper Gloves</option>
+                                                <option value="Football Socks">Football Socks</option>
+                                                <option value="Training Cones">Training Cones</option>
+                                                <option value="Football Nets">Football Nets</option>
+                                                <option value="Football Accessories">Football Accessories</option>
+                                                <option value="Football Training Kits">Football Training Kits</option>
+                                            </select>
+
+                                            <!-- VALIDATION CHECKING -->
+                                            <label class="text-warning" *ngIf="updateForm.get('idOfCategory')?.errors?.['required'] && updateForm.get('idOfCategory')?.touched">
+                                                This field is required
+                                            </label>
+                                        </div>                                                                                                       
+                                    </div>
+                                    <!-- ID OF CATGEORY ends -->
+
+                                <!--for IMAGE-->
+                                <div class="row" style="padding-bottom: 2rem;">  
+                                    <div class="col-4">
+                                        <label for="image" class="fw-bold">Uplaod Image:
+                                            <span class="text-danger ">*</span> 
+                                        </label>
+                                    </div>
+                                    <div class="col-8">
+                                        <!-- <input type="file" (change)="onFileSelected($event)" accept="image/*" placeholder="Only .png,.jpeg"/> -->
+                                        <input type="file" (change)="onFileSelected($event)" accept="image/*"  placeholder="Only .png,.jpeg"/>
+
+                                    </div>                                                                                                       
+                                </div>
+                                <!-- availableQuantity ends -->
+
+
+                                <!-- Submit and Reset buttons -->
+                                <div class="d-flex justify-content-evenly">
+                                    <div class="col-auto">
+                                        <button type="submit" class="btn btn-success" (click)="updateProduct()" >Submit</button> 
+                                    </div>
+                                    <div class="col-auto">
+                                        <button type="button" class="btn btn-secondary" (click)="reset()">Reset</button>
+                                    </div>
+                                    <div class="col-auto">
+                                        <button type="button" class="btn btn-dark " (click)="goback()" >Go Back</button>
+                                    </div>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            <!-- </div> -->
+        <!-- </div> -->
+    </div>
+</div>
+<!--For Add User By Admin It Enables the button-->
+
+

@@ -143,7 +143,7 @@ export class AddProductComponent {
       formData.append("nameOfProduct",this.addProductForm.value.nameOfProduct ?? ""); //added name
       formData.append("descriptionOfProduct",this.addProductForm.value.descriptionOfProduct ?? ""); //added description
       formData.append("priceOfProduct",this.addProductForm.value.priceOfProduct ?? ""); //added price
-      formData.append("availableQuantity",this.addProductForm.value.availableQuantity ?? ""); //added Quantity
+     formData.append("availableQuantity",this.addProductForm.value.availableQuantity ?? ""); //added Quantity
 
       if(this.selectedFile) //for safely handle the image
       {

@@ -69,5 +69,5 @@ export class AdminLayoutComponent {
   }
   //Search a single user or mutliple user by name ENDS here
 
-
+  
 }

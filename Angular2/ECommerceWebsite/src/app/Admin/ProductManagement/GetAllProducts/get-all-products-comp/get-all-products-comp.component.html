@@ -12,7 +12,7 @@
                     <h5 class="card-title text-truncate">{{ i.nameOfProduct }}</h5>
                     <p class="price-tag"><strong>MRP:</strong> <b>₹{{ i.priceOfProduct }}</b></p>
                     <p class="text-muted mb-3"><strong>Available:</strong> {{ i.availableQuantity }}</p>
-                    <button class="btn btn-outline-primary w-100 edit-btn">EDIT</button>
+                    <button class="btn btn-outline-primary w-100 edit-btn" [routerLink]="['/admin/getProductById',i.idOfProduct]">VIEW</button>
                 </div>
             </div>
         </div>

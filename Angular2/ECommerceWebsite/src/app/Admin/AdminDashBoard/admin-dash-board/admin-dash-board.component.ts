@@ -12,11 +12,16 @@ export class AdminDashBoardComponent {
   ngOnInit()
   {
    this.GetUserCountByAdmin();
+   this.GetProductCount();
   }
 
   totalUsers:any;
-  errorMessage:any;
-  GetUserCountByAdmin()
+  totalUsersErrorMessage:any;
+  totalProducts:any;
+  totalProductsErrorMessage:any;
+
+
+  GetUserCountByAdmin() //to get the cout of total users
   {
     this.adminService.GettUserCount().subscribe({
       next:(res:any)=>
@@ -27,16 +32,41 @@ export class AdminDashBoardComponent {
           console.log(res);        
         }
         else{
-          this.errorMessage=res.message;
+          this.totalUsersErrorMessage=res.message;
           console.log(res);         
         }
       },
       error:error=>
       {
-        this.errorMessage=error.message;
+        this.totalUsersErrorMessage=error.message;
         console.log(error);         
       }
     })
   }
+
+
+  GetProductCount()
+  {
+    this.adminService.GetProductCountFn().subscribe({
+      next:(res:any)=>
+      {
+        if(res.status)
+        {
+          this.totalProducts=res.data;
+          console.log(res);        
+        }
+        else{
+          this.totalProductsErrorMessage=res.message;
+          console.log(res);         
+        }
+      },
+      error:error=>
+      {
+        this.totalProductsErrorMessage=error.message;
+        console.log(error);         
+      }
+    })
+  }
+
 
 }

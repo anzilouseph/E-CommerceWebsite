@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "a8fiFZJl1hAIl/bl0g5YhciHJt9/sUsitr/OkZx/axI=",
+  "Hash": "ygRe6G0987jWqXn/pFuPMvTzFkZIjUyTQbEdMJvtNCM=",
   "Source": "ECommerceWebSite",
   "BasePath": "_content/ECommerceWebSite",
   "Mode": "Default",
@@ -16,6 +16,69 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\.jpg",
+      "SourceId": "ECommerceWebSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\",
+      "BasePath": "_content/ECommerceWebSite",
+      "RelativePath": "Media/ProductImage/#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2ttpygz7e1",
+      "Integrity": "2grHrJ3UWTSfDE41/pRp9caRgdBA+NzIQLQ8wjjJLsY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Media\\ProductImage\\.jpg"
+    },
+    {
+      "Identity": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\AC MILAN HOME JERSEY.jpg",
+      "SourceId": "ECommerceWebSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\",
+      "BasePath": "_content/ECommerceWebSite",
+      "RelativePath": "Media/ProductImage/AC MILAN HOME JERSEY#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8ehvjuucyy",
+      "Integrity": "0HRlzubvkS1clV7l88MalnXJ3A2WTZ0OmYPXSPepq/U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Media\\ProductImage\\AC MILAN HOME JERSEY.jpg"
+    },
+    {
+      "Identity": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\AC MILAN JERSEY.jpg",
+      "SourceId": "ECommerceWebSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\",
+      "BasePath": "_content/ECommerceWebSite",
+      "RelativePath": "Media/ProductImage/AC MILAN JERSEY#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8ehvjuucyy",
+      "Integrity": "0HRlzubvkS1clV7l88MalnXJ3A2WTZ0OmYPXSPepq/U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Media\\ProductImage\\AC MILAN JERSEY.jpg"
+    },
     {
       "Identity": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\AC Milan Men's Home Jersey.jpg",
       "SourceId": "ECommerceWebSite",
@@ -351,9 +414,318 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Media\\ProductImage\\RAISCO Football Goal Net.jpg"
+    },
+    {
+      "Identity": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\SOC.jpg",
+      "SourceId": "ECommerceWebSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\",
+      "BasePath": "_content/ECommerceWebSite",
+      "RelativePath": "Media/ProductImage/SOC#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "331j46yl35",
+      "Integrity": "P0gWlA7ttbh4KztMS6WOlHuw2d/pUuG978+rIJohR0Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Media\\ProductImage\\SOC.jpg"
+    },
+    {
+      "Identity": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\SOCKS.jpg",
+      "SourceId": "ECommerceWebSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\",
+      "BasePath": "_content/ECommerceWebSite",
+      "RelativePath": "Media/ProductImage/SOCKS#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "331j46yl35",
+      "Integrity": "P0gWlA7ttbh4KztMS6WOlHuw2d/pUuG978+rIJohR0Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Media\\ProductImage\\SOCKS.jpg"
+    },
+    {
+      "Identity": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\socksPractice.jpg",
+      "SourceId": "ECommerceWebSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\",
+      "BasePath": "_content/ECommerceWebSite",
+      "RelativePath": "Media/ProductImage/socksPractice#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2ttpygz7e1",
+      "Integrity": "2grHrJ3UWTSfDE41/pRp9caRgdBA+NzIQLQ8wjjJLsY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Media\\ProductImage\\socksPractice.jpg"
     }
   ],
   "Endpoints": [
+    {
+      "Route": "Media/ProductImage/.2ttpygz7e1.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7882"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2grHrJ3UWTSfDE41/pRp9caRgdBA+NzIQLQ8wjjJLsY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 11:04:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2ttpygz7e1"
+        },
+        {
+          "Name": "label",
+          "Value": "Media/ProductImage/.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2grHrJ3UWTSfDE41/pRp9caRgdBA+NzIQLQ8wjjJLsY="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7882"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2grHrJ3UWTSfDE41/pRp9caRgdBA+NzIQLQ8wjjJLsY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 11:04:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2grHrJ3UWTSfDE41/pRp9caRgdBA+NzIQLQ8wjjJLsY="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/AC MILAN HOME JERSEY.8ehvjuucyy.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\AC MILAN HOME JERSEY.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7488"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0HRlzubvkS1clV7l88MalnXJ3A2WTZ0OmYPXSPepq/U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 07:24:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8ehvjuucyy"
+        },
+        {
+          "Name": "label",
+          "Value": "Media/ProductImage/AC MILAN HOME JERSEY.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0HRlzubvkS1clV7l88MalnXJ3A2WTZ0OmYPXSPepq/U="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/AC MILAN HOME JERSEY.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\AC MILAN HOME JERSEY.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7488"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0HRlzubvkS1clV7l88MalnXJ3A2WTZ0OmYPXSPepq/U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 07:24:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0HRlzubvkS1clV7l88MalnXJ3A2WTZ0OmYPXSPepq/U="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/AC MILAN JERSEY.8ehvjuucyy.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\AC MILAN JERSEY.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7488"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0HRlzubvkS1clV7l88MalnXJ3A2WTZ0OmYPXSPepq/U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 07:27:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8ehvjuucyy"
+        },
+        {
+          "Name": "label",
+          "Value": "Media/ProductImage/AC MILAN JERSEY.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0HRlzubvkS1clV7l88MalnXJ3A2WTZ0OmYPXSPepq/U="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/AC MILAN JERSEY.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\AC MILAN JERSEY.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7488"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0HRlzubvkS1clV7l88MalnXJ3A2WTZ0OmYPXSPepq/U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 07:27:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0HRlzubvkS1clV7l88MalnXJ3A2WTZ0OmYPXSPepq/U="
+        }
+      ]
+    },
     {
       "Route": "Media/ProductImage/AC Milan Men's Home Jersey.8ehvjuucyy.jpg",
       "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\AC Milan Men's Home Jersey.jpg",
@@ -1663,6 +2035,252 @@
         {
           "Name": "integrity",
           "Value": "sha256-5OhdsYxThYP6Ik6Vpv9Rq+aKWjr+EDD9nhtEIZXdM2I="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/SOC.331j46yl35.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\SOC.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47713"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P0gWlA7ttbh4KztMS6WOlHuw2d/pUuG978+rIJohR0Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 07:20:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "331j46yl35"
+        },
+        {
+          "Name": "label",
+          "Value": "Media/ProductImage/SOC.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-P0gWlA7ttbh4KztMS6WOlHuw2d/pUuG978+rIJohR0Y="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/SOC.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\SOC.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47713"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P0gWlA7ttbh4KztMS6WOlHuw2d/pUuG978+rIJohR0Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 07:20:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-P0gWlA7ttbh4KztMS6WOlHuw2d/pUuG978+rIJohR0Y="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/SOCKS.331j46yl35.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\SOCKS.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47713"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P0gWlA7ttbh4KztMS6WOlHuw2d/pUuG978+rIJohR0Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 07:05:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "331j46yl35"
+        },
+        {
+          "Name": "label",
+          "Value": "Media/ProductImage/SOCKS.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-P0gWlA7ttbh4KztMS6WOlHuw2d/pUuG978+rIJohR0Y="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/SOCKS.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\SOCKS.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47713"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P0gWlA7ttbh4KztMS6WOlHuw2d/pUuG978+rIJohR0Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 07:05:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-P0gWlA7ttbh4KztMS6WOlHuw2d/pUuG978+rIJohR0Y="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/socksPractice.2ttpygz7e1.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\socksPractice.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7882"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2grHrJ3UWTSfDE41/pRp9caRgdBA+NzIQLQ8wjjJLsY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 11:07:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2ttpygz7e1"
+        },
+        {
+          "Name": "label",
+          "Value": "Media/ProductImage/socksPractice.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2grHrJ3UWTSfDE41/pRp9caRgdBA+NzIQLQ8wjjJLsY="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/socksPractice.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\socksPractice.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7882"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2grHrJ3UWTSfDE41/pRp9caRgdBA+NzIQLQ8wjjJLsY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 11:07:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2grHrJ3UWTSfDE41/pRp9caRgdBA+NzIQLQ8wjjJLsY="
         }
       ]
     }

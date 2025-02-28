@@ -101,3 +101,4 @@ D:\E-Commerce_WebSite\.NET\ECommerceWebSite\ECommerceWebSite\obj\Debug\net8.0\EC
 D:\E-Commerce_WebSite\.NET\ECommerceWebSite\ECommerceWebSite\obj\Debug\net8.0\ref\ECommerceWebSite.dll
 D:\E-Commerce_WebSite\.NET\ECommerceWebSite\ECommerceWebSite\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\E-Commerce_WebSite\.NET\ECommerceWebSite\ECommerceWebSite\bin\Debug\net8.0\ECommerceWebSite.staticwebassets.runtime.json
+D:\E-Commerce_WebSite\.NET\ECommerceWebSite\ECommerceWebSite\obj\Debug\net8.0\ECommerceWebSite.sourcelink.json

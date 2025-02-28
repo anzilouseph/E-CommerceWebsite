@@ -358,5 +358,59 @@ namespace ECommerceWebSite.Controllers
 
         }
 
+
+        //for update the product by the id
+        [Authorize]
+        [HttpPut("UpdateProduct")]
+        public async Task<IActionResult> UpdateProduct(Guid product_id,ProductForUpdationDto product)
+        {
+            try
+            {
+                var userIdClaim = HttpContext.User.FindFirst(JwtRegisteredClaimNames.Sid);
+                if (userIdClaim == null || !Guid.TryParse(userIdClaim.Value, out Guid userCheckingId))
+                {
+                    return Unauthorized(APIResponse<IEnumerable<UserToListDto>>.Error("Unable to generate JWT"));
+                }
+                var adminOrNot = await _service.GetUserById(userCheckingId);
+                if (adminOrNot.data.roleOfUser != "Admin")
+                {
+                    return Unauthorized(APIResponse<IEnumerable<UserToListDto>>.Error("Only Admin can Access this"));
+                }
+                var apiResponse = await _repo.UpdateProduct(product_id,product);
+                return Ok(apiResponse);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = ex.Message });
+            }
+        }
+
+
+        //for getting the total count of products
+        [Authorize]
+        [HttpGet("GetProductCount")]
+        public async Task<IActionResult> GetProductCount()
+        {
+            try
+            {
+                var userIdClaim = HttpContext.User.FindFirst(JwtRegisteredClaimNames.Sid);
+                if (userIdClaim == null || !Guid.TryParse(userIdClaim.Value, out Guid userCheckingId))
+                {
+                    return Unauthorized(APIResponse<int>.Error("Unable to generate JWT"));
+                }
+                var adminOrNot = await _service.GetUserById(userCheckingId);
+                if (adminOrNot.data.roleOfUser != "Admin")
+                {
+                    return Unauthorized(APIResponse<int>.Error("Only Admin can Access this"));
+                }
+                var apiResponse = await _repo.GetProductsCount();
+                return Ok(apiResponse);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = ex.Message });
+            }
+        }
+    
     }
 }

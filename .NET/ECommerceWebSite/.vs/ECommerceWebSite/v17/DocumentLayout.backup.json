@@ -3,40 +3,44 @@
   "WorkspaceRootPath": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB6FC811-EFF6-4FCC-9C93-95E4CA076536}|ECommerceWebSite\\ECommerceWebSite.csproj|d:\\e-commerce_website\\.net\\ecommercewebsite\\ecommercewebsite\\repo\\adminmanagementrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB6FC811-EFF6-4FCC-9C93-95E4CA076536}|ECommerceWebSite\\ECommerceWebSite.csproj|solutionrelative:ecommercewebsite\\repo\\adminmanagementrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FB6FC811-EFF6-4FCC-9C93-95E4CA076536}|ECommerceWebSite\\ECommerceWebSite.csproj|d:\\e-commerce_website\\.net\\ecommercewebsite\\ecommercewebsite\\controllers\\adminmanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB6FC811-EFF6-4FCC-9C93-95E4CA076536}|ECommerceWebSite\\ECommerceWebSite.csproj|solutionrelative:ecommercewebsite\\controllers\\adminmanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB6FC811-EFF6-4FCC-9C93-95E4CA076536}|ECommerceWebSite\\ECommerceWebSite.csproj|d:\\e-commerce_website\\.net\\ecommercewebsite\\ecommercewebsite\\service\\adminmanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB6FC811-EFF6-4FCC-9C93-95E4CA076536}|ECommerceWebSite\\ECommerceWebSite.csproj|solutionrelative:ecommercewebsite\\service\\adminmanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB6FC811-EFF6-4FCC-9C93-95E4CA076536}|ECommerceWebSite\\ECommerceWebSite.csproj|d:\\e-commerce_website\\.net\\ecommercewebsite\\ecommercewebsite\\iservice\\iadminmanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB6FC811-EFF6-4FCC-9C93-95E4CA076536}|ECommerceWebSite\\ECommerceWebSite.csproj|solutionrelative:ecommercewebsite\\iservice\\iadminmanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB6FC811-EFF6-4FCC-9C93-95E4CA076536}|ECommerceWebSite\\ECommerceWebSite.csproj|d:\\e-commerce_website\\.net\\ecommercewebsite\\ecommercewebsite\\repo\\adminmanagementrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB6FC811-EFF6-4FCC-9C93-95E4CA076536}|ECommerceWebSite\\ECommerceWebSite.csproj|solutionrelative:ecommercewebsite\\repo\\adminmanagementrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB6FC811-EFF6-4FCC-9C93-95E4CA076536}|ECommerceWebSite\\ECommerceWebSite.csproj|d:\\e-commerce_website\\.net\\ecommercewebsite\\ecommercewebsite\\irepo\\iadminmanagementrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB6FC811-EFF6-4FCC-9C93-95E4CA076536}|ECommerceWebSite\\ECommerceWebSite.csproj|solutionrelative:ecommercewebsite\\irepo\\iadminmanagementrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB6FC811-EFF6-4FCC-9C93-95E4CA076536}|ECommerceWebSite\\ECommerceWebSite.csproj|d:\\e-commerce_website\\.net\\ecommercewebsite\\ecommercewebsite\\dto\\producttolistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB6FC811-EFF6-4FCC-9C93-95E4CA076536}|ECommerceWebSite\\ECommerceWebSite.csproj|solutionrelative:ecommercewebsite\\dto\\producttolistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB6FC811-EFF6-4FCC-9C93-95E4CA076536}|ECommerceWebSite\\ECommerceWebSite.csproj|d:\\e-commerce_website\\.net\\ecommercewebsite\\ecommercewebsite\\iservice\\iadminmanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB6FC811-EFF6-4FCC-9C93-95E4CA076536}|ECommerceWebSite\\ECommerceWebSite.csproj|solutionrelative:ecommercewebsite\\iservice\\iadminmanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB6FC811-EFF6-4FCC-9C93-95E4CA076536}|ECommerceWebSite\\ECommerceWebSite.csproj|d:\\e-commerce_website\\.net\\ecommercewebsite\\ecommercewebsite\\service\\adminmanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB6FC811-EFF6-4FCC-9C93-95E4CA076536}|ECommerceWebSite\\ECommerceWebSite.csproj|solutionrelative:ecommercewebsite\\service\\adminmanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB6FC811-EFF6-4FCC-9C93-95E4CA076536}|ECommerceWebSite\\ECommerceWebSite.csproj|d:\\e-commerce_website\\.net\\ecommercewebsite\\ecommercewebsite\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB6FC811-EFF6-4FCC-9C93-95E4CA076536}|ECommerceWebSite\\ECommerceWebSite.csproj|solutionrelative:ecommercewebsite\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB6FC811-EFF6-4FCC-9C93-95E4CA076536}|ECommerceWebSite\\ECommerceWebSite.csproj|d:\\e-commerce_website\\.net\\ecommercewebsite\\ecommercewebsite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB6FC811-EFF6-4FCC-9C93-95E4CA076536}|ECommerceWebSite\\ECommerceWebSite.csproj|solutionrelative:ecommercewebsite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB6FC811-EFF6-4FCC-9C93-95E4CA076536}|ECommerceWebSite\\ECommerceWebSite.csproj|d:\\e-commerce_website\\.net\\ecommercewebsite\\ecommercewebsite\\dto\\productforupdationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB6FC811-EFF6-4FCC-9C93-95E4CA076536}|ECommerceWebSite\\ECommerceWebSite.csproj|solutionrelative:ecommercewebsite\\dto\\productforupdationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB6FC811-EFF6-4FCC-9C93-95E4CA076536}|ECommerceWebSite\\ECommerceWebSite.csproj|d:\\e-commerce_website\\.net\\ecommercewebsite\\ecommercewebsite\\dto\\producttolistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB6FC811-EFF6-4FCC-9C93-95E4CA076536}|ECommerceWebSite\\ECommerceWebSite.csproj|solutionrelative:ecommercewebsite\\dto\\producttolistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB6FC811-EFF6-4FCC-9C93-95E4CA076536}|ECommerceWebSite\\ECommerceWebSite.csproj|d:\\e-commerce_website\\.net\\ecommercewebsite\\ecommercewebsite\\dto\\productforcreationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB6FC811-EFF6-4FCC-9C93-95E4CA076536}|ECommerceWebSite\\ECommerceWebSite.csproj|solutionrelative:ecommercewebsite\\dto\\productforcreationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB6FC811-EFF6-4FCC-9C93-95E4CA076536}|ECommerceWebSite\\ECommerceWebSite.csproj|d:\\e-commerce_website\\.net\\ecommercewebsite\\ecommercewebsite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB6FC811-EFF6-4FCC-9C93-95E4CA076536}|ECommerceWebSite\\ECommerceWebSite.csproj|solutionrelative:ecommercewebsite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB6FC811-EFF6-4FCC-9C93-95E4CA076536}|ECommerceWebSite\\ECommerceWebSite.csproj|d:\\e-commerce_website\\.net\\ecommercewebsite\\ecommercewebsite\\service\\authenticationmanagementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -94,17 +98,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "IAdminManagementRepo.cs",
               "DocumentMoniker": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\IRepo\\IAdminManagementRepo.cs",
               "RelativeDocumentMoniker": "ECommerceWebSite\\IRepo\\IAdminManagementRepo.cs",
-              "ToolTip": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\IRepo\\IAdminManagementRepo.cs",
-              "RelativeToolTip": "ECommerceWebSite\\IRepo\\IAdminManagementRepo.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAnwBkAAAAeAAAAAAAAAA==",
+              "ToolTip": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\IRepo\\IAdminManagementRepo.cs*",
+              "RelativeToolTip": "ECommerceWebSite\\IRepo\\IAdminManagementRepo.cs*",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAkwBsAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T09:38:00.127Z",
               "IsPinned": true,
@@ -112,13 +116,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AdminManagementRepo.cs",
               "DocumentMoniker": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\Repo\\AdminManagementRepo.cs",
               "RelativeDocumentMoniker": "ECommerceWebSite\\Repo\\AdminManagementRepo.cs",
-              "ToolTip": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\Repo\\AdminManagementRepo.cs",
-              "RelativeToolTip": "ECommerceWebSite\\Repo\\AdminManagementRepo.cs",
-              "ViewState": "AgIAAPIAAAAAAAAAAAAAAPoAAAAvAAAAAAAAAA==",
+              "ToolTip": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\Repo\\AdminManagementRepo.cs*",
+              "RelativeToolTip": "ECommerceWebSite\\Repo\\AdminManagementRepo.cs*",
+              "ViewState": "AgIAAPUBAAAAAAAAAAAQwAYCAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T09:55:32.251Z",
               "IsPinned": true,
@@ -132,7 +136,7 @@
               "RelativeDocumentMoniker": "ECommerceWebSite\\IService\\IAdminManagementService.cs",
               "ToolTip": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\IService\\IAdminManagementService.cs",
               "RelativeToolTip": "ECommerceWebSite\\IService\\IAdminManagementService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAEBCwBcAAABKAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAArwBAAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T10:04:40.166Z",
               "IsPinned": true,
@@ -140,13 +144,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "AdminManagementService.cs",
               "DocumentMoniker": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\Service\\AdminManagementService.cs",
               "RelativeDocumentMoniker": "ECommerceWebSite\\Service\\AdminManagementService.cs",
               "ToolTip": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\Service\\AdminManagementService.cs",
               "RelativeToolTip": "ECommerceWebSite\\Service\\AdminManagementService.cs",
-              "ViewState": "AgIAALkAAAAAAAAAAAAAAMEAAABMAAAAAAAAAA==",
+              "ViewState": "AgIAAGQAAAAAAAAAAAA1wIsAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T10:07:04.172Z",
               "IsPinned": true,
@@ -154,13 +158,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AdminManagementController.cs",
               "DocumentMoniker": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\Controllers\\AdminManagementController.cs",
               "RelativeDocumentMoniker": "ECommerceWebSite\\Controllers\\AdminManagementController.cs",
-              "ToolTip": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\Controllers\\AdminManagementController.cs",
-              "RelativeToolTip": "ECommerceWebSite\\Controllers\\AdminManagementController.cs",
-              "ViewState": "AgIAAFMBAAAAAAAAAAAkwGQBAAANAAAAAAAAAA==",
+              "ToolTip": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\Controllers\\AdminManagementController.cs*",
+              "RelativeToolTip": "ECommerceWebSite\\Controllers\\AdminManagementController.cs*",
+              "ViewState": "AgIAAIcBAAAAAAAAAAAzwJ0BAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T10:12:52.948Z",
               "IsPinned": true,
@@ -168,39 +172,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\Program.cs",
-              "RelativeDocumentMoniker": "ECommerceWebSite\\Program.cs",
-              "ToolTip": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\Program.cs",
-              "RelativeToolTip": "ECommerceWebSite\\Program.cs",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAAAH8AAAAKAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "ProductForUpdationDto.cs",
+              "DocumentMoniker": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\Dto\\ProductForUpdationDto.cs",
+              "RelativeDocumentMoniker": "ECommerceWebSite\\Dto\\ProductForUpdationDto.cs",
+              "ToolTip": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\Dto\\ProductForUpdationDto.cs",
+              "RelativeToolTip": "ECommerceWebSite\\Dto\\ProductForUpdationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T12:32:11.561Z",
+              "WhenOpened": "2025-02-27T07:27:55.115Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Products.cs",
               "DocumentMoniker": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\Models\\Products.cs",
               "RelativeDocumentMoniker": "ECommerceWebSite\\Models\\Products.cs",
               "ToolTip": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\Models\\Products.cs",
               "RelativeToolTip": "ECommerceWebSite\\Models\\Products.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-21T08:49:41.816Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "ProductToListDto.cs",
               "DocumentMoniker": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\Dto\\ProductToListDto.cs",
               "RelativeDocumentMoniker": "ECommerceWebSite\\Dto\\ProductToListDto.cs",
               "ToolTip": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\Dto\\ProductToListDto.cs",
               "RelativeToolTip": "ECommerceWebSite\\Dto\\ProductToListDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAIBCwAkAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-25T09:43:28.124Z",
               "EditorCaption": ""
@@ -213,7 +217,7 @@
               "RelativeDocumentMoniker": "ECommerceWebSite\\Dto\\ProductForCreationDto.cs",
               "ToolTip": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\Dto\\ProductForCreationDto.cs",
               "RelativeToolTip": "ECommerceWebSite\\Dto\\ProductForCreationDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-21T07:41:15.367Z",
               "EditorCaption": ""
@@ -221,6 +225,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\Program.cs",
+              "RelativeDocumentMoniker": "ECommerceWebSite\\Program.cs",
+              "ToolTip": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\Program.cs",
+              "RelativeToolTip": "ECommerceWebSite\\Program.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAH8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T12:32:11.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "AuthenticationManagementService.cs",
               "DocumentMoniker": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\Service\\AuthenticationManagementService.cs",
               "RelativeDocumentMoniker": "ECommerceWebSite\\Service\\AuthenticationManagementService.cs",
@@ -228,12 +244,11 @@
               "RelativeToolTip": "ECommerceWebSite\\Service\\AuthenticationManagementService.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAmwCoAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T06:54:40.645Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-19T06:54:40.645Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "UserManagementRepo.cs",
               "DocumentMoniker": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\Repo\\UserManagementRepo.cs",
               "RelativeDocumentMoniker": "ECommerceWebSite\\Repo\\UserManagementRepo.cs",
@@ -245,7 +260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "ECommerceWebSite\\WeatherForecast.cs",
@@ -257,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\appsettings.json",
               "RelativeDocumentMoniker": "ECommerceWebSite\\appsettings.json",
@@ -269,7 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "UserManagementController.cs",
               "DocumentMoniker": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\Controllers\\UserManagementController.cs",
               "RelativeDocumentMoniker": "ECommerceWebSite\\Controllers\\UserManagementController.cs",
@@ -281,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "IUserManagementRepo.cs",
               "DocumentMoniker": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\IRepo\\IUserManagementRepo.cs",
               "RelativeDocumentMoniker": "ECommerceWebSite\\IRepo\\IUserManagementRepo.cs",
@@ -293,7 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "UserForCreationDto.cs",
               "DocumentMoniker": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\Dto\\UserForCreationDto.cs",
               "RelativeDocumentMoniker": "ECommerceWebSite\\Dto\\UserForCreationDto.cs",
@@ -305,7 +320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "IUserManagementService.cs",
               "DocumentMoniker": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\IService\\IUserManagementService.cs",
               "RelativeDocumentMoniker": "ECommerceWebSite\\IService\\IUserManagementService.cs",
@@ -317,7 +332,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "UserManagementService.cs",
               "DocumentMoniker": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\Service\\UserManagementService.cs",
               "RelativeDocumentMoniker": "ECommerceWebSite\\Service\\UserManagementService.cs",
@@ -329,7 +344,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "UserForCreationByAdmin.cs",
               "DocumentMoniker": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\Dto\\UserForCreationByAdmin.cs",
               "RelativeDocumentMoniker": "ECommerceWebSite\\Dto\\UserForCreationByAdmin.cs",
@@ -341,7 +356,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "AuthenticationMangementController.cs",
               "DocumentMoniker": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\Controllers\\AuthenticationMangementController.cs",
               "RelativeDocumentMoniker": "ECommerceWebSite\\Controllers\\AuthenticationMangementController.cs",
@@ -353,7 +368,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\Dto\\LoginDto.cs",
               "RelativeDocumentMoniker": "ECommerceWebSite\\Dto\\LoginDto.cs",

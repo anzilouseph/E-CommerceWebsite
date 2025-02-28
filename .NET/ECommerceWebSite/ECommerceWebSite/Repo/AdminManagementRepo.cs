@@ -259,5 +259,266 @@ namespace ECommerceWebSite.Repo
                 return result;
             }
         }
+
+                                        ////for update the product (THIS CODE WORKS PERFECTLY BUT A SIMPLE IMPROVISATION NEEDED)
+                                        //public async Task<APIResponse<bool>> UpdateProduct(ProductForUpdationDto product, Guid product_id)
+                                        //{
+                                        //    var queryBuilder = new List<string>();
+                                        //    var parameters = new DynamicParameters();
+
+
+                                        //    string filePath = string.Empty;  //this is for image
+                                        //    string newFileName = string.Empty; //this is also for image
+
+
+                                        //    var mapped = new Products
+                                        //    {
+                                        //        ProductName = product.nameOfProduct,
+                                        //        Description = product.descriptionOfProduct,
+                                        //        Price = product.priceOfProduct,
+                                        //        StockQuantity = product.availableQuantity,
+                                        //        CategoryId = product.idOfCategory,
+
+                                        //    };
+
+                                        //    foreach (var prop in typeof(Products).GetProperties())  // from this for each we get all the values excluding the image(that we do seperatly)
+                                        //    {
+                                        //        if (prop.Name != "ProductId" && prop.Name != "ImageUrl")
+                                        //        {
+                                        //            var value = prop.GetValue(mapped);
+                                        //            if (value != null)
+                                        //            {
+                                        //                queryBuilder.Add($"{prop.Name}=@{prop.Name}");
+                                        //                parameters.Add($"{prop.Name}", value);
+                                        //            }
+                                        //        }
+                                        //    }
+
+
+                                        //    //image code starts here
+                                        //    if (product.product_image != null)
+                                        //    {
+                                        //        var folderPath = Path.Combine(_env.WebRootPath, "Media", "ProductImage");
+
+
+                                        //        if (!Directory.Exists(folderPath))
+                                        //        {
+                                        //            Directory.CreateDirectory(folderPath);
+                                        //        }
+
+
+                                        //        var fileExtension = Path.GetExtension(product.product_image.FileName).ToLower();
+
+                                        //        var allowedExtensions = new HashSet<string> { ".jpg", ".jpeg", ".png", ".gif" };
+
+                                        //        if (!allowedExtensions.Contains(fileExtension))
+                                        //        {
+                                        //            return APIResponse<bool>.Error("Invalid file type. Only JPG, JPEG, PNG, and GIF are allowed.");
+                                        //        }
+                                        //        newFileName = $"{product.nameOfProduct}{fileExtension}";
+                                        //        filePath = Path.Combine(folderPath, newFileName);
+                                        //        if (System.IO.File.Exists(filePath))
+                                        //        {
+                                        //            System.IO.File.Delete(filePath);
+                                        //        }
+                                        //        using (var stream = new FileStream(filePath, FileMode.Create))
+                                        //        {
+                                        //            await product.product_image.CopyToAsync(stream);
+
+                                        //        }
+                                        //        Console.WriteLine(product.product_image.FileName);
+                                        //        Console.WriteLine(filePath);
+                                        //        Console.WriteLine(newFileName);
+
+
+                                        //        queryBuilder.Add("ImageUrl=@ImageUrl");  // from these 2 lines  we add the ImageUrl field(this fireld si in the product table),
+                                        //        parameters.Add("ImageUrl", newFileName);  //and we give its value as the newly added immages name with teh file extension.
+                                        //    }
+
+
+                                        //    //image code ends here
+
+                                        //    parameters.Add("id", product_id); // to update the query with this given product_id;
+
+
+                                        //    if (queryBuilder.Count == 0)  //this is to make sure their is atleast one parameter is their to update
+                                        //    {
+                                        //        return APIResponse<bool>.Error("No fields to Update");
+                                        //    }
+
+
+                                        //    var query = $"update Products set {string.Join(",", queryBuilder)} where ProductId=@id";
+
+                                        //    using (var connection = _context.CreateConnection())
+                                        //    {
+                                        //        connection.Open();
+                                        //        var result = await connection.ExecuteAsync(query, parameters);
+                                        //        connection.Close();
+                                        //        if (result == 0)
+                                        //        {
+                                        //            return APIResponse<bool>.Error("Unable to update");
+                                        //        }
+                                        //        return APIResponse<bool>.Success(true, "Success");
+                                        //    }
+
+                                        //}
+
+        //for update the product (THIS CODE WORKS PERFECTLY BUT A SIMPLE IMPROVISATION NEEDED)
+        public async Task<APIResponse<bool>> UpdateProduct(Guid product_id, ProductForUpdationDto product)
+        {
+            var queryBuilder = new List<string>();
+            var parameters = new DynamicParameters();
+            parameters.Add("id", product_id);
+
+            string filePath = string.Empty;  //this is for image
+            string newFileName = string.Empty; //this is also for image
+
+            string realName = string.Empty; // this variable is used when the image is not Updated but the name that we linked with the image for make it unique ,changed. So in that case we need to change the imagename
+ 
+            var query_TogetAlreadyData = "select * from Products where ProductId=@id";
+            using (var connection = _context.CreateConnection())
+            {
+                connection.Open();
+                var existing_Data = await connection.QueryFirstOrDefaultAsync<Products>(query_TogetAlreadyData, parameters);  //here we get that already existing row
+                connection.Close();
+
+                if(existing_Data==null)
+                {
+                    return APIResponse<bool>.Error("invalid Id");
+                }
+
+                var binded = new Products   //here we create a ned original model copy for foreach(same as always)
+                {
+                    ProductName = product.nameOfProduct,
+                    Description = product.descriptionOfProduct,
+                    Price = product.priceOfProduct,
+                    StockQuantity = product.availableQuantity,
+                    CategoryId = product.idOfCategory,
+                };
+
+                foreach(var prop in typeof(Products).GetProperties())  //iterate through each
+                {
+                    if (prop.Name != "ProductId" && prop.Name != "ImageUrl")
+                    {
+                        var value = prop.GetValue(binded);
+
+                        if(value != null)
+                        {
+                            queryBuilder.Add($"{prop.Name}=@{prop.Name}");
+                            parameters.Add($"{prop.Name}",value);
+                        }
+                    }
+                }
+
+                //Image Code Starts Here
+
+                if (product.product_image != null)  // if we gave a new image for updation
+                {
+                    var folderPath = Path.Combine(_env.WebRootPath, "Media", "ProductImage");
+
+
+                    if (!Directory.Exists(folderPath))
+                    {
+                        Directory.CreateDirectory(folderPath);
+                    }
+
+
+                    var fileExtension = Path.GetExtension(product.product_image.FileName).ToLower();
+
+                    var allowedExtensions = new HashSet<string> { ".jpg", ".jpeg", ".png", ".gif" };
+
+                    if (!allowedExtensions.Contains(fileExtension))
+                    {
+                        return APIResponse<bool>.Error("Invalid file type. Only JPG, JPEG, PNG, and GIF are allowed.");
+                    }
+                    if(product.nameOfProduct != null)
+                    {
+                        newFileName = $"{product.nameOfProduct}{fileExtension}";
+                    }
+                    else
+                    {
+                        newFileName = $"{existing_Data.ProductName}{fileExtension}";
+                    }
+                    filePath = Path.Combine(folderPath, newFileName);
+                    if (System.IO.File.Exists(filePath))
+                    {
+                        System.IO.File.Delete(filePath);
+                    }
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await product.product_image.CopyToAsync(stream)
+    ;
+                    }
+                    Console.WriteLine(product.product_image.FileName);
+                    Console.WriteLine(filePath);
+                    Console.WriteLine(newFileName);
+
+                    queryBuilder.Add("ImageUrl=@ImageUrl");
+                    parameters.Add("ImageUrl", newFileName);
+                }
+                else  //if we dont give a new inage to updation, but if we changed the productname(that we set as unique and add .extension and save it in the imageurl eg:stacks.jpg), then the naem of the image that is imageurl also needs to be modified based on the name or any oyther field u use iyt to make that unique
+                {                    
+                    if(product.nameOfProduct!=null)
+                    {
+             //IMP           //to get teh old path name (that is with the old image name)
+                        var oldFilePath = Path.Combine(_env.WebRootPath, "Media", "ProductImage", existing_Data.ImageUrl);
+
+                        //top create the new name for teh ImgaeUrlField
+                        string[] newname = existing_Data.ImageUrl.Split('.');
+                        string firstname = product.nameOfProduct;
+                        string extension = newname[^1];
+                        realName = string.Join(".", firstname,extension);
+
+             //IMP      //this is the new file path name(HERE WE CHANGED THE IMAEG NAME TO NEW ONE)
+                        var newFilePath = Path.Combine(_env.WebRootPath, "Media", "ProductImage", realName);
+
+                        // Check if the existing image file is present
+                        if (System.IO.File.Exists(oldFilePath))
+                        {
+                            // Rename the existing file to match the updated product name
+                            System.IO.File.Move(oldFilePath, newFilePath);
+                        }
+
+
+                        queryBuilder.Add("ImageUrl=@ImageUrl");
+                        parameters.Add("ImageUrl", realName);
+                    }                  
+                }
+
+                //for update image code ENDS here
+
+                //following below code is for the update query and db
+                var query = $"update Products set {string.Join(",", queryBuilder)} where ProductId=@id";
+                connection.Open();
+                var rowAffected = await connection.ExecuteAsync(query, parameters);
+                connection.Close();
+                if (rowAffected==0)
+                {
+                    return APIResponse<bool>.Error("Unable to update");
+                }
+                return APIResponse<bool>.Success(true, "Success");
+            }
+        }
+
+
+
+
+        //to get the total number of Products
+        public async Task<APIResponse<int>> GetProductsCount()
+        {
+            var query = "select count(*) from Products where StockQuantity>0";
+            using (var connection = _context.CreateConnection())
+            {
+                connection.Open();
+                var result = await connection.QueryFirstOrDefaultAsync<int>(query);
+                connection.Close();
+                if(result==0)
+                {
+                    return APIResponse<int>.Error("NO products To show");
+                }
+                return APIResponse<int>.Success(result, "Success");
+            }
+        }
+
     }
 }

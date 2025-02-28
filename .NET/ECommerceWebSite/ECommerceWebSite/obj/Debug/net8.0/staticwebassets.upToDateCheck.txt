@@ -1,3 +1,6 @@
+wwwroot\Media\ProductImage\.jpg
+wwwroot\Media\ProductImage\AC MILAN HOME JERSEY.jpg
+wwwroot\Media\ProductImage\AC MILAN JERSEY.jpg
 wwwroot\Media\ProductImage\AC Milan Men's Home Jersey.jpg
 wwwroot\Media\ProductImage\gfsdg.jpg
 wwwroot\Media\ProductImage\gfsdg546546564.jpg
@@ -14,3 +17,6 @@ wwwroot\Media\ProductImage\Nivia Wisdom - 2018 Plastic Shin Guard.jpg
 wwwroot\Media\ProductImage\Puma ULTRA PLAY .jpg
 wwwroot\Media\ProductImage\Puma_ULTRA_PLAY_Pink_Football_Shoes.jpg
 wwwroot\Media\ProductImage\RAISCO Football Goal Net.jpg
+wwwroot\Media\ProductImage\SOC.jpg
+wwwroot\Media\ProductImage\SOCKS.jpg
+wwwroot\Media\ProductImage\socksPractice.jpg
