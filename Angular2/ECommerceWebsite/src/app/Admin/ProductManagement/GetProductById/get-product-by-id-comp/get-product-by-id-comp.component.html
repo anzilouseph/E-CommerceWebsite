@@ -15,7 +15,7 @@
                     <p class="text-muted mb-3"><strong>Available:</strong> {{ productModel.availableQuantity }}</p>
                     <div class="row">
                         <div class="col-6"><button class="btn btn-outline-primary w-100 edit-btn" (click)="onEdit()">EDIT</button></div>
-                        <div class="col-6"><button class="btn btn-outline-secondary w-100 edit-btn">GO BACK</button></div>
+                        <div class="col-6"><button class="btn btn-outline-secondary w-100 edit-btn" [routerLink]="['/admin/getAllProduct']">GO BACK</button></div>
                     </div>
                     
                 </div>

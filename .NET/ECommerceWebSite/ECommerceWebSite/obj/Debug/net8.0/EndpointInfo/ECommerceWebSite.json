@@ -451,6 +451,18 @@
           }
         }
       }
+    },
+    "/api/GetCategories": {
+      "get": {
+        "tags": [
+          "UserManagement"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {

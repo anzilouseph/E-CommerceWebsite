@@ -13,6 +13,9 @@ import { GetAllProductsCompComponent } from './Admin/ProductManagement/GetAllPro
 import { SearchProductCompComponent } from './Admin/ProductManagement/SearchProduct/search-product-comp/search-product-comp.component';
 import { SearchCategoryCompComponent } from './Admin/ProductManagement/SearchCategory/search-category-comp/search-category-comp.component';
 import { GetProductByIdCompComponent } from './Admin/ProductManagement/GetProductById/get-product-by-id-comp/get-product-by-id-comp.component';
+import { UserDashboardCompComponent } from './User/UserDashboard/user-dashboard-comp/user-dashboard-comp.component';
+import { UserLayoutCompComponent } from './User/UserLayout/user-layout-comp/user-layout-comp.component';
+import { GetProductByIdUserComponent } from './User/GetProductById/get-product-by-id-user/get-product-by-id-user.component';
 
 
 
@@ -44,6 +47,15 @@ const routes: Routes = [
                                                             {path:"searchcategory",component:SearchCategoryCompComponent}, //for search a category
                                                             {path:"getProductById/:id",component:GetProductByIdCompComponent} , //for get the product by its id
                                                           ]
+  },
+
+  //for User things
+  {path:"UserLayout",component:UserLayoutCompComponent,children:[
+                                                                  {path:"",redirectTo:"UserDashBoard",pathMatch:'full'},
+                                                                  {path:"UserDashBoard",component:UserDashboardCompComponent},  //here is where we retrive the GET ALL PRODUCTS
+                                                                  {path:"getProductByIdUser/:id",component:GetProductByIdUserComponent} , //here we get the GetAllProducts functionality
+                                                                  
+                                                                ]
   }
 ];
 

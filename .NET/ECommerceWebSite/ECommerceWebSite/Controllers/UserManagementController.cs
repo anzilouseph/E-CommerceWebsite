@@ -1,5 +1,6 @@
 ﻿using System.IdentityModel.Tokens.Jwt;
 using ECommerceWebSite.Dto;
+using ECommerceWebSite.IRepo;
 using ECommerceWebSite.IService;
 using ECommerceWebSite.Utilitys;
 using Microsoft.AspNetCore.Authorization;
@@ -13,9 +14,12 @@ namespace ECommerceWebSite.Controllers
     public class UserManagementController : ControllerBase
     {
         private readonly IUserManagementService _service;
-        public UserManagementController(IUserManagementService service)
+        private readonly IUserManagementRepo _repo;
+
+        public UserManagementController(IUserManagementService service,IUserManagementRepo repo)
         {
             _service = service;
+            _repo = repo;
         }
 
 
@@ -58,6 +62,24 @@ namespace ECommerceWebSite.Controllers
             {
                 return StatusCode(500, new { message = ex.Message });
             }
+        }
+
+
+
+        //for get teh name of all categories
+        [HttpGet("GetCategories")]
+        public async Task<IActionResult> GetCategories()
+        {
+            try
+            {
+                var apiResponse = await _repo.GetCategories();
+                return Ok(apiResponse);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = ex.Message });
+            }
+            
         }
 
     }

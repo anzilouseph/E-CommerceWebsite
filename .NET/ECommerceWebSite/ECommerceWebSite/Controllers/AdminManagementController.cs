@@ -289,22 +289,21 @@ namespace ECommerceWebSite.Controllers
 
 
         //for get all products
-        [Authorize]
         [HttpGet("GetAllProducts")]
         public async Task<IActionResult> GetAllProducts()
         {
             try
             {
-                var userIdClaim = HttpContext.User.FindFirst(JwtRegisteredClaimNames.Sid);
-                if (userIdClaim == null || !Guid.TryParse(userIdClaim.Value, out Guid userIdCheck))
-                {
-                    return BadRequest(APIResponse<string>.Error("Unable to generate JWT"));
-                }
-                var adminCheck = await _service.GetUserById(userIdCheck);
-                if (adminCheck.data.roleOfUser != "Admin")
-                {
-                    return Unauthorized(APIResponse<ProductToListDto>.Error("U are Not an Admin"));
-                }
+                //var userIdClaim = HttpContext.User.FindFirst(JwtRegisteredClaimNames.Sid);
+                //if (userIdClaim == null || !Guid.TryParse(userIdClaim.Value, out Guid userIdCheck))
+                //{
+                //    return BadRequest(APIResponse<string>.Error("Unable to generate JWT"));
+                //}
+                //var adminCheck = await _service.GetUserById(userIdCheck);
+                //if (adminCheck.data.roleOfUser != "Admin")
+                //{
+                //    return Unauthorized(APIResponse<ProductToListDto>.Error("U are Not an Admin"));
+                //}
                 var apiResponse = await _service.GetAllProducts();
                 return Ok(apiResponse);
             }
@@ -332,22 +331,12 @@ namespace ECommerceWebSite.Controllers
 
 
         //for get the product by the id
-        [Authorize]
+        
         [HttpGet("GetProductById")]
         public async Task<IActionResult> GetProductById(Guid id)
         {
             try
             {
-                var userIdClaim = HttpContext.User.FindFirst(JwtRegisteredClaimNames.Sid);
-                if (userIdClaim == null || !Guid.TryParse(userIdClaim.Value, out Guid userCheckingId))
-                {
-                    return Unauthorized(APIResponse<IEnumerable<UserToListDto>>.Error("Unable to generate JWT"));
-                }
-                var adminOrNot = await _service.GetUserById(userCheckingId);
-                if (adminOrNot.data.roleOfUser != "Admin")
-                {
-                    return Unauthorized(APIResponse<IEnumerable<UserToListDto>>.Error("Only Admin can Access this"));
-                }
                 var apiResponse = await _service.GetProductById(id);
                 return Ok(apiResponse);
             }

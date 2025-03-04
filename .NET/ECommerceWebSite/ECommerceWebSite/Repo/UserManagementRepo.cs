@@ -3,6 +3,7 @@ using ECommerceWebSite.Context;
 using ECommerceWebSite.Dto;
 using ECommerceWebSite.IRepo;
 using ECommerceWebSite.Models;
+using ECommerceWebSite.Utilitys;
 
 namespace ECommerceWebSite.Repo
 {
@@ -49,6 +50,28 @@ namespace ECommerceWebSite.Repo
                 return result;
             }
         }
+
+
+
+        //to get the all categories names
+        public async Task<APIResponse<IEnumerable<CategoryNamesDto>>> GetCategories()
+        {
+            var query = "select CategoryName from Category order by CategoryName asc";
+
+            using(var connection = _dapperContext.CreateConnection())
+            {
+                connection.Open();
+                var result = await connection.QueryAsync<CategoryNamesDto>(query);
+                connection.Close();
+                
+                if(result == null)
+                {
+                    return APIResponse<IEnumerable<CategoryNamesDto>>.Error("No Categories are their");
+                }
+                return APIResponse<IEnumerable<CategoryNamesDto>>.Success(result, "Success");
+            }
+        }
+
 
 
     }

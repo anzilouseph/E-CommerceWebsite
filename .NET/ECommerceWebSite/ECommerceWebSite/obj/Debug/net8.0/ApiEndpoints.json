@@ -288,6 +288,16 @@
   },
   {
     "ContainingType": "ECommerceWebSite.Controllers.UserManagementController",
+    "Method": "GetCategories",
+    "RelativePath": "api/GetCategories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ECommerceWebSite.Controllers.UserManagementController",
     "Method": "GetUserById",
     "RelativePath": "api/GetUserOwnProfile",
     "HttpMethod": "GET",

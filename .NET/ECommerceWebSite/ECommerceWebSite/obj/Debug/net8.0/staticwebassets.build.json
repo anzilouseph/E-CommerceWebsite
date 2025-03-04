@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ygRe6G0987jWqXn/pFuPMvTzFkZIjUyTQbEdMJvtNCM=",
+  "Hash": "naNbgpJSXgDDItpUyi739ioMfR+9mdyfqYB49nDPce0=",
   "Source": "ECommerceWebSite",
   "BasePath": "_content/ECommerceWebSite",
   "Mode": "Default",
@@ -430,8 +430,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "331j46yl35",
-      "Integrity": "P0gWlA7ttbh4KztMS6WOlHuw2d/pUuG978+rIJohR0Y=",
+      "Fingerprint": "2ttpygz7e1",
+      "Integrity": "2grHrJ3UWTSfDE41/pRp9caRgdBA+NzIQLQ8wjjJLsY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Media\\ProductImage\\SOC.jpg"
@@ -2039,7 +2039,7 @@
       ]
     },
     {
-      "Route": "Media/ProductImage/SOC.331j46yl35.jpg",
+      "Route": "Media/ProductImage/SOC.2ttpygz7e1.jpg",
       "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\SOC.jpg",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2049,7 +2049,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "47713"
+          "Value": "7882"
         },
         {
           "Name": "Content-Type",
@@ -2057,11 +2057,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"P0gWlA7ttbh4KztMS6WOlHuw2d/pUuG978+rIJohR0Y=\""
+          "Value": "\"2grHrJ3UWTSfDE41/pRp9caRgdBA+NzIQLQ8wjjJLsY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 28 Feb 2025 07:20:48 GMT"
+          "Value": "Mon, 03 Mar 2025 10:11:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2071,7 +2071,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "331j46yl35"
+          "Value": "2ttpygz7e1"
         },
         {
           "Name": "label",
@@ -2079,7 +2079,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-P0gWlA7ttbh4KztMS6WOlHuw2d/pUuG978+rIJohR0Y="
+          "Value": "sha256-2grHrJ3UWTSfDE41/pRp9caRgdBA+NzIQLQ8wjjJLsY="
         }
       ]
     },
@@ -2094,7 +2094,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "47713"
+          "Value": "7882"
         },
         {
           "Name": "Content-Type",
@@ -2102,11 +2102,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"P0gWlA7ttbh4KztMS6WOlHuw2d/pUuG978+rIJohR0Y=\""
+          "Value": "\"2grHrJ3UWTSfDE41/pRp9caRgdBA+NzIQLQ8wjjJLsY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 28 Feb 2025 07:20:48 GMT"
+          "Value": "Mon, 03 Mar 2025 10:11:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2116,7 +2116,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-P0gWlA7ttbh4KztMS6WOlHuw2d/pUuG978+rIJohR0Y="
+          "Value": "sha256-2grHrJ3UWTSfDE41/pRp9caRgdBA+NzIQLQ8wjjJLsY="
         }
       ]
     },

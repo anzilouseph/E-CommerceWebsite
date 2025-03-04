@@ -18,6 +18,9 @@ import { SearchProductCompComponent } from './Admin/ProductManagement/SearchProd
 import { SearchCategoryCompComponent } from './Admin/ProductManagement/SearchCategory/search-category-comp/search-category-comp.component';
 import { GetProductByIdCompComponent } from './Admin/ProductManagement/GetProductById/get-product-by-id-comp/get-product-by-id-comp.component';
 import { FormsModule } from '@angular/forms';
+import { UserDashboardCompComponent } from './User/UserDashboard/user-dashboard-comp/user-dashboard-comp.component';
+import { UserLayoutCompComponent } from './User/UserLayout/user-layout-comp/user-layout-comp.component';
+import { GetProductByIdUserComponent } from './User/GetProductById/get-product-by-id-user/get-product-by-id-user.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,6 +38,9 @@ import { FormsModule } from '@angular/forms';
     SearchCategoryCompComponent,
     
     GetProductByIdCompComponent,
+         UserDashboardCompComponent,
+         UserLayoutCompComponent,
+         GetProductByIdUserComponent,
       ],
   imports: [
     BrowserModule,
