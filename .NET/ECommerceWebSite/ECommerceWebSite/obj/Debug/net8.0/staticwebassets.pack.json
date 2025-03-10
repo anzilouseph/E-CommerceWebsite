@@ -29,24 +29,24 @@
       "PackagePath": "staticwebassets\\Media\\ProductImage"
     },
     {
-      "Id": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Layan Sports Soccer Mini Disc Cones  Mini Durable disc Cones..jpg",
-      "PackagePath": "staticwebassets\\Media\\ProductImage\\Layan Sports Soccer Mini Disc Cones  Mini Durable disc Cones..jpg"
+      "Id": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Layan Disc Cones  Mini.jpg",
+      "PackagePath": "staticwebassets\\Media\\ProductImage\\Layan Disc Cones  Mini.jpg"
     },
     {
-      "Id": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Nivia Raptor Torrido Goal Keeper Gloves.jpg",
-      "PackagePath": "staticwebassets\\Media\\ProductImage\\Nivia Raptor Torrido Goal Keeper Gloves.jpg"
+      "Id": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Nivia Goal Keeper Gloves.jpg",
+      "PackagePath": "staticwebassets\\Media\\ProductImage\\Nivia Goal Keeper Gloves.jpg"
     },
     {
-      "Id": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Nivia Wisdom - 2018 Plastic Shin Guard.jpg",
-      "PackagePath": "staticwebassets\\Media\\ProductImage\\Nivia Wisdom - 2018 Plastic Shin Guard.jpg"
+      "Id": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Nivia Plastic Shin Guard.jpg",
+      "PackagePath": "staticwebassets\\Media\\ProductImage\\Nivia Plastic Shin Guard.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Pink Puma Boots.jpg",
+      "PackagePath": "staticwebassets\\Media\\ProductImage\\Pink Puma Boots.jpg"
     },
     {
       "Id": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Puma ULTRA PLAY .jpg",
       "PackagePath": "staticwebassets\\Media\\ProductImage\\Puma ULTRA PLAY .jpg"
-    },
-    {
-      "Id": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Puma_ULTRA_PLAY_Pink_Football_Shoes.jpg",
-      "PackagePath": "staticwebassets\\Media\\ProductImage\\Puma_ULTRA_PLAY_Pink_Football_Shoes.jpg"
     },
     {
       "Id": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\RAISCO Football Goal Net.jpg",
@@ -87,6 +87,10 @@
     {
       "Id": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\socksPractice.jpg",
       "PackagePath": "staticwebassets\\Media\\ProductImage\\socksPractice.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\UserImages\\jithu@gmail.com.jpg",
+      "PackagePath": "staticwebassets\\Media\\UserImages\\jithu@gmail.com.jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ECommerceWebSite.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

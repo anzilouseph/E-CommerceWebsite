@@ -1,0 +1,17 @@
+/* Custom CSS for Registration Form */
+.form-group {
+    margin-bottom: 2rem;
+  }
+  
+  .text-warning {
+    color: #ffc107; /* Bootstrap warning color */
+  }
+  
+  .text-danger {
+    color: #dc3545; /* Bootstrap danger color */
+  }
+  
+  .btn-lg {
+    padding: 0.5rem 2rem;
+    font-size: 1.25rem;
+  }

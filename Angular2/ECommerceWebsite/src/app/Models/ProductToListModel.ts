@@ -6,5 +6,6 @@
     priceOfProduct : number,
     availableQuantity : number,
     urlOfImage : string,
+    idOfCategory : string
     Original_Image?: File | Blob | string;  //   '?' means it  may or maynot be present
  }

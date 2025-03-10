@@ -9,5 +9,6 @@ namespace ECommerceWebSite.IService
         public Task<APIResponse<UserToListDto>> GetOwnProfile(Guid id); //user can get his own profile
 
 
+
     }
 }

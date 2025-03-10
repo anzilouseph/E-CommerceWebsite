@@ -1,7 +1,20 @@
-<div class="product-container">
+ <!-- Category Navbar -->
+ <div class="container-fluid  bg-warning text-dark py-3 mt-5">
+    <div class="row justify-content-center">
+        <ng-container *ngFor="let i of CateorgyNames">
+            <div class="col-auto">
+                <button type="button" class="btn btn-dark mt-3" (click)="GetProductsByCategory(i.categoryId)">{{ i.categoryName }}</button>
+            </div>
+        </ng-container>
+    </div>
+</div>
+<!-- Category Navbar ends here-->
+
+<!-- for get all the products> -->
+<div class="product-container" *ngIf="!filtered && !search">
     <div class="product-list row flex-grow-1 overflow-auto">
         <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4" *ngFor="let i of productList">
-            <div class="card product-card shadow-lg border-0">
+            <div class="card product-card shadow-lg border-0" (click)="navigateToProduct(i.idOfProduct)"> 
                 <div class="product-image-container">
                     <img 
                         [src]="i.Original_Image ? i.Original_Image : 'assets/default-product.png'" 
@@ -14,8 +27,8 @@
                     <p class="text-muted mb-3"><strong>Only Left:</strong> {{ i.availableQuantity }}</p>
 
                     <div class="row">
-                        <div class="col-6"><button class="btn btn-outline-success w-100 edit-btn" [routerLink]="['/UserLayout/getProductByIdUser',i.idOfProduct]"><i class="fas fa-shopping-cart"></i> CART</button></div>
-                        <div class="col-6"><button class="btn btn-outline-danger w-100 edit-btn"><i class="fas fa-heart"></i> WISHLIST</button></div>
+                        <div class="col-6"><button class="btn btn-outline-success w-100 edit-btn" (click)="AddProductToCart(i.idOfProduct); $event.stopPropagation()"><i class="fas fa-shopping-cart"></i> CART</button></div>
+                        <div class="col-6"><button class="btn btn-outline-danger w-100 edit-btn" (click)="AddWishList(i.idOfProduct); $event.stopPropagation()"><i class="fas fa-heart"></i> WISHLIST</button></div>
                             
                     </div> 
                </div>
@@ -23,3 +36,83 @@
         </div>
     </div>
 </div>
+<!-- get all products ENDS -->
+
+
+<!-- FOR FILTERING PRODUCTS BY CATEGORY -->
+<div class="product-container d-flex justify-content-center pt-5 pb-0" *ngIf="filtered && !search"> 
+    <div class="product-list row justify-content-center flex-grow-1 overflow-auto">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 d-flex justify-content-center" *ngFor="let i of filteredProductList">
+            <div class="card product-card shadow-lg border-0" (click)="navigateToProduct(i.idOfProduct)">
+                <div class="product-image-container">
+                    <img 
+                        [src]="i.Original_Image ? i.Original_Image : 'assets/default-product.png'" 
+                        class="card-img-top product-img"
+                        alt="Product Image">
+                </div>
+                <div class="card-body text-center">
+                    <h5 class="card-title text-truncate">{{ i.nameOfProduct }}</h5>
+                    <p class="price-tag"><strong>MRP:</strong> <b>₹{{ i.priceOfProduct }}</b></p>
+                    <p class="text-muted mb-3"><strong>Only Left:</strong> {{ i.availableQuantity }}</p>
+
+                    <div class="row">
+                        <div class="col-6">
+                            <button class="btn btn-outline-success w-100 edit-btn" 
+                                    [routerLink]="['/UserLayout/getProductByIdUser', i.idOfProduct]">
+                                <i class="fas fa-shopping-cart"></i> CART
+                            </button>
+                        </div>
+                        <div class="col-6">
+                            <button class="btn btn-outline-danger btn-sm w-100 edit-btn" 
+                            (click)="AddWishList(i.idOfProduct); $event.stopPropagation()">
+                                <i class="fas fa-heart"></i> WISHLIST
+                            </button>
+                        </div>
+                    </div> 
+               </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--FOR FILTERING PRODUCTS BY THE CATEGORY ENDS-->
+
+
+
+
+
+<!--for search a product by te product name STARTS HERE-->
+<div class="product-container d-flex justify-content-center pt-5 pb-0" *ngIf="search"> 
+    <div class="product-list row justify-content-center flex-grow-1 overflow-auto">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 d-flex justify-content-center" *ngFor="let i of searchedList">
+            <div class="card product-card shadow-lg border-0" (click)="navigateToProduct(i.idOfProduct)">
+                <div class="product-image-container">
+                    <img 
+                        [src]="i.Original_Image ? i.Original_Image : 'assets/default-product.png'" 
+                        class="card-img-top product-img"
+                        alt="Product Image">
+                </div>
+                <div class="card-body text-center">
+                    <h5 class="card-title text-truncate">{{ i.nameOfProduct }}</h5>
+                    <p class="price-tag"><strong>MRP:</strong> <b>₹{{ i.priceOfProduct }}</b></p>
+                    <p class="text-muted mb-3"><strong>Only Left:</strong> {{ i.availableQuantity }}</p>
+
+                    <div class="row">
+                        <div class="col-6">
+                            <button class="btn btn-outline-success w-100 edit-btn" 
+                                    [routerLink]="['/UserLayout/getProductByIdUser', i.idOfProduct]">
+                                <i class="fas fa-shopping-cart"></i> CART
+                            </button>
+                        </div>
+                        <div class="col-6">
+                            <button class="btn btn-outline-danger btn-sm w-100 edit-btn" 
+                            (click)="AddWishList(i.idOfProduct); $event.stopPropagation()">
+                                <i class="fas fa-heart"></i> WISHLIST
+                            </button>
+                        </div>
+                    </div> 
+               </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--for search a product by te product name ENDS HERE-->

@@ -73,12 +73,7 @@ export class AdminServiceService {
        return this.Http.post(`${this.baseUrl}AdminManagement/AddProduct`,data,this.getHeaders());
      }
 
-    //  //for get the Image
-    //  GetImageService(img:any)
-    //  {
-    //   return this.Http.get(`${this.baseUrl}AdminManagement/Product_image?fileName=${img}`,this.getHeaders());
-    //  }
-
+   
      //for get the category Id by the Category name
      GetCategoryId(categoryName:any)
      {
@@ -126,6 +121,12 @@ export class AdminServiceService {
       GetProductCountFn()
       {
         return this.Http.get(`${this.baseUrl}AdminManagement/GetProductCount`,this.getHeaders());
+      }
+
+      //for search product
+      SearchProduct(pname:string) :Observable<ProductListingMOdel[]>
+      {
+        return this.Http.get<ProductListingMOdel[]>(`${this.baseUrl}AdminManagement/SearchProduct?pname=${pname}`)
       }
 
     }

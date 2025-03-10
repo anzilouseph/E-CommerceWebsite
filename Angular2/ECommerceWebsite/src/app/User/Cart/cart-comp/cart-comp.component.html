@@ -1,0 +1,109 @@
+<div class="container-fluid pt-5" *ngIf="cartProducts && !singleProduct">
+    <table class="table table-responsive text-center  custom-table align-middle">
+        <thead class="table-dark">
+            <tr>
+                <th>Image</th>
+                <th>Category</th>
+                <th>Product Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Total</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let i of cartProducts" (click)=" singleView(i.idOfProduct)">
+                <!-- Product Image -->
+                <td >
+                    <img [src]="i.Original_Image ? i.Original_Image : 'assets/default-product.png'" alt="Product Image" width="80">
+                </td>
+
+                <!-- Category -->
+                <td><strong>{{ i.nameOfCategory }}</strong></td>
+
+                <!-- Product Name -->
+                <td><strong>{{ i.nameOfProduct }}</strong></td>
+
+                <!-- Price -->
+                <td><strong>₹{{ i.priceOfProduct }}</strong></td>
+
+                <!--Qunatity-->
+                <td>
+                    <div class="d-flex align-items-center justify-content-center">
+
+                        
+                        <select class="form-select text-center" [(ngModel)]="i.QuantityToBuy"  (change)="updateTotalPrice(i)"   style="width: 60px;" (click)="$event.stopPropagation()">
+                            <option *ngFor="let q of [1,2,3,4,5,6,7,8,9,10]" [value]="q" (click)="$event.stopPropagation()">{{ q }}</option>
+                        </select>
+
+                        
+                    </div>           
+                </td>
+                <td>
+                    <strong>₹{{ i.TotalPrice }}</strong>
+                </td>
+                <!-- Actions (Buy Now & Remove Buttons) -->
+                <td>
+                    <button type="button" class="btn btn-outline-success me-2">
+                        <i class="fas fa-credit-card"></i> Buy Now
+                    </button>
+                    <button type="button" class="btn btn-outline-danger" (click)="DeleteProductFromCart(i.idOfProduct);$event.stopPropagation()">
+                        <i class="fas fa-times-circle"></i> Remove
+                    </button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<!-- Cart Total Price -->
+<div class="container-fluid text-end mt-4" *ngIf="!singleProduct">
+    <div class="d-inline-block p-3 rounded shadow-lg bg-dark text-white">
+        <h4 class="mb-2">
+            Pay Amount: <strong class="text-warning display-6">₹{{ cartTotal }}</strong>
+        </h4>
+        <button class="btn btn-lg btn-warning fw-bold text-dark px-4 pay">
+            <i class="fas fa-credit-card"></i> Pay Now
+        </button>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<!--for get teh product by the id-->
+<div class="container d-flex justify-content-center align-items-center min-vh-100 pt-5" *ngIf="singleProduct">
+    <div class="row w-100">
+        <div class="col-12 col-sm-8 col-md-6 col-lg-4 mx-auto"> 
+            <div class="card product-card shadow-lg border-0 text-center">
+                <div class="product-image-container">
+                    <img 
+                        [src]="singleProduct.Original_Image ? singleProduct.Original_Image : 'assets/default-product.png'" 
+                        class="card-img-top product-img"
+                        alt="Product Image">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title text-truncate">{{ singleProduct.nameOfProduct }}</h5>
+                    <p>{{ singleProduct.descriptionOfProduct }}</p>
+                    <p class="price-tag"><strong>MRP:</strong> <b>₹{{ singleProduct.priceOfProduct }}</b></p>
+                    <p class="text-muted mb-3"><strong>Only Left:</strong> {{ singleProduct.availableQuantity }}</p>
+
+                    
+                    <div class="row">
+                        <div class="col-6"><button class="btn btn-outline-success w-100 edit-btn quant"><i class="fas fa-credit-card"></i> Buy Now</button></div>
+                        <div class="col-6"><button class="btn btn-outline-secondary w-100 edit-btn quant" (click)="cart()"><i class="fas fa-shopping-cart"></i> Go To Cart</button></div>
+                            
+                    </div> 
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--for get teh product by the id Ends-->

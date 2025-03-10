@@ -156,41 +156,53 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wr1bb8etgg"},{"Name":"integrity","Value":"sha256-RPdYuUd2W6jTPFaqbFlNeKf67x5CZE6vBHgJ\u002B8VhvYo="},{"Name":"label","Value":"_content/ECommerceWebSite/Media/ProductImage/Laptop Dell"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"49192"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022RPdYuUd2W6jTPFaqbFlNeKf67x5CZE6vBHgJ\u002B8VhvYo=\u0022"},{"Name":"Last-Modified","Value":"Fri, 21 Feb 2025 13:13:16 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ECommerceWebSite/Media/ProductImage/Layan Sports Soccer Mini Disc Cones  Mini Durable disc Cones..jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Media\ProductImage\Layan Sports Soccer Mini Disc Cones  Mini Durable disc Cones..jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/ECommerceWebSite/Media/ProductImage/Layan Disc Cones  Mini.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Media\ProductImage\Layan Disc Cones  Mini.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-FNKjmVFURO\u002B/I/LMe/8J5en6fi4FR0Sth21IAOBQ2cM="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"17855"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022FNKjmVFURO\u002B/I/LMe/8J5en6fi4FR0Sth21IAOBQ2cM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Feb 2025 07:09:10 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ECommerceWebSite/Media/ProductImage/Layan Sports Soccer Mini Disc Cones  Mini Durable disc Cones..sgxiw5a73q.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Media\ProductImage\Layan Sports Soccer Mini Disc Cones  Mini Durable disc Cones..jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/ECommerceWebSite/Media/ProductImage/Layan Disc Cones  Mini.sgxiw5a73q.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Media\ProductImage\Layan Disc Cones  Mini.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"sgxiw5a73q"},{"Name":"integrity","Value":"sha256-FNKjmVFURO\u002B/I/LMe/8J5en6fi4FR0Sth21IAOBQ2cM="},{"Name":"label","Value":"_content/ECommerceWebSite/Media/ProductImage/Layan Sports Soccer Mini Disc Cones  Mini Durable disc Cones..jpg"}]]]></EndpointProperties>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"sgxiw5a73q"},{"Name":"integrity","Value":"sha256-FNKjmVFURO\u002B/I/LMe/8J5en6fi4FR0Sth21IAOBQ2cM="},{"Name":"label","Value":"_content/ECommerceWebSite/Media/ProductImage/Layan Disc Cones  Mini.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"17855"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022FNKjmVFURO\u002B/I/LMe/8J5en6fi4FR0Sth21IAOBQ2cM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Feb 2025 07:09:10 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ECommerceWebSite/Media/ProductImage/Nivia Raptor Torrido Goal Keeper Gloves.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Media\ProductImage\Nivia Raptor Torrido Goal Keeper Gloves.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/ECommerceWebSite/Media/ProductImage/Nivia Goal Keeper Gloves.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Media\ProductImage\Nivia Goal Keeper Gloves.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-l7zUDor5Bce2C/vuR/jy3AGJBkI3KdoSYfqZ\u002BcuTh18="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"9927"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022l7zUDor5Bce2C/vuR/jy3AGJBkI3KdoSYfqZ\u002BcuTh18=\u0022"},{"Name":"Last-Modified","Value":"Tue, 25 Feb 2025 08:51:18 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ECommerceWebSite/Media/ProductImage/Nivia Raptor Torrido Goal Keeper Gloves.psafzf4ahd.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Media\ProductImage\Nivia Raptor Torrido Goal Keeper Gloves.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/ECommerceWebSite/Media/ProductImage/Nivia Goal Keeper Gloves.psafzf4ahd.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Media\ProductImage\Nivia Goal Keeper Gloves.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"psafzf4ahd"},{"Name":"integrity","Value":"sha256-l7zUDor5Bce2C/vuR/jy3AGJBkI3KdoSYfqZ\u002BcuTh18="},{"Name":"label","Value":"_content/ECommerceWebSite/Media/ProductImage/Nivia Raptor Torrido Goal Keeper Gloves.jpg"}]]]></EndpointProperties>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"psafzf4ahd"},{"Name":"integrity","Value":"sha256-l7zUDor5Bce2C/vuR/jy3AGJBkI3KdoSYfqZ\u002BcuTh18="},{"Name":"label","Value":"_content/ECommerceWebSite/Media/ProductImage/Nivia Goal Keeper Gloves.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9927"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022l7zUDor5Bce2C/vuR/jy3AGJBkI3KdoSYfqZ\u002BcuTh18=\u0022"},{"Name":"Last-Modified","Value":"Tue, 25 Feb 2025 08:51:18 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ECommerceWebSite/Media/ProductImage/Nivia Wisdom - 2018 Plastic Shin Guard.fao0r2n1j4.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Media\ProductImage\Nivia Wisdom - 2018 Plastic Shin Guard.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/ECommerceWebSite/Media/ProductImage/Nivia Plastic Shin Guard.fao0r2n1j4.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Media\ProductImage\Nivia Plastic Shin Guard.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"fao0r2n1j4"},{"Name":"integrity","Value":"sha256-CZJaGs/mz4mMdvhfOrbq1/7u2clbhfZAF3fVcogZfW0="},{"Name":"label","Value":"_content/ECommerceWebSite/Media/ProductImage/Nivia Wisdom - 2018 Plastic Shin Guard.jpg"}]]]></EndpointProperties>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"fao0r2n1j4"},{"Name":"integrity","Value":"sha256-CZJaGs/mz4mMdvhfOrbq1/7u2clbhfZAF3fVcogZfW0="},{"Name":"label","Value":"_content/ECommerceWebSite/Media/ProductImage/Nivia Plastic Shin Guard.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5321"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022CZJaGs/mz4mMdvhfOrbq1/7u2clbhfZAF3fVcogZfW0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 25 Feb 2025 08:49:34 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ECommerceWebSite/Media/ProductImage/Nivia Wisdom - 2018 Plastic Shin Guard.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Media\ProductImage\Nivia Wisdom - 2018 Plastic Shin Guard.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/ECommerceWebSite/Media/ProductImage/Nivia Plastic Shin Guard.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Media\ProductImage\Nivia Plastic Shin Guard.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-CZJaGs/mz4mMdvhfOrbq1/7u2clbhfZAF3fVcogZfW0="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5321"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022CZJaGs/mz4mMdvhfOrbq1/7u2clbhfZAF3fVcogZfW0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 25 Feb 2025 08:49:34 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ECommerceWebSite/Media/ProductImage/Pink Puma Boots.e6cunikdpy.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Media\ProductImage\Pink Puma Boots.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"e6cunikdpy"},{"Name":"integrity","Value":"sha256-Jhjqzi6AHS0mN5vRgk\u002BdsWMP\u002BycJc3AsnRRNyTuofmA="},{"Name":"label","Value":"_content/ECommerceWebSite/Media/ProductImage/Pink Puma Boots.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5775"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Jhjqzi6AHS0mN5vRgk\u002BdsWMP\u002BycJc3AsnRRNyTuofmA=\u0022"},{"Name":"Last-Modified","Value":"Tue, 25 Feb 2025 07:28:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ECommerceWebSite/Media/ProductImage/Pink Puma Boots.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Media\ProductImage\Pink Puma Boots.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Jhjqzi6AHS0mN5vRgk\u002BdsWMP\u002BycJc3AsnRRNyTuofmA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5775"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Jhjqzi6AHS0mN5vRgk\u002BdsWMP\u002BycJc3AsnRRNyTuofmA=\u0022"},{"Name":"Last-Modified","Value":"Tue, 25 Feb 2025 07:28:17 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ECommerceWebSite/Media/ProductImage/Puma ULTRA PLAY .e6cunikdpy.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Media\ProductImage\Puma ULTRA PLAY .jpg'))</AssetFile>
@@ -203,18 +215,6 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Jhjqzi6AHS0mN5vRgk\u002BdsWMP\u002BycJc3AsnRRNyTuofmA="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5775"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Jhjqzi6AHS0mN5vRgk\u002BdsWMP\u002BycJc3AsnRRNyTuofmA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 24 Feb 2025 14:02:43 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ECommerceWebSite/Media/ProductImage/Puma_ULTRA_PLAY_Pink_Football_Shoes.e6cunikdpy.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Media\ProductImage\Puma_ULTRA_PLAY_Pink_Football_Shoes.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"e6cunikdpy"},{"Name":"integrity","Value":"sha256-Jhjqzi6AHS0mN5vRgk\u002BdsWMP\u002BycJc3AsnRRNyTuofmA="},{"Name":"label","Value":"_content/ECommerceWebSite/Media/ProductImage/Puma_ULTRA_PLAY_Pink_Football_Shoes.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5775"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Jhjqzi6AHS0mN5vRgk\u002BdsWMP\u002BycJc3AsnRRNyTuofmA=\u0022"},{"Name":"Last-Modified","Value":"Tue, 25 Feb 2025 07:28:17 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/ECommerceWebSite/Media/ProductImage/Puma_ULTRA_PLAY_Pink_Football_Shoes.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Media\ProductImage\Puma_ULTRA_PLAY_Pink_Football_Shoes.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Jhjqzi6AHS0mN5vRgk\u002BdsWMP\u002BycJc3AsnRRNyTuofmA="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5775"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Jhjqzi6AHS0mN5vRgk\u002BdsWMP\u002BycJc3AsnRRNyTuofmA=\u0022"},{"Name":"Last-Modified","Value":"Tue, 25 Feb 2025 07:28:17 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/ECommerceWebSite/Media/ProductImage/RAISCO Football Goal Net.4mchd87849.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Media\ProductImage\RAISCO Football Goal Net.jpg'))</AssetFile>
@@ -263,6 +263,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-2grHrJ3UWTSfDE41/pRp9caRgdBA\u002BNzIQLQ8wjjJLsY="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"7882"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00222grHrJ3UWTSfDE41/pRp9caRgdBA\u002BNzIQLQ8wjjJLsY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 27 Feb 2025 11:07:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ECommerceWebSite/Media/UserImages/jithu@gmail.com.5t8ri55712.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Media\UserImages\jithu@gmail.com.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5t8ri55712"},{"Name":"integrity","Value":"sha256-WfstJtr65vFWF\u002ByN7jMRiZ9ze1udZLgISYyVMa1J85M="},{"Name":"label","Value":"_content/ECommerceWebSite/Media/UserImages/jithu@gmail.com.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4702"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022WfstJtr65vFWF\u002ByN7jMRiZ9ze1udZLgISYyVMa1J85M=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Mar 2025 05:49:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ECommerceWebSite/Media/UserImages/jithu@gmail.com.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Media\UserImages\jithu@gmail.com.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-WfstJtr65vFWF\u002ByN7jMRiZ9ze1udZLgISYyVMa1J85M="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"4702"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022WfstJtr65vFWF\u002ByN7jMRiZ9ze1udZLgISYyVMa1J85M=\u0022"},{"Name":"Last-Modified","Value":"Mon, 10 Mar 2025 05:49:40 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

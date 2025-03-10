@@ -520,5 +520,37 @@ namespace ECommerceWebSite.Repo
             }
         }
 
+
+        //for search a product
+        public async Task<APIResponse<IEnumerable<ProductToListDto>>> SearchProduct(string pname)
+        {
+            var query = "select * from products where ProductName like @pname";
+            var parameters = new DynamicParameters();
+            parameters.Add("pname", $"%{pname}%");
+            using (var connection = _context.CreateConnection())
+            {
+                connection.Open();
+                var result = await connection.QueryAsync<Products>(query, parameters);
+                connection.Close();
+
+                if (result.Count() == 0)
+                {
+                    return APIResponse<IEnumerable<ProductToListDto>>.Error("No Products in this categpry");
+                }
+                var masked = result.Select(product => new ProductToListDto
+                {
+                    idOfProduct = product.ProductId,
+                    nameOfProduct = product.ProductName,
+                    descriptionOfProduct = product.Description,
+                    priceOfProduct = product.Price,
+                    availableQuantity = product.StockQuantity,
+                    idOfCategory = product.CategoryId,
+                    urlOfImage = product.ImageUrl,
+                });
+                return APIResponse<IEnumerable<ProductToListDto>>.Success(masked,"Success");
+            }
+        }
+
+
     }
 }

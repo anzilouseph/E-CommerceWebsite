@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "naNbgpJSXgDDItpUyi739ioMfR+9mdyfqYB49nDPce0=",
+  "Hash": "Np0fGjZVzWH7b9Z3dfJqnkJU1Ua7hGws7j3Ipg7hrBw=",
   "Source": "ECommerceWebSite",
   "BasePath": "_content/ECommerceWebSite",
   "Mode": "Default",
@@ -290,12 +290,12 @@
       "OriginalItemSpec": "wwwroot\\Media\\ProductImage\\Laptop Dell"
     },
     {
-      "Identity": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Layan Sports Soccer Mini Disc Cones  Mini Durable disc Cones..jpg",
+      "Identity": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Layan Disc Cones  Mini.jpg",
       "SourceId": "ECommerceWebSite",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\",
       "BasePath": "_content/ECommerceWebSite",
-      "RelativePath": "Media/ProductImage/Layan Sports Soccer Mini Disc Cones  Mini Durable disc Cones.#[.{fingerprint}]?.jpg",
+      "RelativePath": "Media/ProductImage/Layan Disc Cones  Mini#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -308,15 +308,15 @@
       "Integrity": "FNKjmVFURO+/I/LMe/8J5en6fi4FR0Sth21IAOBQ2cM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Media\\ProductImage\\Layan Sports Soccer Mini Disc Cones  Mini Durable disc Cones..jpg"
+      "OriginalItemSpec": "wwwroot\\Media\\ProductImage\\Layan Disc Cones  Mini.jpg"
     },
     {
-      "Identity": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Nivia Raptor Torrido Goal Keeper Gloves.jpg",
+      "Identity": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Nivia Goal Keeper Gloves.jpg",
       "SourceId": "ECommerceWebSite",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\",
       "BasePath": "_content/ECommerceWebSite",
-      "RelativePath": "Media/ProductImage/Nivia Raptor Torrido Goal Keeper Gloves#[.{fingerprint}]?.jpg",
+      "RelativePath": "Media/ProductImage/Nivia Goal Keeper Gloves#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -329,15 +329,15 @@
       "Integrity": "l7zUDor5Bce2C/vuR/jy3AGJBkI3KdoSYfqZ+cuTh18=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Media\\ProductImage\\Nivia Raptor Torrido Goal Keeper Gloves.jpg"
+      "OriginalItemSpec": "wwwroot\\Media\\ProductImage\\Nivia Goal Keeper Gloves.jpg"
     },
     {
-      "Identity": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Nivia Wisdom - 2018 Plastic Shin Guard.jpg",
+      "Identity": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Nivia Plastic Shin Guard.jpg",
       "SourceId": "ECommerceWebSite",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\",
       "BasePath": "_content/ECommerceWebSite",
-      "RelativePath": "Media/ProductImage/Nivia Wisdom - 2018 Plastic Shin Guard#[.{fingerprint}]?.jpg",
+      "RelativePath": "Media/ProductImage/Nivia Plastic Shin Guard#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -350,7 +350,28 @@
       "Integrity": "CZJaGs/mz4mMdvhfOrbq1/7u2clbhfZAF3fVcogZfW0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Media\\ProductImage\\Nivia Wisdom - 2018 Plastic Shin Guard.jpg"
+      "OriginalItemSpec": "wwwroot\\Media\\ProductImage\\Nivia Plastic Shin Guard.jpg"
+    },
+    {
+      "Identity": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Pink Puma Boots.jpg",
+      "SourceId": "ECommerceWebSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\",
+      "BasePath": "_content/ECommerceWebSite",
+      "RelativePath": "Media/ProductImage/Pink Puma Boots#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e6cunikdpy",
+      "Integrity": "Jhjqzi6AHS0mN5vRgk+dsWMP+ycJc3AsnRRNyTuofmA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Media\\ProductImage\\Pink Puma Boots.jpg"
     },
     {
       "Identity": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Puma ULTRA PLAY .jpg",
@@ -372,27 +393,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Media\\ProductImage\\Puma ULTRA PLAY .jpg"
-    },
-    {
-      "Identity": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Puma_ULTRA_PLAY_Pink_Football_Shoes.jpg",
-      "SourceId": "ECommerceWebSite",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\",
-      "BasePath": "_content/ECommerceWebSite",
-      "RelativePath": "Media/ProductImage/Puma_ULTRA_PLAY_Pink_Football_Shoes#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "e6cunikdpy",
-      "Integrity": "Jhjqzi6AHS0mN5vRgk+dsWMP+ycJc3AsnRRNyTuofmA=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Media\\ProductImage\\Puma_ULTRA_PLAY_Pink_Football_Shoes.jpg"
     },
     {
       "Identity": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\RAISCO Football Goal Net.jpg",
@@ -477,6 +477,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Media\\ProductImage\\socksPractice.jpg"
+    },
+    {
+      "Identity": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\UserImages\\jithu@gmail.com.jpg",
+      "SourceId": "ECommerceWebSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\",
+      "BasePath": "_content/ECommerceWebSite",
+      "RelativePath": "Media/UserImages/jithu@gmail.com#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5t8ri55712",
+      "Integrity": "WfstJtr65vFWF+yN7jMRiZ9ze1udZLgISYyVMa1J85M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Media\\UserImages\\jithu@gmail.com.jpg"
     }
   ],
   "Endpoints": [
@@ -1547,8 +1568,8 @@
       ]
     },
     {
-      "Route": "Media/ProductImage/Layan Sports Soccer Mini Disc Cones  Mini Durable disc Cones..jpg",
-      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Layan Sports Soccer Mini Disc Cones  Mini Durable disc Cones..jpg",
+      "Route": "Media/ProductImage/Layan Disc Cones  Mini.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Layan Disc Cones  Mini.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1584,8 +1605,8 @@
       ]
     },
     {
-      "Route": "Media/ProductImage/Layan Sports Soccer Mini Disc Cones  Mini Durable disc Cones..sgxiw5a73q.jpg",
-      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Layan Sports Soccer Mini Disc Cones  Mini Durable disc Cones..jpg",
+      "Route": "Media/ProductImage/Layan Disc Cones  Mini.sgxiw5a73q.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Layan Disc Cones  Mini.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1620,7 +1641,7 @@
         },
         {
           "Name": "label",
-          "Value": "Media/ProductImage/Layan Sports Soccer Mini Disc Cones  Mini Durable disc Cones..jpg"
+          "Value": "Media/ProductImage/Layan Disc Cones  Mini.jpg"
         },
         {
           "Name": "integrity",
@@ -1629,8 +1650,8 @@
       ]
     },
     {
-      "Route": "Media/ProductImage/Nivia Raptor Torrido Goal Keeper Gloves.jpg",
-      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Nivia Raptor Torrido Goal Keeper Gloves.jpg",
+      "Route": "Media/ProductImage/Nivia Goal Keeper Gloves.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Nivia Goal Keeper Gloves.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1666,8 +1687,8 @@
       ]
     },
     {
-      "Route": "Media/ProductImage/Nivia Raptor Torrido Goal Keeper Gloves.psafzf4ahd.jpg",
-      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Nivia Raptor Torrido Goal Keeper Gloves.jpg",
+      "Route": "Media/ProductImage/Nivia Goal Keeper Gloves.psafzf4ahd.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Nivia Goal Keeper Gloves.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1702,7 +1723,7 @@
         },
         {
           "Name": "label",
-          "Value": "Media/ProductImage/Nivia Raptor Torrido Goal Keeper Gloves.jpg"
+          "Value": "Media/ProductImage/Nivia Goal Keeper Gloves.jpg"
         },
         {
           "Name": "integrity",
@@ -1711,8 +1732,8 @@
       ]
     },
     {
-      "Route": "Media/ProductImage/Nivia Wisdom - 2018 Plastic Shin Guard.fao0r2n1j4.jpg",
-      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Nivia Wisdom - 2018 Plastic Shin Guard.jpg",
+      "Route": "Media/ProductImage/Nivia Plastic Shin Guard.fao0r2n1j4.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Nivia Plastic Shin Guard.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1747,7 +1768,7 @@
         },
         {
           "Name": "label",
-          "Value": "Media/ProductImage/Nivia Wisdom - 2018 Plastic Shin Guard.jpg"
+          "Value": "Media/ProductImage/Nivia Plastic Shin Guard.jpg"
         },
         {
           "Name": "integrity",
@@ -1756,8 +1777,8 @@
       ]
     },
     {
-      "Route": "Media/ProductImage/Nivia Wisdom - 2018 Plastic Shin Guard.jpg",
-      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Nivia Wisdom - 2018 Plastic Shin Guard.jpg",
+      "Route": "Media/ProductImage/Nivia Plastic Shin Guard.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Nivia Plastic Shin Guard.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1789,6 +1810,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-CZJaGs/mz4mMdvhfOrbq1/7u2clbhfZAF3fVcogZfW0="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/Pink Puma Boots.e6cunikdpy.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Pink Puma Boots.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jhjqzi6AHS0mN5vRgk+dsWMP+ycJc3AsnRRNyTuofmA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 07:28:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e6cunikdpy"
+        },
+        {
+          "Name": "label",
+          "Value": "Media/ProductImage/Pink Puma Boots.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jhjqzi6AHS0mN5vRgk+dsWMP+ycJc3AsnRRNyTuofmA="
+        }
+      ]
+    },
+    {
+      "Route": "Media/ProductImage/Pink Puma Boots.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Pink Puma Boots.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jhjqzi6AHS0mN5vRgk+dsWMP+ycJc3AsnRRNyTuofmA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 07:28:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jhjqzi6AHS0mN5vRgk+dsWMP+ycJc3AsnRRNyTuofmA="
         }
       ]
     },
@@ -1861,88 +1964,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Mon, 24 Feb 2025 14:02:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Jhjqzi6AHS0mN5vRgk+dsWMP+ycJc3AsnRRNyTuofmA="
-        }
-      ]
-    },
-    {
-      "Route": "Media/ProductImage/Puma_ULTRA_PLAY_Pink_Football_Shoes.e6cunikdpy.jpg",
-      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Puma_ULTRA_PLAY_Pink_Football_Shoes.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5775"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Jhjqzi6AHS0mN5vRgk+dsWMP+ycJc3AsnRRNyTuofmA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 25 Feb 2025 07:28:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "e6cunikdpy"
-        },
-        {
-          "Name": "label",
-          "Value": "Media/ProductImage/Puma_ULTRA_PLAY_Pink_Football_Shoes.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Jhjqzi6AHS0mN5vRgk+dsWMP+ycJc3AsnRRNyTuofmA="
-        }
-      ]
-    },
-    {
-      "Route": "Media/ProductImage/Puma_ULTRA_PLAY_Pink_Football_Shoes.jpg",
-      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\ProductImage\\Puma_ULTRA_PLAY_Pink_Football_Shoes.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5775"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Jhjqzi6AHS0mN5vRgk+dsWMP+ycJc3AsnRRNyTuofmA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 25 Feb 2025 07:28:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2281,6 +2302,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-2grHrJ3UWTSfDE41/pRp9caRgdBA+NzIQLQ8wjjJLsY="
+        }
+      ]
+    },
+    {
+      "Route": "Media/UserImages/jithu@gmail.com.5t8ri55712.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\UserImages\\jithu@gmail.com.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4702"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WfstJtr65vFWF+yN7jMRiZ9ze1udZLgISYyVMa1J85M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 05:49:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5t8ri55712"
+        },
+        {
+          "Name": "label",
+          "Value": "Media/UserImages/jithu@gmail.com.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WfstJtr65vFWF+yN7jMRiZ9ze1udZLgISYyVMa1J85M="
+        }
+      ]
+    },
+    {
+      "Route": "Media/UserImages/jithu@gmail.com.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\UserImages\\jithu@gmail.com.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4702"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WfstJtr65vFWF+yN7jMRiZ9ze1udZLgISYyVMa1J85M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 05:49:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WfstJtr65vFWF+yN7jMRiZ9ze1udZLgISYyVMa1J85M="
         }
       ]
     }

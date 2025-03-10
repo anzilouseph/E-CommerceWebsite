@@ -1,0 +1,25 @@
+/* Remove vertical borders but keep horizontal borders */
+.custom-table th, 
+.custom-table td {
+    border-top: 1px solid #dee2e6; /* Keeps horizontal lines */
+    border-bottom: 1px solid #dee2e6;
+}
+
+.custom-table th:first-child, 
+.custom-table td:first-child,
+.custom-table th:last-child, 
+.custom-table td:last-child {
+    border-left: none;
+    border-right: none;
+}
+
+
+.quan:hover
+{
+    cursor: not-allowed;
+}
+
+.pay:hover
+{
+    background-color: yellow;                                                                                                                    
+}

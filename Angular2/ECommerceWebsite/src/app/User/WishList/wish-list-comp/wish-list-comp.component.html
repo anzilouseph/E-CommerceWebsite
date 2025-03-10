@@ -1,0 +1,40 @@
+<div class="container-fluid py-5"  *ngIf="productModel">
+    <p class="text-center fw-bold display-6 text-uppercase">Your Wishlist</p>
+
+    <!-- Card starts -->
+    <div class="product-container">
+        <div class="product-list row justify-content-center">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4" *ngFor="let i of productModel">
+                <div class="card product-card shadow-sm border-0 h-100 rounded-4 overflow-hidden" (click)="navigateToProduct(i.idOfProduct)">
+                    <div class="product-image-container position-relative">
+                        <img 
+                            [src]="i.Original_Image ? i.Original_Image : 'assets/default-product.png'" 
+                            class="card-img-top product-img img-fluid"
+                            alt="Product Image">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-truncate text-primary fw-semibold">{{ i.nameOfProduct }}</h5>
+                        <p class="price-tag text-dark"><strong>MRP:</strong> <b>₹{{ i.priceOfProduct }}</b></p>
+                        <p class="text-muted mb-3"><strong>Only Left:</strong> {{ i.availableQuantity }}</p>
+
+                        <div class="row">
+
+                            <div class="col-12"><button class="btn btn-outline-success w-100 rounded-pill mb-2" ><i class="fas fa-shopping-cart"></i> BUY NOW</button></div>
+                            <div class="col-6">
+                                <button class="btn btn-outline-primary w-100 rounded-pill"  (click)="AddProductToCart(i.idOfProduct);$event.stopPropagation()"><i class="fas fa-shopping-cart"></i> Cart</button>
+                            </div>
+                            <div class="col-6">
+                                <button class="btn btn-outline-danger w-100 rounded-pill" (click)=" DeleteFromWishList(i.idOfProduct);$event.stopPropagation()"><i class="fas fa-trash-alt"></i> Remove</button>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Card ENDS -->
+</div>
+
+<div class="container d-flex py-5 align-items-center justify-content-center" *ngIf="errorMessage">
+    <p class="text-center text-danger fw-bold">{{errorMessage}}</p>
+</div>

@@ -34,6 +34,8 @@ builder.Services.AddScoped<IAuthenticationManagementRepo, AuthenticationManageme
 builder.Services.AddScoped<IAuthenticationManagementService, AuthenticationManagementService>();
 builder.Services.AddScoped<IAdminManagementRepo, AdminManagementRepo>();
 builder.Services.AddScoped<IAdminManagementService, AdminManagementService>();
+builder.Services.AddScoped<IWatchListManagementRepo, WatchListManagementRepo>();
+builder.Services.AddScoped<ICartManagementRepo, CartManagementRepo>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

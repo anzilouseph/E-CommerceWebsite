@@ -16,6 +16,10 @@ import { GetProductByIdCompComponent } from './Admin/ProductManagement/GetProduc
 import { UserDashboardCompComponent } from './User/UserDashboard/user-dashboard-comp/user-dashboard-comp.component';
 import { UserLayoutCompComponent } from './User/UserLayout/user-layout-comp/user-layout-comp.component';
 import { GetProductByIdUserComponent } from './User/GetProductById/get-product-by-id-user/get-product-by-id-user.component';
+import { WishListCompComponent } from './User/WishList/wish-list-comp/wish-list-comp.component';
+import { GetProductByCategoryCompComponent } from './User/GetProductByCategory/get-product-by-category-comp/get-product-by-category-comp.component';
+import { CartCompComponent } from './User/Cart/cart-comp/cart-comp.component';
+import { ProfileCompComponent } from './User/Profile/profile-comp/profile-comp.component';
 
 
 
@@ -54,7 +58,10 @@ const routes: Routes = [
                                                                   {path:"",redirectTo:"UserDashBoard",pathMatch:'full'},
                                                                   {path:"UserDashBoard",component:UserDashboardCompComponent},  //here is where we retrive the GET ALL PRODUCTS
                                                                   {path:"getProductByIdUser/:id",component:GetProductByIdUserComponent} , //here we get the GetAllProducts functionality
-                                                                  
+                                                                  {path:"wishlist",component:WishListCompComponent}, //for add an item to the wishlist
+                                                                  {path:"getProductByCategory",component:GetProductByCategoryCompComponent} , //To get all the products in a specific category
+                                                                  {path:"cart",component:CartCompComponent}, //for navigaet to teh carts
+                                                                  {path:"GetProfile",component:ProfileCompComponent}, //for getting the profile of the logined user
                                                                 ]
   }
 ];

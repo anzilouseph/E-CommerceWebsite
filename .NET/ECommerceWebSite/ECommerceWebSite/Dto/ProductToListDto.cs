@@ -9,5 +9,6 @@
         public int? availableQuantity { get; set; }
         public Guid? idOfCategory { get; set; }
         public string urlOfImage { get; set; }
+        
     }
 }

@@ -216,6 +216,22 @@
   },
   {
     "ContainingType": "ECommerceWebSite.Controllers.AdminManagementController",
+    "Method": "SearchProduct",
+    "RelativePath": "api/AdminManagement/SearchProduct",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pname",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ECommerceWebSite.Controllers.AdminManagementController",
     "Method": "UpdateProduct",
     "RelativePath": "api/AdminManagement/UpdateProduct",
     "HttpMethod": "PUT",
@@ -287,6 +303,58 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ECommerceWebSite.Controllers.CartManagementController",
+    "Method": "AddToCart",
+    "RelativePath": "api/Cart/AddToCart",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ECommerceWebSite.Dto.CartForAddDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ECommerceWebSite.Controllers.CartManagementController",
+    "Method": "DeleteFromCart",
+    "RelativePath": "api/Cart/DeleteFromCart",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productid",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ECommerceWebSite.Controllers.CartManagementController",
+    "Method": "GetCartCount",
+    "RelativePath": "api/Cart/GetCartCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ECommerceWebSite.Controllers.CartManagementController",
+    "Method": "GetProductsFromCart",
+    "RelativePath": "api/Cart/GetCartProducts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ECommerceWebSite.Controllers.UserManagementController",
     "Method": "GetCategories",
     "RelativePath": "api/GetCategories",
@@ -298,8 +366,112 @@
   },
   {
     "ContainingType": "ECommerceWebSite.Controllers.UserManagementController",
-    "Method": "GetUserById",
+    "Method": "GetOwnProfile",
     "RelativePath": "api/GetUserOwnProfile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ECommerceWebSite.Controllers.UserManagementController",
+    "Method": "GetProductImage",
+    "RelativePath": "api/User_Image",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fileName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ECommerceWebSite.Controllers.UserManagementController",
+    "Method": "UserRegistartion",
+    "RelativePath": "api/UserRegistration",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nameOfUser",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "phnOfUser",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "emailOfUser",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "passwordOfUser",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "image",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ECommerceWebSite.Controllers.WatchListController",
+    "Method": "AddToWishlist",
+    "RelativePath": "api/Watchlist/AddToWishlist",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ECommerceWebSite.Dto.AddWishlistDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ECommerceWebSite.Controllers.WatchListController",
+    "Method": "DeleteFromWishlist",
+    "RelativePath": "api/Watchlist/DeleteFromWishlist",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productid",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ECommerceWebSite.Controllers.WatchListController",
+    "Method": "GetWishlistCount",
+    "RelativePath": "api/Watchlist/GetWishlistCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ECommerceWebSite.Controllers.WatchListController",
+    "Method": "GetProductsInWatchList",
+    "RelativePath": "api/Watchlist/WatchListProducts",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

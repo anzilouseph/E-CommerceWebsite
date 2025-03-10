@@ -26,5 +26,6 @@ namespace ECommerceWebSite.IRepo
         public Task<Products> GetProductById(Guid id);  // for get the product  by the id
         public Task<APIResponse<bool>> UpdateProduct(Guid product_id ,ProductForUpdationDto product); //for update the product
         public Task<APIResponse<int>> GetProductsCount(); //for get the count of products
+        public Task<APIResponse<IEnumerable<ProductToListDto>>> SearchProduct(string pname); //for search a product
     }
 }

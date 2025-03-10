@@ -21,6 +21,13 @@ import { FormsModule } from '@angular/forms';
 import { UserDashboardCompComponent } from './User/UserDashboard/user-dashboard-comp/user-dashboard-comp.component';
 import { UserLayoutCompComponent } from './User/UserLayout/user-layout-comp/user-layout-comp.component';
 import { GetProductByIdUserComponent } from './User/GetProductById/get-product-by-id-user/get-product-by-id-user.component';
+import { WishListCompComponent } from './User/WishList/wish-list-comp/wish-list-comp.component';
+import { ToastrModule } from 'ngx-toastr';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { GetProductByCategoryCompComponent } from './User/GetProductByCategory/get-product-by-category-comp/get-product-by-category-comp.component';
+import { CartCompComponent } from './User/Cart/cart-comp/cart-comp.component';
+import { ProfileCompComponent } from './User/Profile/profile-comp/profile-comp.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -41,6 +48,10 @@ import { GetProductByIdUserComponent } from './User/GetProductById/get-product-b
          UserDashboardCompComponent,
          UserLayoutCompComponent,
          GetProductByIdUserComponent,
+         WishListCompComponent,
+         GetProductByCategoryCompComponent,
+         CartCompComponent,
+         ProfileCompComponent,
       ],
   imports: [
     BrowserModule,
@@ -48,6 +59,17 @@ import { GetProductByIdUserComponent } from './User/GetProductById/get-product-b
     HttpClientModule,
     ReactiveFormsModule,
     FormsModule,
+    BrowserModule,
+    BrowserAnimationsModule, // Required for Toastr
+    ToastrModule.forRoot({ // Global toast settings (optional)
+      positionClass: 'toast-top-right', // Position (Options: toast-top-right, toast-top-left, toast-bottom-right, toast-bottom-left)
+      timeOut: 5000, // Duration in milliseconds (default: 3000)
+      progressBar: true, // Show progress bar
+      closeButton: true, // Show close button
+      maxOpened: 3, // Limit number of toast messages displayed at once
+      preventDuplicates: true, // Avoid showing duplicate messages
+      newestOnTop: true, // Show newest toasts on top
+    }),
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -400,6 +400,22 @@ namespace ECommerceWebSite.Controllers
                 return StatusCode(500, new { message = ex.Message });
             }
         }
-    
+
+        //for search a Product
+        [HttpGet("SearchProduct")]
+        public async Task<IActionResult> SearchProduct(string pname)
+        {
+            try
+            {
+                var apiResposne = await _repo.SearchProduct(pname);
+                return Ok(apiResposne);
+            }
+            catch(Exception ex)
+            {
+                return StatusCode(500, new { message = ex.Message });
+            }
+        }
+
+
     }
 }

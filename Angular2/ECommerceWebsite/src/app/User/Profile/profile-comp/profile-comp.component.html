@@ -1,0 +1,87 @@
+<div class="container my-5">
+    <div class="card shadow-lg border-0 rounded-4 overflow-hidden" *ngIf="userModel">
+  
+      <!-- Form wraps both columns -->
+      <form [formGroup]="profileForm">
+  
+        <div class="row g-0">
+  
+          <!-- Left Column (Profile Image & Buttons) -->
+          <div class="col-lg-4 bg-dark text-white d-flex flex-column align-items-center justify-content-center p-4">
+  
+            <!-- Profile Image -->
+            <img [src]="userModel.OriginalImage ? userModel.OriginalImage : 'assets/default_profileImage.jpg'"
+                 alt="Profile Image"
+                 class="rounded-circle shadow mb-3"
+                 style="width: 200px; height: 200px; object-fit: cover;">
+  
+            <!-- Buttons -->
+            <div class="d-flex gap-3 mt-3">
+              <button class="btn btn-outline-light btn-sm px-3" type="button">
+                <i class="fas fa-edit me-1"></i> Edit
+              </button>
+              <button class="btn btn-outline-danger btn-sm px-3" type="button">
+                <i class="fas fa-trash me-1"></i> Remove
+              </button>
+            </div>
+  
+          </div>
+  
+          <!-- Right Column (Profile Details) -->
+          <div class="col-lg-8 bg-light p-5">
+  
+            <h3 class="text-center mb-4 text-primary fw-bold">
+              <i class="fas fa-user-circle me-2"></i>Profile Details
+            </h3>
+  
+            <!-- Full Name -->
+            <div class="mb-4 row align-items-center">
+              <label class="col-md-4 text-md-end fw-semibold">Full Name:</label>
+              <div class="col-md-8">
+                <input type="text"
+                       class="form-control shadow-sm"
+                       formControlName="nameOfUser"
+                       placeholder="Enter full name"
+                       [readonly]="!isEdit">
+              </div>
+            </div>
+  
+            <!-- Phone -->
+            <div class="mb-4 row align-items-center">
+              <label class="col-md-4 text-md-end fw-semibold">Phone:</label>
+              <div class="col-md-8">
+                <input type="text"
+                       class="form-control shadow-sm"
+                       formControlName="phoneOfUser"
+                       placeholder="Enter phone"
+                       [readonly]="!isEdit">
+              </div>
+            </div>
+  
+            <!-- Email -->
+            <div class="mb-4 row align-items-center">
+              <label class="col-md-4 text-md-end fw-semibold">Email:</label>
+              <div class="col-md-8">
+                <input type="email"
+                       class="form-control shadow-sm"
+                       formControlName="emailOfUser"
+                       placeholder="Enter email"
+                       [readonly]="!isEdit">
+              </div>
+            </div>
+  
+            <!-- Save Button -->
+            <div class="text-center mt-4">
+              <button type="submit" class="btn btn-success btn-lg px-5 shadow">
+                <i class="fas fa-save me-2"></i>Save Changes
+              </button>
+            </div>
+  
+          </div>
+  
+        </div>
+  
+      </form>
+    </div>
+  </div>
+  

@@ -234,12 +234,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Media\ProductImage\Laptop Dell'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Media\ProductImage\Layan Sports Soccer Mini Disc Cones  Mini Durable disc Cones..jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Media\ProductImage\Layan Disc Cones  Mini.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>ECommerceWebSite</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/ECommerceWebSite</BasePath>
-      <RelativePath>Media/ProductImage/Layan Sports Soccer Mini Disc Cones  Mini Durable disc Cones..jpg</RelativePath>
+      <RelativePath>Media/ProductImage/Layan Disc Cones  Mini.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -250,14 +250,14 @@
       <Integrity>FNKjmVFURO+/I/LMe/8J5en6fi4FR0Sth21IAOBQ2cM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Media\ProductImage\Layan Sports Soccer Mini Disc Cones  Mini Durable disc Cones..jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Media\ProductImage\Layan Disc Cones  Mini.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Media\ProductImage\Nivia Raptor Torrido Goal Keeper Gloves.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Media\ProductImage\Nivia Goal Keeper Gloves.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>ECommerceWebSite</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/ECommerceWebSite</BasePath>
-      <RelativePath>Media/ProductImage/Nivia Raptor Torrido Goal Keeper Gloves.jpg</RelativePath>
+      <RelativePath>Media/ProductImage/Nivia Goal Keeper Gloves.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -268,14 +268,14 @@
       <Integrity>l7zUDor5Bce2C/vuR/jy3AGJBkI3KdoSYfqZ+cuTh18=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Media\ProductImage\Nivia Raptor Torrido Goal Keeper Gloves.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Media\ProductImage\Nivia Goal Keeper Gloves.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Media\ProductImage\Nivia Wisdom - 2018 Plastic Shin Guard.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Media\ProductImage\Nivia Plastic Shin Guard.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>ECommerceWebSite</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/ECommerceWebSite</BasePath>
-      <RelativePath>Media/ProductImage/Nivia Wisdom - 2018 Plastic Shin Guard.jpg</RelativePath>
+      <RelativePath>Media/ProductImage/Nivia Plastic Shin Guard.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -286,7 +286,25 @@
       <Integrity>CZJaGs/mz4mMdvhfOrbq1/7u2clbhfZAF3fVcogZfW0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Media\ProductImage\Nivia Wisdom - 2018 Plastic Shin Guard.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Media\ProductImage\Nivia Plastic Shin Guard.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Media\ProductImage\Pink Puma Boots.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ECommerceWebSite</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ECommerceWebSite</BasePath>
+      <RelativePath>Media/ProductImage/Pink Puma Boots.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>e6cunikdpy</Fingerprint>
+      <Integrity>Jhjqzi6AHS0mN5vRgk+dsWMP+ycJc3AsnRRNyTuofmA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Media\ProductImage\Pink Puma Boots.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Media\ProductImage\Puma ULTRA PLAY .jpg'))">
       <SourceType>Package</SourceType>
@@ -305,24 +323,6 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Media\ProductImage\Puma ULTRA PLAY .jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Media\ProductImage\Puma_ULTRA_PLAY_Pink_Football_Shoes.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ECommerceWebSite</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ECommerceWebSite</BasePath>
-      <RelativePath>Media/ProductImage/Puma_ULTRA_PLAY_Pink_Football_Shoes.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>e6cunikdpy</Fingerprint>
-      <Integrity>Jhjqzi6AHS0mN5vRgk+dsWMP+ycJc3AsnRRNyTuofmA=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Media\ProductImage\Puma_ULTRA_PLAY_Pink_Football_Shoes.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Media\ProductImage\RAISCO Football Goal Net.jpg'))">
       <SourceType>Package</SourceType>
@@ -395,6 +395,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Media\ProductImage\socksPractice.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Media\UserImages\jithu@gmail.com.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ECommerceWebSite</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ECommerceWebSite</BasePath>
+      <RelativePath>Media/UserImages/jithu@gmail.com.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>5t8ri55712</Fingerprint>
+      <Integrity>WfstJtr65vFWF+yN7jMRiZ9ze1udZLgISYyVMa1J85M=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Media\UserImages\jithu@gmail.com.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

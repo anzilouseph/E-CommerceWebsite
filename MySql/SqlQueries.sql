@@ -8,14 +8,18 @@ create table Products(ProductId char(36) primary key default(UUID()),ProductName
 
 create table Orders(OrderId char(36) primary key default(UUID()),UserId char(36) null,ProductId char(36) NULL,Quantity int not null,TotalAmount decimal(10,2) not null,OrderDate date DEFAULT (CURDATE()),Status enum('Complete','Pending') default 'Pending' , foreign key (UserId) references  Users(UserId) on delete set null, foreign key (ProductId) references Products(ProductId) on delete set null) ;
 
-CREATE TABLE cart (
-    CartId CHAR(36) PRIMARY KEY DEFAULT (UUID()),  -- Unique Identifier
-    UserId CHAR(36) NULL,  -- Must be NULLABLE for ON DELETE SET NULL
-    ProductId CHAR(36) NULL,  -- Also needs to be NULLABLE
-    UNIQUE (UserId, ProductId),  -- Ensures a user cannot add the same product twice
-    FOREIGN KEY (UserId) REFERENCES Users(UserId) ON DELETE SET NULL, 
+CREATE TABLE Cart (
+    CartId CHAR(36) PRIMARY KEY DEFAULT (UUID()),  -- Unique Cart Entry Identifier
+    UserId CHAR(36) NULL,  -- User who added the item
+    ProductId CHAR(36) NULL,  -- Product added to cart
+    Quantity INT NOT NULL DEFAULT 1,  -- Number of units
+    TotalPrice DECIMAL(10,2) NOT NULL,  -- Price * Quantity
+	AddedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,  -- When added to cart
+    UNIQUE (UserId, ProductId),  -- Ensures user cannot add the same product multiple times
+    FOREIGN KEY (UserId) REFERENCES Users(UserId) ON DELETE SET NULL,
     FOREIGN KEY (ProductId) REFERENCES Products(ProductId) ON DELETE SET NULL
 );
+
 
 
 CREATE TABLE Wishlist (WishlistId CHAR(36) PRIMARY KEY DEFAULT(UUID()),UserId CHAR(36) NOT NULL,ProductId CHAR(36) NOT NULL,AddedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,FOREIGN KEY (UserId) REFERENCES Users(UserId) ON DELETE CASCADE,FOREIGN KEY (ProductId) REFERENCES Products(ProductId) ON DELETE CASCADE);
@@ -26,14 +30,15 @@ create Table Category(CategoryId char(36) primary key default(UUID()),CategoryNa
 alter table Products Modify ImageUrl varchar(500) unique;  -- ---table changing code---
 alter table Products Modify ProductName varchar(255) not null unique;  -- ---table changing code---
 alter table Users Add column ProfileImage varchar(500) unique;  -- ---table changing code---
+ALTER TABLE Wishlist ADD UNIQUE (UserId, ProductId);  -- ---table changing code---
 
 drop table cart;
 
 show TABLES;
 describe Products;
-select * from Users WHERE Role="User" order by FullName asc;
+select * from Users;
 
-select * from Users  WHERE Role='User' and FullName like '%ns%';
+select * from Products;
 
 
 INSERT INTO Category (CategoryName, Description) VALUES
@@ -48,8 +53,11 @@ INSERT INTO Category (CategoryName, Description) VALUES
 ('Football Accessories', 'Whistles, pumps, and ball bags'),
 ('Football Training Kits', 'Training wear for football practice');
 
-select * from products;
 
-select * from category;
-DESC category;
+select * from Wishlist where UserId="10a6ba31-f01a-11ef-921f-18c04de083c5" and ProductId= "5ae5e5e1-f354-11ef-921f-18c04de083c5";
+select * from Category;
+DESC cart;
 select CategoryName from Category order by CategoryName asc;
+
+delete from wishlist where UserId="10afsnfghnsfhn11ef-921f-18c04de083c5@$$%#%^%&@$%#%^%$^Y&%^*" and ProductId= "rgsdrtnfnhfyhdf#%$&%$^%$^$%";
+select CategoryId,CategoryName from Category order by CategoryName asc;

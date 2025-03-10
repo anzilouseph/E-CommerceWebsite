@@ -1,225 +1,126 @@
-<!-- <div class="container">
-    <div class="row justify-content-center">
-        
-        <div class="col-12 col-md 10 col-lg-8">
-            <div class="row pt-5">
-                <div class="col-12 col-md-6 bg-primary">
-                    <img src="assets/RegistrationImage.jpg" alt="RegImage" class="img-fluid h-100 w-100">
-                </div>
-                <div class="col-12 col-md-6 bg-success d-flex justify-content-center">
-                    <div class="card w-100">
-                        <div class="card-header bg-primary d-flex justify-content-center">
-                            <h3>REGISTRATION</h3>
-                        </div>
-                        <div class="card-body">
-                            <form [formGroup]="registrationForm">
-                                 -->
-                                <!--for Name-->
-
-                                <!-- <div class="row" style="padding-bottom: 2rem;">  
-                                    <div class="col-5">
-                                        <label for="name" class="fw-bold">FULL NAME :
-                                            <span class="text-danger ">*</span> 
-                                        </label>
-                                    </div>
-                                    <div class="col-7">
-                                        <input type="text" id="name" class="form-control " formControlName="emailOfUser" style="width: 100%;"> -->
-                                    <!--VALIDATION CHECKING-->
-                                    <!-- <label class="text-warning" *ngIf="registrationForm.get('nameOfUser')?.errors?.['required'] && registrationForm.get('nameOfUser')?.touched">this field is required</label>
-                                    <label class="text-danger" *ngIf="registrationForm.get('nameOfUser')?.errors?.['pattern'] && registrationForm.get('nameOfUser')?.touched">Invalid Name</label>
-                                   
-                                    </div>                                                                                                      
-                                </div> -->
-                                <!-- name ends -->
-
-
-                                <!--for Phone-->
-
-                                <!-- <div class="row"  style="padding-bottom: 2rem;">  
-                                    <div class="col-5">
-                                        <label for="phone" class="fw-bold">MOBILE :
-                                            <span class="text-danger ">*</span> 
-                                        </label>
-                                    </div>
-                                    <div class="col-7">
-                                        <input type="text" id="phone" class="form-control " formControlName="phoneOfUser" style="width: 100%;"> -->
-                                    <!--VALIDATION CHECKING-->
-                                    <!-- <label class="text-warning" *ngIf="registrationForm.get('phoneOfUser')?.errors?.['required'] && registrationForm.get('phoneOfUser')?.touched">this field is required</label>
-                                    <label class="text-danger" *ngIf="registrationForm.get('phoneOfUser')?.errors?.['pattern'] && registrationForm.get('phoneOfUser')?.touched">Invalid Mobile Number</label>
-                                    </div>                                                                                                      
-                                </div> -->
-                                <!-- phone ends -->
-
-                                <!--for Email-->
-
-                                <!-- <div class="row" style="padding-bottom: 2rem;">  
-                                    <div class="col-5">
-                                        <label for="email" class="fw-bold">EMAIL :
-                                            <span class="text-danger ">*</span> 
-                                        </label>
-                                    </div>
-                                    <div class="col-7">
-                                        <input type="email" id="email" class="form-control " formControlName="nameOfUser" style="width: 100%;"> -->
-                                    <!--VALIDATION CHECKING-->
-                                    <!-- <label class="text-warning" *ngIf="registrationForm.get('emailOfUser')?.errors?.['required'] && registrationForm.get('emailOfUser')?.touched">this field is required</label>
-                                    <label class="text-danger" *ngIf="registrationForm.get('emailOfUser')?.errors?.['pattern'] && registrationForm.get('emailOfUser')?.touched">Invalid Email</label>
-                                    </div>                                                                                                       -->
-                                <!-- </div>  -->
-                                <!-- Email ends -->
-
-
-                                <!--for Password-->
-<!-- 
-                                <div class="row" style="padding-bottom: 2rem;">  
-                                    <div class="col-5">
-                                        <label for="password" class="fw-bold">PASSWORD :
-                                            <span class="text-danger ">*</span> 
-                                        </label>
-                                    </div>
-                                    <div class="col-7">
-                                        <input type="password" id="password" class="form-control " formControlName="nameOfUser" style="width: 100%;"> -->
-                                    <!--VALIDATION CHECKING-->
-                                    <!-- <label class="text-warning" *ngIf="registrationForm.get('passwordOfUser')?.errors?.['required'] && registrationForm.get('passwordOfUser')?.touched">this field is required</label>
-                                    </div>                                                                                                      
-                                </div> -->
-                                <!-- Password ends -->
-
-                                <!--for Retype Password-->
-                                <!-- <div class="row" style="padding-bottom: 2rem;">
-                                    <div class="col-5">
-                                        <label for="retypePassword" class="fw-bold">Re-Password :
-                                            <span class="text-danger ">*</span>
-                                        </label>
-                                    </div>
-                                    <div class="col-7">
-                                        <input type="password" id="retypePassword" class="form-control" formControlName="retypePassword" required> -->
-                                        <!-- Validation Message -->
-                                        <!-- <div *ngIf="registrationForm.get('retypePassword')?.touched && registrationForm.get('retypePassword')?.value !== registrationForm.get('passwordOfUser')?.value">
-                                            <label class="text-danger">Passwords do not match</label>
-                                        </div>
-                                    </div>
-                                </div> -->
-                                <!-- Retype Password ends -->
-
-<!-- 
-                               
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-           
-        </div>
-    </div>
-</div> -->
-
-
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-12 col-md-10 col-lg-8">
-            <div class="row pt-5">
-                <div class="col-12 col-md-6">
-                    <img src="assets/RegistrationImage.jpg" alt="RegImage" class="img-fluid h-100 w-100">
-                </div>
-                <div class="col-12 col-md-6  d-flex justify-content-center">
-                    <div class="card w-100">
-                        <div class="card-header bg-primary d-flex justify-content-center">
-                            <h3>REGISTRATION</h3>
-                        </div>
-                        <div class="card-body">
-                            <form [formGroup]="registrationForm">
-                                
-                                <!--for Name-->
-                                <div class="row" style="padding-bottom: 2rem;">  
-                                    <div class="col-5">
-                                        <label for="name" class="fw-bold">FULL NAME :
-                                            <span class="text-danger ">*</span> 
-                                        </label>
-                                    </div>
-                                    <div class="col-7">
-                                        <input type="text" id="name" class="form-control" formControlName="nameOfUser" style="width: 100%;">
-                                        <!--VALIDATION CHECKING-->
-                                        <label class="text-warning" *ngIf="registrationForm.get('nameOfUser')?.errors?.['required'] && registrationForm.get('nameOfUser')?.touched">This field is required</label>
-                                        <label class="text-danger" *ngIf="registrationForm.get('nameOfUser')?.errors?.['pattern'] && registrationForm.get('nameOfUser')?.touched">Invalid Name</label>
-                                    </div>                                                                                                       
-                                </div>
-                                <!-- name ends -->
-
-                                <!--for Phone-->
-                                <div class="row"  style="padding-bottom: 2rem;">  
-                                    <div class="col-5">
-                                        <label for="phone" class="fw-bold">MOBILE :
-                                            <span class="text-danger ">*</span> 
-                                        </label>
-                                    </div>
-                                    <div class="col-7">
-                                        <input type="text" id="phone" class="form-control" formControlName="phoneOfUser" style="width: 100%;">
-                                        <!--VALIDATION CHECKING-->
-                                        <label class="text-warning" *ngIf="registrationForm.get('phoneOfUser')?.errors?.['required'] && registrationForm.get('phoneOfUser')?.touched">This field is required</label>
-                                        <label class="text-danger" *ngIf="registrationForm.get('phoneOfUser')?.errors?.['pattern'] && registrationForm.get('phoneOfUser')?.touched">Invalid Mobile Number</label>
-                                    </div>                                                                                                       
-                                </div>
-                                <!-- phone ends -->
-
-                                <!--for Email-->
-                                <div class="row" style="padding-bottom: 2rem;">  
-                                    <div class="col-5">
-                                        <label for="email" class="fw-bold">EMAIL :
-                                            <span class="text-danger ">*</span> 
-                                        </label>
-                                    </div>
-                                    <div class="col-7">
-                                        <input type="email" id="email" class="form-control" formControlName="emailOfUser" style="width: 100%;">
-                                        <!--VALIDATION CHECKING-->
-                                        <label class="text-warning" *ngIf="registrationForm.get('emailOfUser')?.errors?.['required'] && registrationForm.get('emailOfUser')?.touched">This field is required</label>
-                                        <label class="text-danger" *ngIf="registrationForm.get('emailOfUser')?.errors?.['pattern'] && registrationForm.get('emailOfUser')?.touched">Invalid Email</label>
-                                    </div>                                                                                                       
-                                </div>
-                                <!-- Email ends -->
-
-                                <!--for Password-->
-                                <div class="row" style="padding-bottom: 2rem;">  
-                                    <div class="col-5">
-                                        <label for="password" class="fw-bold">PASSWORD :
-                                            <span class="text-danger ">*</span> 
-                                        </label>
-                                    </div>
-                                    <div class="col-7">
-                                        <input type="password" id="password" class="form-control" formControlName="passwordOfUser" style="width: 100%;">
-                                        <!--VALIDATION CHECKING-->
-                                        <label class="text-warning" *ngIf="registrationForm.get('passwordOfUser')?.errors?.['required'] && registrationForm.get('passwordOfUser')?.touched">This field is required</label>
-                                    </div>                                                                                                       
-                                </div>
-                                <!-- Password ends -->
-
-                                <!--for Retype Password-->
-                                <div class="row" style="padding-bottom: 2rem;">
-                                    <div class="col-5">
-                                        <label for="retypePassword" class="fw-bold">Re-Password :
-                                            <span class="text-danger ">*</span>
-                                        </label>
-                                    </div>
-                                    <div class="col-7">
-                                        <input type="password" id="retypePassword" class="form-control" formControlName="retypePassword" required>
-                                        <!-- Validation Message -->
-                                        <div *ngIf="registrationForm.get('retypePassword')?.touched && registrationForm.get('retypePassword')?.value !== registrationForm.get('passwordOfUser')?.value">
-                                            <label class="text-danger">Passwords do not match</label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Retype Password ends -->
-
-                                <!-- Submit and Reset buttons -->
-                                <div class="d-flex justify-content-evenly ">
-                                    <button type="submit" class="btn btn-success btn-lg" (click)=" UserRegistrationFn()">Submit</button> <!--[disabled]="!registrationForm.valid"-->
-                                    <button type="button" class="btn btn-secondary btn-lg" (click)="registrationForm.reset()">Reset</button>
-                                </div>
-
-                            </form>
-                        </div>
+      <div class="col-12 col-md-10 col-lg-8">
+        <div class="row pt-5">
+          <!-- Image Section -->
+          <div class="col-12 col-md-6">
+            <img src="assets/RegistrationImage.jpg" alt="Registration Image" class="img-fluid h-100 w-100">
+          </div>
+  
+          <!-- Registration Form Section -->
+          <div class="col-12 col-md-6 d-flex justify-content-center">
+            <div class="card w-100">
+              <!-- Card Header -->
+              <div class="card-header bg-dark text-center">
+                <h3 class="mb-0 text-white">REGISTRATION</h3>
+              </div>
+  
+              <!-- Card Body -->
+              <div class="card-body">
+                <form [formGroup]="registrationForm">
+                  <!-- Full Name Field -->
+                  <div class="form-group row mb-4">
+                    <label for="name" class="col-5 col-form-label fw-bold">
+                      FULL NAME: <span class="text-danger">*</span>
+                    </label>
+                    <div class="col-7">
+                      <input type="text" id="name" class="form-control" formControlName="nameOfUser">
+                      <!-- Validation Messages -->
+                      <div *ngIf="registrationForm.get('nameOfUser')?.touched">
+                        <small class="text-warning" *ngIf="registrationForm.get('nameOfUser')?.errors?.['required']">
+                          This field is required.
+                        </small>
+                        <small class="text-danger" *ngIf="registrationForm.get('nameOfUser')?.errors?.['pattern']">
+                          Invalid name format.
+                        </small>
+                      </div>
                     </div>
-                </div>
+                  </div>
+  
+                  <!-- Phone Field -->
+                  <div class="form-group row mb-4">
+                    <label for="phone" class="col-5 col-form-label fw-bold">
+                      MOBILE: <span class="text-danger">*</span>
+                    </label>
+                    <div class="col-7">
+                      <input type="text" id="phone" class="form-control" formControlName="phoneOfUser">
+                      <!-- Validation Messages -->
+                      <div *ngIf="registrationForm.get('phoneOfUser')?.touched">
+                        <small class="text-warning" *ngIf="registrationForm.get('phoneOfUser')?.errors?.['required']">
+                          This field is required.
+                        </small>
+                        <small class="text-danger" *ngIf="registrationForm.get('phoneOfUser')?.errors?.['pattern']">
+                          Invalid mobile number.
+                        </small>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <!-- Email Field -->
+                  <div class="form-group row mb-4">
+                    <label for="email" class="col-5 col-form-label fw-bold">
+                      EMAIL: <span class="text-danger">*</span>
+                    </label>
+                    <div class="col-7">
+                      <input type="email" id="email" class="form-control" formControlName="emailOfUser">
+                      <!-- Validation Messages -->
+                      <div *ngIf="registrationForm.get('emailOfUser')?.touched">
+                        <small class="text-warning" *ngIf="registrationForm.get('emailOfUser')?.errors?.['required']">
+                          This field is required.
+                        </small>
+                        <small class="text-danger" *ngIf="registrationForm.get('emailOfUser')?.errors?.['pattern']">
+                          Invalid email format.
+                        </small>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <!-- Password Field -->
+                  <div class="form-group row mb-4">
+                    <label for="password" class="col-5 col-form-label fw-bold">
+                      PASSWORD: <span class="text-danger">*</span>
+                    </label>
+                    <div class="col-7">
+                      <input type="password" id="password" class="form-control" formControlName="passwordOfUser">
+                      <!-- Validation Messages -->
+                      <div *ngIf="registrationForm.get('passwordOfUser')?.touched">
+                        <small class="text-warning" *ngIf="registrationForm.get('passwordOfUser')?.errors?.['required']">
+                          This field is required.
+                        </small>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <!-- Re-Password Field -->
+                  <div class="form-group row mb-4">
+                    <label for="retypePassword" class="col-5 col-form-label fw-bold">
+                      RE-PASSWORD: <span class="text-danger">*</span>
+                    </label>
+                    <div class="col-7">
+                      <input type="password" id="retypePassword" class="form-control" formControlName="retypePassword">
+                      <!-- Validation Messages -->
+                      <div *ngIf="registrationForm.get('retypePassword')?.touched">
+                        <small class="text-danger" *ngIf="registrationForm.get('retypePassword')?.value !== registrationForm.get('passwordOfUser')?.value">
+                          Passwords do not match.
+                        </small>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <!-- Buttons -->
+                  <div class="d-flex justify-content-evenly mt-4">
+                    <button type="submit" class="btn btn-success btn-lg" (click)="UserRegistrationFn()">
+                      Submit
+                    </button>
+                    <button type="button" class="btn btn-secondary btn-lg" (click)="registrationForm.reset()">
+                      Reset
+                    </button>
+                  </div>
+                </form>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
-</div>
+  </div>

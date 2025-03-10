@@ -44,9 +44,13 @@ namespace ECommerceWebSite.Service
                 phoneOfUser = result.Phone,
                 emailOfUser = result.Email,
                 roleOfUser = result.Role,
+                profileImage = result.profileImage,
             };
 
             return APIResponse<UserToListDto>.Success(masked, "Success");
         }
+
+
+        
     }
 }

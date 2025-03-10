@@ -1,4 +1,4 @@
-<div class="container d-flex justify-content-center align-items-center min-vh-100" *ngIf="productList">
+<div class="container d-flex justify-content-center align-items-center min-vh-100 pt-5" *ngIf="productList">
     <div class="row w-100">
         <div class="col-12 col-sm-8 col-md-6 col-lg-4 mx-auto"> 
             <div class="card product-card shadow-lg border-0 text-center">
@@ -16,17 +16,17 @@
 
                     <!--for quantirty stepper-->
                     <div class="d-flex align-items-center justify-content-center mb-3">
-                        <label   for ="quantity " style="font-weight:bold;">Quantity</label>
-                        <button class="butn btn-sm px-3"> <i class="fas fa-minus"></i></button>
-                        <input type="text" id="quantity" class="form-control" [value]="1"style="width: 50px;" readonly>
-                        <button class="butn  btn-sm px-3">  <i class="fas fa-plus"></i></button>
+                        <label   for ="quant " style="font-weight:bold;">Quantity</label>
+                        <button class="butn btn-sm px-3" (click)="decreaseQuantity()"> <i class="fas fa-minus"></i></button>
+                        <input type="text" id="quant" class="form-control" [(ngModel)]="quantity" style="width: 50px;" readonly>
+                        <button class="butn  btn-sm px-3" (click)="increaseQuantity()">  <i class="fas fa-plus"></i></button>
                     </div>
-                    <div class="row">
-                        <div class="col-6"><button class="btn btn-outline-success w-100 edit-btn"><i class="fas fa-credit-card"></i> BUY NOW</button></div>
-                        <div class="col-6"><button class="btn btn-outline-danger w-100 edit-btn"><i class="fas fa-heart"></i> WISHLIST</button></div>
-                            
-                    </div> 
                     
+                    <div class="row">
+                        <div class="col-12"><button class="btn btn-outline-success w-100 edit-btn quant mb-2" ><i class="fas fa-shopping-cart"></i> BUY NOW</button></div>
+                        <div class="col-6"><button class="btn btn-outline-primary w-100 edit-btn quant" (click)=" AddProductToCart(productList.idOfProduct)"><i class="fas fa-shopping-cart"></i> CART</button></div>
+                        <div class="col-6"><button class="btn btn-outline-danger w-100 edit-btn quant" (click)="AddWishList(productList.idOfProduct)"><i class="fas fa-heart"></i> WISHLIST</button></div>                           
+                    </div>                    
                 </div>
             </div>
         </div>
