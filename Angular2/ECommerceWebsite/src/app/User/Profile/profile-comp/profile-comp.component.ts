@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
+import { UpdateProfileImageModel } from 'src/app/Models/UpdateProfileImage';
 import { UserToModel } from 'src/app/Models/UserModel';
 import { UserServiceService } from 'src/app/Services/user-service.service';
 @Component({
@@ -8,7 +10,7 @@ import { UserServiceService } from 'src/app/Services/user-service.service';
   styleUrls: ['./profile-comp.component.css']
 })
 export class ProfileCompComponent {
-  constructor(private uservice :UserServiceService){}
+  constructor(private uservice :UserServiceService,private router:Router){}
 
   ngOnInit()
   {
@@ -77,5 +79,147 @@ export class ProfileCompComponent {
     );
   }
 
+
+  logout() {
+    // ✅ Clear user session (optional: JWT, tokens, etc.)
+    localStorage.clear();
+
+    // ✅ Navigate to the login page
+    this.router.navigate(['']);
+
+    // ✅ Close the modal manually (if Bootstrap modal stays open)
+    const modalBackdrop = document.querySelector('.modal-backdrop');
+    if (modalBackdrop) {
+      modalBackdrop.remove();
+    }
+
+    // ✅ Remove modal-open class from body
+    document.body.classList.remove('modal-open');
+  }
+
+
+  //FOR DELETE PROFILE IMAGE OF USER STARTS HERE
+  imageErrorMessage:any;
+
+  deleteProfilePic()
+  {
+    this.uservice.DeleteProfileImage().subscribe({
+      next:(res:any)=>
+      {
+        if(res.status)
+        {
+          console.log(res);   
+          alert(res.message);
+          this.getProfile();
+
+        }
+        else
+        {
+          console.log (res);        
+          alert(res.message)
+        }
+      },
+      error:error=>
+      {
+        alert(error.message)
+      }
+    })
+  }
+//FOR DELETE PROFILE IMAGE OF USER ENDS HERE
+
+
+
+
+//FOR UPDATE PROFILE IMAGE STARTS HERE
+newProfileImage:File | null = null;
+
+onFileSelected(event:any)
+{
+  const file = event.target.files[0] ; //here we are storing the image to variable file
+  if(file)
+  {
+    this.newProfileImage = file;  // we are storing that image into the variable selected file;
+  }
+}
+
+updateProfileModel : UpdateProfileImageModel | null = null
+
+ updateProfilePhoto()
+ {
+  if (!this.newProfileImage) {
+    alert('No image selected');
+    return;
+  }
+
+  const formData = new FormData();
+  formData.append('profileimage', this.newProfileImage);
+  this.uservice.updateProfileImage(formData).subscribe({
+    next:(res:any)=>
+    {
+      if(res.status)
+      {
+        alert(res.message);
+        console.log(res);
+        this.getProfile();        
+      }
+      else
+      {
+        console.log(res);
+        alert(res.message)
+      }
+    },
+    error:error=>
+    {
+      console.log(error);
+      alert(error.message);
+    }
+  })
+ }
+
+
+
+
   isEdit:boolean=false;
+  onEdit()
+  {
+    this.isEdit=true;
+  }
+  goback()
+  {
+    this.isEdit=false;
+  }
+
+  clear()
+  {
+    this.populateForm();
+  }
+  update()
+  {
+    if(this.profileForm.valid)
+    {
+      const profileData = this.profileForm.value;
+      this.uservice.UpdateProfileDetails(profileData).subscribe({
+        next:(res:any)=>
+        {
+          if(res.status)
+          {
+            this.isEdit=false;
+            console.log(res);
+            alert(res.message);
+            this.getProfile();
+          }
+          else
+          {
+            alert(res.message);
+          }
+        },
+        error:error=>
+        {
+          console.log(error);
+          alert(error.message)
+        }
+      })
+    }
+  }
+
 }

@@ -5,6 +5,8 @@ using ECommerceWebSite.Dto;
 using ECommerceWebSite.IRepo;
 using ECommerceWebSite.Models;
 using ECommerceWebSite.Utilitys;
+using Microsoft.OpenApi.Validations;
+using Org.BouncyCastle.Crypto.Prng;
 
 namespace ECommerceWebSite.Repo
 {
@@ -142,34 +144,176 @@ namespace ECommerceWebSite.Repo
 
         }
 
-        ////for getting a user by his ID;
-        //public async Task<APIResponse<UserToListDto>> GetUserById(Guid id)
-        //{
-        //    var query = "select * from Users where UserId = @id";
-        //    var parameters = new DynamicParameters();
-        //    parameters.Add("id",id);
+        //for update the details of the user(Without Image);
+        public async Task<APIResponse<bool>> UpdateUserDetails(UserDetailsForUpdation user, Guid userid)
+        {
+            var queryBuilder = new List<string>();
+            var parameters = new DynamicParameters();
+            parameters.Add("id", userid);
+            var binded = new Users()
+            {
+                FullName = user.nameOfUser,
+                Phone = user.phoneOfUser,
+                Email = user.emailOfUser,
+            };
 
-        //    using(var connection =  _dapperContext.CreateConnection())
-        //    {
-        //        connection.Open();
-        //        var result = await connection.QueryFirstOrDefaultAsync<Users>(query,parameters);
-        //        connection.Close ();
+            foreach(var prop in typeof(Users).GetProperties())
+            {
+                if(prop.Name!="UserId" && prop.Name!= "Password" && prop.Name != "Role" && prop.Name != "Salt" && prop.Name != "ProfileImage")
+                {
+                    var value = prop.GetValue(binded);
+                    if(value != null)
+                    {
+                        if(!string.IsNullOrEmpty(value.ToString()))
+                        {
+                            queryBuilder.Add($"{prop.Name}=@{prop.Name}");
+                            parameters.Add($"{prop.Name}", value);
+                        }
+                       
+                    }
+                }
+            }
+            var query = $"update Users set {string.Join(",", queryBuilder)} where UserId =@id";
+            using(var connection = _dapperContext.CreateConnection())
+            {
+                connection.Open();
+                var rowAffected = await connection.QueryFirstOrDefaultAsync(query,parameters);
+                connection.Close();
+                if(rowAffected ==0)
+                {
+                    return APIResponse<bool>.Error("Unable to Insert Data");
+                }
+                return APIResponse<bool>.Success(true, "Success");
+            }
+        }
 
-        //        if(result == null)
-        //        {
-        //            return APIResponse<UserToListDto>.Error("No User in this ID");
-        //        }
-        //        var masked = new UserToListDto()
-        //        {
-        //            idOfUser = result.UserId,
-        //            nameOfUser = result.FullName,
-        //            phoneOfUser = result.Phone,
-        //            emailOfUser = result.Email,
-        //            roleOfUser = result.Role,
-        //            profileImage = result.profileImage,
-        //        };
-        //        return APIResponse<UserToListDto>.Success(masked, "Success");
-        //    }
-        //}
+        //Here we only changing te Profile Image of the User
+        public async Task<APIResponse<bool>> UpdateUserProfileImage(UserProfileImageForUpdation user, Guid userid)
+        {
+            string filePath = string.Empty;
+            string newFileName = string.Empty;
+
+            var parameters = new DynamicParameters();
+            var retrevingQuery = "select * from Users where UserId = @userid";
+            parameters.Add("userid",userid);
+            using (var connection = _dapperContext.CreateConnection())
+            {
+                connection.Open();
+                var existingData = await connection.QueryFirstOrDefaultAsync<Users>(retrevingQuery,parameters);
+                connection.Close();
+                if(existingData ==null)
+                {
+                    return APIResponse<bool>.Error("No user in this ID");
+                }
+
+
+                
+                if (user.profileimage != null)
+                {
+                    var folderPath = Path.Combine(_env.WebRootPath, "Media", "UserImages");
+
+
+                    if (!Directory.Exists(folderPath))
+                    {
+                        Directory.CreateDirectory(folderPath);
+                    }
+
+
+                    var fileExtension = Path.GetExtension(user.profileimage.FileName).ToLower();
+
+                    var allowedExtensions = new HashSet<string> { ".jpg", ".jpeg", ".png", ".gif" };
+
+                    if (!allowedExtensions.Contains(fileExtension))
+                    {
+                        return APIResponse<bool>.Error("Invalid file type. Only JPG, JPEG, PNG, and GIF are allowed.");
+                    }
+                    newFileName = $"{existingData.Email}{fileExtension}";
+                    filePath = Path.Combine(folderPath, newFileName);
+                    if (System.IO.File.Exists(filePath))
+                    {
+                        System.IO.File.Delete(filePath);
+                    }
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await user.profileimage.CopyToAsync(stream)
+    ;
+                    }
+                    Console.WriteLine(user.profileimage.FileName);
+                    Console.WriteLine(filePath);
+                    Console.WriteLine(newFileName);
+                }
+                else
+                {
+                    return APIResponse<bool>.Error("No Imagees selected");
+                }
+
+                var query = "update Users set ProfileImage=@newFileName where UserId=@userid";
+                parameters.Add("newFileName", newFileName);
+
+                connection.Close();
+                var result = await connection.ExecuteAsync(query,parameters);
+                connection.Close();
+                if(result==0)
+                {
+                    return APIResponse<bool>.Error("Unable to update");
+                }
+                return APIResponse<bool>.Success(true, "Image Updated Successfully");
+            }
+        }
+
+
+        //for remove the profile image of the user
+        public async Task<APIResponse<bool>> DeleteProfileImage(Guid userid)
+        {
+            var query = "select * from Users where UserId=@id";
+            var parameters = new DynamicParameters();
+            parameters.Add("id", userid);
+            using(var connection = _dapperContext.CreateConnection())
+            {
+                connection. Open();
+                var existing_data = await connection.QueryFirstOrDefaultAsync<Users>(query, parameters);
+                connection.Close();
+
+                if (existing_data == null)
+                {
+                    return APIResponse<bool>.Error("No user in this ID");
+                }
+
+                if(existing_data.profileImage!=null)
+                {
+                    var folderPath = Path.Combine(_env.WebRootPath, "Media", "UserImages");
+                    var filePath = Path.Combine(folderPath, existing_data.profileImage);
+
+                    if(System.IO.File.Exists(filePath))
+                    {
+                        System.IO.File.Delete(filePath);
+                    }
+
+                    var updateQuery = "Update Users set ProfileImage=NULL where UserId=@id";
+
+                    connection.Open();
+                    var rowAffected = await connection.ExecuteAsync(updateQuery, parameters);
+                    connection.Close();
+
+                    if(rowAffected==0)
+                    {
+                        return APIResponse<bool>.Error("Failed to update user profile.");
+                    }
+
+                    return APIResponse<bool>.Success(true, "Profile image deleted successfully.");
+                }
+                else
+                {
+                    return APIResponse<bool>.Error("No profile image to delete.");
+                }
+
+
+
+            }
+        }
+
+
+
+
     }
 }

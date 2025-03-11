@@ -16,7 +16,7 @@ export class UserServiceService {
     return {
       headers: new HttpHeaders({
         'Authorization': `Bearer ${token}`,
-        'Content-Type': 'application/json'
+        
       }) 
     };
   }
@@ -90,4 +90,21 @@ export class UserServiceService {
   {
     return this.Http.get(`${this.baseUrl}User_Image?fileName=${filename}`,{responseType:'blob'});
   }
-}
+
+  //For Delete User Profile Image
+  DeleteProfileImage()
+  {
+    return this.Http.delete(`${this.baseUrl}RemoveProfileImage`,this.getHeaders());
+  }
+
+  //FOR UPDATE PROFILE IMAGE
+  updateProfileImage(data:any)
+  {
+    return this.Http.put(`${this.baseUrl}UpdateProfileImage`,data,this.getHeaders());
+  }
+  UpdateProfileDetails(data:any)
+  {
+    return this.Http.put(`${this.baseUrl}UpdateUser`,data,this.getHeaders());
+  }
+
+  }

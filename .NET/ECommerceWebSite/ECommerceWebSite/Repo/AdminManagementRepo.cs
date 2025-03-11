@@ -128,7 +128,7 @@ namespace ECommerceWebSite.Repo
         //BELOW ARE THE FUNCTIONALITIES FOR PRODUCT MANAGEMENT
 
         //to add a product to the Product table
-        public async Task<APIResponse<bool>> AddProduct(ProductForCreationDto product)
+        public async Task<APIResponse<bool>> AddProduct (ProductForCreationDto product)
         {
             
             Guid categoryId = Guid.Parse(product.idOfCategory);
@@ -551,6 +551,6 @@ namespace ECommerceWebSite.Repo
             }
         }
 
-
+        
     }
 }

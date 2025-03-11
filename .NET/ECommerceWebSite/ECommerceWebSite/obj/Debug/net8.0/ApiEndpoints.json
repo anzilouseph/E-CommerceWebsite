@@ -376,6 +376,48 @@
   },
   {
     "ContainingType": "ECommerceWebSite.Controllers.UserManagementController",
+    "Method": "DeleteProfileImage",
+    "RelativePath": "api/RemoveProfileImage",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ECommerceWebSite.Controllers.UserManagementController",
+    "Method": "UpdateUserProfileImage",
+    "RelativePath": "api/UpdateProfileImage",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profileimage",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ECommerceWebSite.Controllers.UserManagementController",
+    "Method": "UpdateDetails",
+    "RelativePath": "api/UpdateUser",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "ECommerceWebSite.Dto.UserDetailsForUpdation",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ECommerceWebSite.Controllers.UserManagementController",
     "Method": "GetProductImage",
     "RelativePath": "api/User_Image",
     "HttpMethod": "GET",

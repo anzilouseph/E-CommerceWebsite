@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Np0fGjZVzWH7b9Z3dfJqnkJU1Ua7hGws7j3Ipg7hrBw=",
+  "Hash": "9y/AY8EvPbFFY/SYsASEn8gET0CSdfZUzJTx6s2G6Aw=",
   "Source": "ECommerceWebSite",
   "BasePath": "_content/ECommerceWebSite",
   "Mode": "Default",
@@ -479,6 +479,27 @@
       "OriginalItemSpec": "wwwroot\\Media\\ProductImage\\socksPractice.jpg"
     },
     {
+      "Identity": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\UserImages\\ansil@gmail.com.jpg",
+      "SourceId": "ECommerceWebSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\",
+      "BasePath": "_content/ECommerceWebSite",
+      "RelativePath": "Media/UserImages/ansil@gmail.com#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5t8ri55712",
+      "Integrity": "WfstJtr65vFWF+yN7jMRiZ9ze1udZLgISYyVMa1J85M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Media\\UserImages\\ansil@gmail.com.jpg"
+    },
+    {
       "Identity": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\UserImages\\jithu@gmail.com.jpg",
       "SourceId": "ECommerceWebSite",
       "SourceType": "Discovered",
@@ -493,11 +514,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "s18z8le2lr",
+      "Integrity": "gBAKleGcH9PQiBuGGLwdB3TSEWSJdHp6oH5+k6jqM50=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Media\\UserImages\\jithu@gmail.com.jpg"
+    },
+    {
+      "Identity": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\UserImages\\nabeel@gmail.com.jpg",
+      "SourceId": "ECommerceWebSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\",
+      "BasePath": "_content/ECommerceWebSite",
+      "RelativePath": "Media/UserImages/nabeel@gmail.com#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
       "Fingerprint": "5t8ri55712",
       "Integrity": "WfstJtr65vFWF+yN7jMRiZ9ze1udZLgISYyVMa1J85M=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Media\\UserImages\\jithu@gmail.com.jpg"
+      "OriginalItemSpec": "wwwroot\\Media\\UserImages\\nabeel@gmail.com.jpg"
     }
   ],
   "Endpoints": [
@@ -2306,8 +2348,8 @@
       ]
     },
     {
-      "Route": "Media/UserImages/jithu@gmail.com.5t8ri55712.jpg",
-      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\UserImages\\jithu@gmail.com.jpg",
+      "Route": "Media/UserImages/ansil@gmail.com.5t8ri55712.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\UserImages\\ansil@gmail.com.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2328,7 +2370,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Mar 2025 05:49:40 GMT"
+          "Value": "Mon, 10 Mar 2025 12:17:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2342,8 +2384,45 @@
         },
         {
           "Name": "label",
-          "Value": "Media/UserImages/jithu@gmail.com.jpg"
+          "Value": "Media/UserImages/ansil@gmail.com.jpg"
         },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WfstJtr65vFWF+yN7jMRiZ9ze1udZLgISYyVMa1J85M="
+        }
+      ]
+    },
+    {
+      "Route": "Media/UserImages/ansil@gmail.com.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\UserImages\\ansil@gmail.com.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4702"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WfstJtr65vFWF+yN7jMRiZ9ze1udZLgISYyVMa1J85M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 12:17:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
         {
           "Name": "integrity",
           "Value": "sha256-WfstJtr65vFWF+yN7jMRiZ9ze1udZLgISYyVMa1J85M="
@@ -2361,6 +2440,88 @@
         },
         {
           "Name": "Content-Length",
+          "Value": "4435"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBAKleGcH9PQiBuGGLwdB3TSEWSJdHp6oH5+k6jqM50=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 12:23:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBAKleGcH9PQiBuGGLwdB3TSEWSJdHp6oH5+k6jqM50="
+        }
+      ]
+    },
+    {
+      "Route": "Media/UserImages/jithu@gmail.com.s18z8le2lr.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\UserImages\\jithu@gmail.com.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4435"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBAKleGcH9PQiBuGGLwdB3TSEWSJdHp6oH5+k6jqM50=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 12:23:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s18z8le2lr"
+        },
+        {
+          "Name": "label",
+          "Value": "Media/UserImages/jithu@gmail.com.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBAKleGcH9PQiBuGGLwdB3TSEWSJdHp6oH5+k6jqM50="
+        }
+      ]
+    },
+    {
+      "Route": "Media/UserImages/nabeel@gmail.com.5t8ri55712.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\UserImages\\nabeel@gmail.com.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
           "Value": "4702"
         },
         {
@@ -2373,7 +2534,52 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Mar 2025 05:49:40 GMT"
+          "Value": "Mon, 10 Mar 2025 13:29:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5t8ri55712"
+        },
+        {
+          "Name": "label",
+          "Value": "Media/UserImages/nabeel@gmail.com.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WfstJtr65vFWF+yN7jMRiZ9ze1udZLgISYyVMa1J85M="
+        }
+      ]
+    },
+    {
+      "Route": "Media/UserImages/nabeel@gmail.com.jpg",
+      "AssetFile": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\UserImages\\nabeel@gmail.com.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4702"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WfstJtr65vFWF+yN7jMRiZ9ze1udZLgISYyVMa1J85M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 13:29:42 GMT"
         },
         {
           "Name": "Cache-Control",

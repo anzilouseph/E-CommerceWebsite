@@ -46,12 +46,16 @@ export class LoginCompComponent {
                   //checking admin or not
                   if(res1.data.roleOfUser === "Admin")
                   {
+                    localStorage.clear();
+                    localStorage.setItem("accessToken",res.data);
                     localStorage.setItem("adminData",JSON.stringify(res1.data));
                     this.router.navigate(["admin"]) //here if its a admin it wil navigate to the admin dashboard and the data of the admin is given to that page also
                   }
                   //if he is not an Admin then he must be the user
                   else
                   {
+                    localStorage.clear();
+                    localStorage.setItem("accessToken",res.data);
                     localStorage.setItem("userData",JSON.stringify(res1.data));
                     this.router.navigate(['UserLayout'])  //here if its a user it wil navigate to the user dashboard and the data of the user is given to that page also
                   }

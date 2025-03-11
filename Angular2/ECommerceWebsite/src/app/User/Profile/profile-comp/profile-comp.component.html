@@ -1,87 +1,164 @@
 <div class="container my-5">
     <div class="card shadow-lg border-0 rounded-4 overflow-hidden" *ngIf="userModel">
   
-      <!-- Form wraps both columns -->
       <form [formGroup]="profileForm">
-  
         <div class="row g-0">
   
           <!-- Left Column (Profile Image & Buttons) -->
-          <div class="col-lg-4 bg-dark text-white d-flex flex-column align-items-center justify-content-center p-4">
-  
-            <!-- Profile Image -->
-            <img [src]="userModel.OriginalImage ? userModel.OriginalImage : 'assets/default_profileImage.jpg'"
-                 alt="Profile Image"
-                 class="rounded-circle shadow mb-3"
-                 style="width: 200px; height: 200px; object-fit: cover;">
-  
-            <!-- Buttons -->
+          <div class="col-12 col-lg-4 bg-dark text-white d-flex flex-column align-items-center justify-content-center p-4">
+            <img [src]="userModel.OriginalImage ? userModel.OriginalImage : 'assets/default_profileImage.jpg'" alt="Profile Image" class="rounded-circle shadow mb-3" style="width: 200px; height: 200px; object-fit: cover;">
             <div class="d-flex gap-3 mt-3">
-              <button class="btn btn-outline-light btn-sm px-3" type="button">
+              <button class="btn btn-outline-light btn-sm px-3" type="button" data-bs-toggle="modal" data-bs-target="#editProfileImageModal">
                 <i class="fas fa-edit me-1"></i> Edit
               </button>
-              <button class="btn btn-outline-danger btn-sm px-3" type="button">
+              <button class="btn btn-outline-danger btn-sm px-3" type="button" (click)="deleteProfilePic()">
                 <i class="fas fa-trash me-1"></i> Remove
               </button>
             </div>
-  
           </div>
   
-          <!-- Right Column (Profile Details) -->
-          <div class="col-lg-8 bg-light p-5">
+          <!-- Right Column (Profile Details + Logout) -->
+          <div class="col-12 col-lg-8 bg-light p-5 position-relative">
+  
+            <!-- Logout Button -->
+            <button type="button" class="btn btn-outline-danger btn-sm position-absolute top-0 end-0 m-3"
+              data-bs-toggle="modal" data-bs-target="#logoutModal">
+              <i class="fas fa-sign-out-alt me-1"></i> Logout
+            </button>
   
             <h3 class="text-center mb-4 text-primary fw-bold">
-              <i class="fas fa-user-circle me-2"></i>Profile Details
+              <i class="fas fa-user-circle me-2"></i> Profile Details
             </h3>
   
-            <!-- Full Name -->
+            <!-- Profile Inputs -->
             <div class="mb-4 row align-items-center">
               <label class="col-md-4 text-md-end fw-semibold">Full Name:</label>
               <div class="col-md-8">
-                <input type="text"
-                       class="form-control shadow-sm"
-                       formControlName="nameOfUser"
-                       placeholder="Enter full name"
-                       [readonly]="!isEdit">
-              </div>
+                <input type="text" class="form-control shadow-sm" formControlName="nameOfUser" placeholder="Enter full name" [readonly]="!isEdit">
+                <div *ngIf="profileForm.get('nameOfUser')?.errors?.['required'] && profileForm.get('nameOfUser')?.touched"><small class="text-warning">this field is required</small></div>
+                <div *ngIf="profileForm.get('nameOfUser')?.errors?.['pattern'] && profileForm.get('nameOfUser')?.touched"><small class="text-danger">Invalid Username</small></div>
+            </div>
             </div>
   
-            <!-- Phone -->
             <div class="mb-4 row align-items-center">
               <label class="col-md-4 text-md-end fw-semibold">Phone:</label>
               <div class="col-md-8">
-                <input type="text"
-                       class="form-control shadow-sm"
-                       formControlName="phoneOfUser"
-                       placeholder="Enter phone"
-                       [readonly]="!isEdit">
-              </div>
+                <input type="text" class="form-control shadow-sm" formControlName="phoneOfUser" placeholder="Enter phone" [readonly]="!isEdit">
+                <div *ngIf="profileForm.get('phoneOfUser')?.errors?.['required'] && profileForm.get('phoneOfUser')?.touched"><small class="text-warning">this field is required</small></div>
+                <div *ngIf="profileForm.get('phoneOfUser')?.errors?.['pattern'] && profileForm.get('phoneOfUser')?.touched"><small class="text-danger">Invalid Phone</small></div>
+            </div>
             </div>
   
-            <!-- Email -->
             <div class="mb-4 row align-items-center">
               <label class="col-md-4 text-md-end fw-semibold">Email:</label>
               <div class="col-md-8">
-                <input type="email"
-                       class="form-control shadow-sm"
-                       formControlName="emailOfUser"
-                       placeholder="Enter email"
-                       [readonly]="!isEdit">
-              </div>
+                <input type="email" class="form-control shadow-sm" formControlName="emailOfUser" placeholder="Enter email" [readonly]="!isEdit">
+                <div *ngIf="profileForm.get('emailOfUser')?.errors?.['required'] && profileForm.get('emailOfUser')?.touched"><small class="text-warning">this field is required</small></div>
+                <div *ngIf="profileForm.get('emailOfUser')?.errors?.['pattern'] && profileForm.get('emailOfUser')?.touched"><small class="text-danger">Invalid Email</small></div>
             </div>
-  
-            <!-- Save Button -->
-            <div class="text-center mt-4">
-              <button type="submit" class="btn btn-success btn-lg px-5 shadow">
-                <i class="fas fa-save me-2"></i>Save Changes
+            </div>
+   
+            <div class="text-center mt-4" *ngIf="!isEdit">
+              <button type="submit" class="btn btn-success btn-lg px-5 shadow" (click)=" onEdit()">
+                <!-- Font Awesome Edit Icon --><i class="fas fa-edit"></i> EDIT PROFILE
               </button>
             </div>
+                                <div class="row justify-content-center">
+                                    <div class="col-auto">
+                                        <div class="text-center mt-4" *ngIf="isEdit">
+                                            <button type="submit" class="btn btn-success btn-lg px-5 shadow" (click)=" update()" title="Save your changes">
+                                            <!-- Font Awesome Edit Icon --><i class="fas fa-check"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="col-auto">
+                                        <div class="text-center mt-4" *ngIf="isEdit">
+                                            <button type="submit" class="btn btn-danger btn-lg px-5 shadow" (click)="clear()" title="Save your changes">
+                                                <i class="fas fa-eraser"></i> <!-- Eraser Icon -->
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="col-auto">
+                                        <div class="text-center mt-4" *ngIf="isEdit">
+                                            <button type="submit" class="btn btn-secondary btn-lg px-5 shadow" (click)=" goback()" title="Go back to the previous page">
+                                            <!-- Font Awesome Edit Icon --><i class="fas fa-arrow-left me-2"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                
+                               
   
           </div>
   
         </div>
-  
       </form>
     </div>
   </div>
   
+  <!-- 🔴 Logout Confirmation Modal -->
+  <div class="modal fade" id="logoutModal" tabindex="-1" aria-labelledby="logoutModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="logoutModalLabel">Sign Out</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Are you sure you want to sign out?
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+          <button type="button" class="btn btn-danger" (click)="logout()">Yes, Logout</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+<!-- 🔵 Edit Profile Image Modal -->
+<div
+class="modal fade"
+id="editProfileImageModal"
+tabindex="-1"
+aria-labelledby="editProfileImageLabel"
+aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered">
+  <div class="modal-content">
+
+    <div class="modal-header">
+      <h1 class="modal-title fs-5" id="editProfileImageLabel">Update Profile Image</h1>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+
+    <div class="modal-body">
+        <form>
+      <!-- <form [formGroup]="profileImageForm">
+        <div class="mb-3 text-center">
+          <img
+            [src]="previewImage || userModel.OriginalImage || 'assets/default_profileImage.jpg'"
+            alt="Preview"
+            class="rounded-circle mb-3"
+            style="width: 150px; height: 150px; object-fit: cover;">
+        </div>  -->
+        <div class="mb-3">
+          <input type="file"  class="form-control" (change)="onFileSelected($event)"> 
+        </div>
+      </form>
+    </div>
+
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-bs-dismiss="modal" (click)="updateProfilePhoto()">
+        Upload
+      </button>
+    </div>
+
+  </div>
+</div>
+</div>

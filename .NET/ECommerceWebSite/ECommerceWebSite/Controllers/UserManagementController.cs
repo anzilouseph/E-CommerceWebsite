@@ -1,4 +1,5 @@
-﻿using System.IdentityModel.Tokens.Jwt;
+﻿using System.Diagnostics.Contracts;
+using System.IdentityModel.Tokens.Jwt;
 using ECommerceWebSite.Dto;
 using ECommerceWebSite.IRepo;
 using ECommerceWebSite.IService;
@@ -6,6 +7,7 @@ using ECommerceWebSite.Utilitys;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Identity.Client;
 
 namespace ECommerceWebSite.Controllers
 {
@@ -17,7 +19,7 @@ namespace ECommerceWebSite.Controllers
         private readonly IUserManagementRepo _repo;
         private readonly IWebHostEnvironment _env;
 
-        public UserManagementController(IUserManagementService service,IUserManagementRepo repo, IWebHostEnvironment env)
+        public UserManagementController(IUserManagementService service, IUserManagementRepo repo, IWebHostEnvironment env)
         {
             _service = service;
             _repo = repo;
@@ -31,14 +33,14 @@ namespace ECommerceWebSite.Controllers
         {
             try
             {
-                
+
                 var apiResponse = await _service.AddUser(user);
 
                 return Ok(apiResponse);
             }
             catch (Exception ex)
             {
-                return StatusCode(500,new { message = ex.Message });
+                return StatusCode(500, new { message = ex.Message });
             }
         }
 
@@ -81,7 +83,7 @@ namespace ECommerceWebSite.Controllers
             {
                 return StatusCode(500, new { message = ex.Message });
             }
-            
+
         }
 
         //User registration with Profile Image
@@ -135,26 +137,72 @@ namespace ECommerceWebSite.Controllers
 
         }
 
-        
-        ////for get the Users Id
-        //[Authorize]
-        //[HttpGet("GetUserProfile")]
-        //public async Task<IActionResult> GetUserById()
-        //{
-        //    try
-        //    {
-        //        var userIdClaim = HttpContext.User.FindFirst(JwtRegisteredClaimNames.Sid);
-        //        if (userIdClaim == null || !Guid.TryParse(userIdClaim.Value, out Guid userId))
-        //        {
-        //            return Unauthorized(APIResponse<UserToListDto>.Error("Unable to generate JWT"));
-        //        }
-        //        var apiResponse = await _repo.GetUserById(userId);
-        //    }
-        //    catch (Exception ex)
-        //    { 
-        //        return StatusCode(500,new {message = ex.Message });
-        //    }
-        //}
 
+        //for update the Details of the User Excluding te Image
+        [Authorize]
+        [HttpPut("UpdateUser")]
+        public async Task<IActionResult> UpdateDetails(UserDetailsForUpdation user)
+        {
+            try
+            {
+                var userIdClaim = HttpContext.User.FindFirst(JwtRegisteredClaimNames.Sid);
+                if (userIdClaim == null || !Guid.TryParse(userIdClaim.Value, out Guid userId))
+                {
+                    return Unauthorized(APIResponse<UserToListDto>.Error("Unable to generate JWT"));
+                }
+                var apiResponse = await _repo.UpdateUserDetails(user, userId);
+                return Ok(apiResponse);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = ex.Message });
+            }
+        }
+
+
+        //Here we only changing te Profile Image of the User
+        [Authorize]
+        [HttpPut("UpdateProfileImage")]
+        public async Task<IActionResult> UpdateUserProfileImage([FromForm]UserProfileImageForUpdation user)
+        {
+            try
+            {
+                var userIdClaim = HttpContext.User.FindFirst(JwtRegisteredClaimNames.Sid);
+                if (userIdClaim == null || !Guid.TryParse(userIdClaim.Value, out Guid userId))
+                {
+                    return Unauthorized(APIResponse<UserToListDto>.Error("Unable to generate JWT"));
+                }
+                var apiResponse = await _repo.UpdateUserProfileImage(user, userId);
+                return Ok(apiResponse);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = ex.Message });
+            }
+
+        }
+
+
+        //for remove the profile image of the user
+        [Authorize]
+        [HttpDelete("RemoveProfileImage")]
+        public async Task<IActionResult> DeleteProfileImage()
+        {
+            try
+            {
+                var userIdClaim = HttpContext.User.FindFirst(JwtRegisteredClaimNames.Sid);
+                if (userIdClaim == null || !Guid.TryParse(userIdClaim.Value, out Guid userId))
+                {
+                    return Unauthorized(APIResponse<UserToListDto>.Error("Unable to generate JWT"));
+                }
+                var apiResponse = await _repo.DeleteProfileImage(userId);
+                return Ok(apiResponse);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = ex.Message });
+            }
+        }
     }
+
 }

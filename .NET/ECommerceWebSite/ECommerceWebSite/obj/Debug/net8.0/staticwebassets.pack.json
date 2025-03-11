@@ -89,8 +89,16 @@
       "PackagePath": "staticwebassets\\Media\\ProductImage\\socksPractice.jpg"
     },
     {
+      "Id": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\UserImages\\ansil@gmail.com.jpg",
+      "PackagePath": "staticwebassets\\Media\\UserImages\\ansil@gmail.com.jpg"
+    },
+    {
       "Id": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\UserImages\\jithu@gmail.com.jpg",
       "PackagePath": "staticwebassets\\Media\\UserImages\\jithu@gmail.com.jpg"
+    },
+    {
+      "Id": "D:\\E-Commerce_WebSite\\.NET\\ECommerceWebSite\\ECommerceWebSite\\wwwroot\\Media\\UserImages\\nabeel@gmail.com.jpg",
+      "PackagePath": "staticwebassets\\Media\\UserImages\\nabeel@gmail.com.jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ECommerceWebSite.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

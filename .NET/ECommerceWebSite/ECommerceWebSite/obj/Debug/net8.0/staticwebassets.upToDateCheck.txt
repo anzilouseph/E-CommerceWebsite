@@ -20,4 +20,6 @@ wwwroot\Media\ProductImage\RAISCO Football Goal Net.jpg
 wwwroot\Media\ProductImage\SOC.jpg
 wwwroot\Media\ProductImage\SOCKS.jpg
 wwwroot\Media\ProductImage\socksPractice.jpg
+wwwroot\Media\UserImages\ansil@gmail.com.jpg
 wwwroot\Media\UserImages\jithu@gmail.com.jpg
+wwwroot\Media\UserImages\nabeel@gmail.com.jpg

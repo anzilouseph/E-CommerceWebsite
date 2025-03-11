@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "ESAS API",
+    "title": "ECOMMERCE-WEBSITE",
     "version": "v1"
   },
   "paths": {
@@ -645,6 +645,81 @@
         }
       }
     },
+    "/api/UpdateUser": {
+      "put": {
+        "tags": [
+          "UserManagement"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserDetailsForUpdation"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserDetailsForUpdation"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserDetailsForUpdation"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/UpdateProfileImage": {
+      "put": {
+        "tags": [
+          "UserManagement"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "profileimage": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "profileimage": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/RemoveProfileImage": {
+      "delete": {
+        "tags": [
+          "UserManagement"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Watchlist/AddToWishlist": {
       "post": {
         "tags": [
@@ -753,6 +828,24 @@
             "nullable": true
           },
           "passwordOfUser": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserDetailsForUpdation": {
+        "type": "object",
+        "properties": {
+          "nameOfUser": {
+            "type": "string",
+            "nullable": true
+          },
+          "emailOfUser": {
+            "type": "string",
+            "nullable": true
+          },
+          "phoneOfUser": {
             "type": "string",
             "nullable": true
           }

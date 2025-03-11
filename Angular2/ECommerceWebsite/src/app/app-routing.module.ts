@@ -20,6 +20,7 @@ import { WishListCompComponent } from './User/WishList/wish-list-comp/wish-list-
 import { GetProductByCategoryCompComponent } from './User/GetProductByCategory/get-product-by-category-comp/get-product-by-category-comp.component';
 import { CartCompComponent } from './User/Cart/cart-comp/cart-comp.component';
 import { ProfileCompComponent } from './User/Profile/profile-comp/profile-comp.component';
+import { authGuardGuard } from './Guard/auth-guard.guard';
 
 
 
@@ -31,7 +32,7 @@ const routes: Routes = [
   //for admin things
   {
     //here we are actually creating the childerns
-    path:"admin",component:AdminLayoutComponent,children:[
+    path:"admin",component:AdminLayoutComponent, canActivate:[authGuardGuard],data:{role:"Admin"}, children:[
                                                             { path: "", redirectTo: "dashboard", pathMatch: "full" }, // Redirect /admin to /admin/dashboard
                                                             { path: "dashboard", component: AdminDashBoardComponent } ,// redirect to dashboard when admin login
                                                            
@@ -54,7 +55,7 @@ const routes: Routes = [
   },
 
   //for User things
-  {path:"UserLayout",component:UserLayoutCompComponent,children:[
+  {path:"UserLayout",component:UserLayoutCompComponent,canActivate:[authGuardGuard],data:{role:"User"},children:[
                                                                   {path:"",redirectTo:"UserDashBoard",pathMatch:'full'},
                                                                   {path:"UserDashBoard",component:UserDashboardCompComponent},  //here is where we retrive the GET ALL PRODUCTS
                                                                   {path:"getProductByIdUser/:id",component:GetProductByIdUserComponent} , //here we get the GetAllProducts functionality

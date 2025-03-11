@@ -61,9 +61,9 @@
         <h4 class="mb-2">
             Pay Amount: <strong class="text-warning display-6">₹{{ cartTotal }}</strong>
         </h4>
-        <button class="btn btn-lg btn-warning fw-bold text-dark px-4 pay">
+        <button class="btn btn-lg btn-warning fw-bold text-dark px-4 pay" data-bs-toggle="modal" data-bs-target="#dummyPaymentModal">
             <i class="fas fa-credit-card"></i> Pay Now
-        </button>
+          </button>
     </div>
 </div>
 
@@ -107,3 +107,47 @@
     </div>
 </div>
 <!--for get teh product by the id Ends-->
+
+
+
+<!--modal starts Hers-->
+  
+  <!-- Dummy Payment Modal -->
+  <div class="modal fade" id="dummyPaymentModal" tabindex="-1" aria-labelledby="dummyPaymentLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h5 class="modal-title" id="dummyPaymentLabel">Fake Payment Gateway</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+  
+        <!-- Modal Body (Payment Form) -->
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="cardNumber" class="form-label">Card Number</label>
+              <input type="text" class="form-control" id="cardNumber" placeholder="1234 5678 9012 3456">
+            </div>
+            <div class="mb-3">
+              <label for="expiryDate" class="form-label">Expiry Date</label>
+              <input type="text" class="form-control" id="expiryDate" placeholder="MM/YY">
+            </div>
+            <div class="mb-3">
+              <label for="cvv" class="form-label">CVV</label>
+              <input type="text" class="form-control" id="cvv" placeholder="123">
+            </div>
+          </form>
+        </div>
+  
+        <!-- Modal Footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-success">Submit Payment</button>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  
