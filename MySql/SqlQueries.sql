@@ -29,16 +29,18 @@ create Table Category(CategoryId char(36) primary key default(UUID()),CategoryNa
 
 alter table Products Modify ImageUrl varchar(500) unique;  -- ---table changing code---
 alter table Products Modify ProductName varchar(255) not null unique;  -- ---table changing code---
-alter table Users Add column ProfileImage varchar(500) unique;  -- ---table changing code---
+alter table Users add column ProfileImage varchar(500) unique null;  -- ---table changing code---
 ALTER TABLE Wishlist ADD UNIQUE (UserId, ProductId);  -- ---table changing code---
+alter table Cart drop column TotalPrice;   -- ---table changing code---
+alter table Cart drop column Quantity;   -- ---table changing code---
 
 drop table cart;
 
 show TABLES;
-describe Products;
+describe users;
 select * from Users;
 
-select * from Products;
+select * from products;
 
 
 INSERT INTO Category (CategoryName, Description) VALUES
@@ -61,3 +63,5 @@ select CategoryName from Category order by CategoryName asc;
 
 delete from wishlist where UserId="10afsnfghnsfhn11ef-921f-18c04de083c5@$$%#%^%&@$%#%^%$^Y&%^*" and ProductId= "rgsdrtnfnhfyhdf#%$&%$^%$^$%";
 select CategoryId,CategoryName from Category order by CategoryName asc;
+
+select p.ProductId,p.ProductName,p.Description,p.StockQuantity,p.ImageUrl,p.CategoryId,c.CategoryName from Products p join Category c on p.CategoryId=c.CategoryId join cart on p.ProductId=cart.ProductId where cart.UserId="10a6ba31-f01a-11ef-921f-18c04de083c5";                                                          
